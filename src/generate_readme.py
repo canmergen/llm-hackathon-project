@@ -117,16 +117,16 @@ graph TD
     subgraph Compliance_Engine ["3. Uyum Denetim Motoru"]
         input --> hybrid("Hibrit Arama (Retrieval)")
         
-        vector -- "Benzer Madde" --> hybrid
-        kw -- "Benzer Madde" --> hybrid
+        vector --> hybrid
+        kw --> hybrid
 
         hybrid --> context["Context Window"]
         context --> rule{{"Kural Motoru?"}}
-        rule -- "Evet" --> fast["Hızlı Karar (Regex)"]
+        rule -- "Evet" --> fast["Hızlı Karar"]
         rule -- "Hayır" --> llm["LLM (Gemma 3:27B)"]
         
-        llm -- "Chain-of-Thought" --> reason["Mantıksal Çıkarım"]
-        reason --> decision["Karar: OK / NOT_OK / NA"]
+        llm --> reason["Mantıksal Çıkarım"]
+        reason --> decision["Karar: OK / NOT_OK"]
     end
 
     subgraph Reporting ["4. Raporlama"]
@@ -137,10 +137,9 @@ graph TD
     end
 
     subgraph Live_Assistant ["5. Canlı Uyum Asistanı (RAG Loop)"]
-        json -- "Ingest Results" --> insights{{"Insights Index (Vektör)"}}
+        json -.-> insights{{"Insights Index (Vektör)"}}
         userq["Kullanıcı Sorusu"] --> bot("Chatbot (LLM)")
-        insights -- "Analiz Context" --> bot
-        teblig -- "Mevzuat Context" --> bot
+        insights --> bot
         bot --> answer["Yanıtlama"]
     end
 ```
