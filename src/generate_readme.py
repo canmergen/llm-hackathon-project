@@ -55,15 +55,15 @@ def main():
 
 **Mevcut Süreç:** 
 Bankaların **Müşteri Sözleşmeleri** ve **Ücret Tarifeleri**'nin mevzuata uyumu, uzman hukukçular tarafından manuel olarak kontrol edilmektedir. Bu süreç:
-*   **Yavaş:** Bir sözleşme analizi günler sürer.
-*   **Pahalı:** Uzman eforu yüksek maliyetlidir.
+*   **Yavaş:** Bir sözleşme analizi saatler sürer.
+*   **Pahalı:** Uzman eforu yüksek maliyetlidir. Hata olursa cezası da yüksektir.
 *   **Riskli:** İnsan hatasına açıktır.
 
 **Çözüm:**
 **Uyum Denetim Portalı**, bu süreci otonom hale getirir.
 *   **Hız:** 200 sayfalık sözleşmeyi dakikalar içinde tarar.
 *   **Güven:** **{recall}** risk yakalama oranı (Recall) ile çalışır.
-*   **ROI:** Finansal etki ve yatırım getirisi analizleri sunar.
+*   **ROI (Yatırım Getirisi):** Finansal etki ve yatırım getirisi analizleri sunar.
 
 ---
 
