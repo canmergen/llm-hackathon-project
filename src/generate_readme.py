@@ -102,31 +102,31 @@ Yöneticiler için büyük resmi gören analizler sunar:
 Proje, ham verinin işlenmesinden son kullanıcı raporuna kadar kesintisiz bir akış (pipeline) sunar.
 
 ```mermaid
-graph TD
-    subgraph Data_Ingestion ["2. Mevzuat Bilgi Bankası (Knowledge Base)"]
-        teblig["Mevzuat (Tebliğ)"] --> teb_chunk("Madde Parçalama (Chunking)")
-        teb_chunk --> vector{{"ChromaDB (Vektör İndeks)"}}
-        teb_chunk --> kw{{"BM25 (Anahtar Kelime)"}}
+flowchart TD
+    subgraph Data_Ingestion ["2. Mevzuat Bilgi Bankası<br/>"]
+        teblig["Mevzuat (Tebliğ)"] --> teb_chunk("Madde Parçalama<br/>(Chunking)")
+        teb_chunk --> vector{{"ChromaDB<br/>(Vektör İndeks)"}}
+        teb_chunk --> kw{{"BM25<br/>(Anahtar Kelime)"}}
     end
 
     subgraph Analysis_Flow ["1. Doküman Analiz Akışı"]
-        doc["Banka Dokümanları (PDF/Word/Excel)"] --> chunk("Madde Parçalama (Chunking)")
+        doc["Banka Dokümanları<br/>(PDF/Word/Excel)"] --> chunk("Madde Parçalama<br/>(Chunking)")
         chunk --> input["Sorgu Maddesi"]
     end
 
     subgraph Compliance_Engine ["3. Uyum Denetim Motoru"]
-        input --> hybrid("Hibrit Arama (Retrieval)")
+        input --> hybrid("Hibrit Arama<br/>(Retrieval)")
         
         vector --> hybrid
         kw --> hybrid
 
         hybrid --> context["Context Window"]
         context --> rule{{"Kural Motoru?"}}
-        rule -- "Evet" --> fast["Hızlı Karar"]
-        rule -- "Hayır" --> llm["LLM (Gemma 3:27B)"]
+        rule -- "Evet" --> fast["Hızlı Karar<br/>(Regex)"]
+        rule -- "Hayır" --> llm["LLM<br/>(Gemma 3:27B)"]
         
         llm --> reason["Mantıksal Çıkarım"]
-        reason --> decision["Karar: OK / NOT_OK"]
+        reason --> decision["Karar: OK / NOT_OK / NA"]
     end
 
     subgraph Reporting ["4. Raporlama"]
@@ -136,8 +136,8 @@ graph TD
         metric --> pdf["PDF Raporu"]
     end
 
-    subgraph Live_Assistant ["5. Canlı Uyum Asistanı (RAG Loop)"]
-        json -.-> insights{{"Insights Index (Vektör)"}}
+    subgraph Live_Assistant ["5. Canlı Uyum Asistanı<br/>(RAG Loop)"]
+        json -.-> insights{{"Insights Index<br/>(Vektör)"}}
         userq["Kullanıcı Sorusu"] --> bot("Chatbot (LLM)")
         insights --> bot
         bot --> answer["Yanıtlama"]
