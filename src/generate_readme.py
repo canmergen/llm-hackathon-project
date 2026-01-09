@@ -92,6 +92,8 @@ Yöneticiler için büyük resmi gören analizler sunar:
 *   **Yönetici Özeti:** Tek bir doğal dil paragrafı ile tüm durumu özetler. (Örn: *"Toplam 2.5M TL risk tespit edildi, %96 başarı sağlandı."*)
 *   **Finansal Etki:** Potansiyel ceza riski, önlenen zarar ve ROI (Yatırım Getirisi) hesaplar.
 *   **Risk Yoğunluğu:** Hataların hangi belgede yoğunlaştığını gösterir.
+    
+    ![Streamlit Dashboard](docs/streamlit_dashboard.png)
 
 ---
 
