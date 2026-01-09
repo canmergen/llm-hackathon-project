@@ -188,7 +188,7 @@ python main.py
 ## Proje Yapısı
 
 ```
-ING_Hackathon/
+LLM_Hackathon/
 ├── main.py                    # Pipeline Yöneticisi
 ├── src/
 │   ├── llm_compliance_check.py   # AI Analiz Motoru

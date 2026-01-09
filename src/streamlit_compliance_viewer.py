@@ -167,8 +167,8 @@ def inject_custom_css():
         
         /* --- ROOT VARIABLES (Enterprise Theme) --- */
         :root {
-            --primary: #FF6200; /* ING Orange - Only for CTA */
-            --secondary: #525199; /* ING Indigo - For Headers/Accents */
+            --primary: #FF6200; /* Corporate Orange - Only for CTA */
+            --secondary: #525199; /* Corporate Indigo - For Headers/Accents */
             --primary-text: #172B4D; /* Deep Blue/Grey */
             --muted-text: #6B778C;
             --bg-body: #F4F5F7;
@@ -188,7 +188,7 @@ def inject_custom_css():
             background-color: var(--bg-body);
         }
 
-        /* --- SIDEBAR (ING CLEAN STYLE) --- */
+        /* --- SIDEBAR (CLEAN STYLE) --- */
         section[data-testid="stSidebar"] {
             background-color: #FAFAFA !important; /* Very Light Grey */
             border-right: 1px solid #E6E6E6;
@@ -199,7 +199,7 @@ def inject_custom_css():
         section[data-testid="stSidebar"] h2, 
         section[data-testid="stSidebar"] h3, 
         section[data-testid="stSidebar"] strong {
-             color: #FF6200 !important; /* ING Orange Headers */
+             color: #FF6200 !important; /* Corporate Orange Headers */
              font-weight: 700;
         }
         
@@ -299,19 +299,19 @@ def inject_custom_css():
             /* 1. HIDE EVERYTHING BY DEFAULT using Visibility */
             /* We cannot use display:none on body/stApp because it removes children from the render tree */
             
-            /* --- GLOBAL TYPOGRAPHY: ING ME --- */
+            /* --- GLOBAL TYPOGRAPHY: CORPORATE --- */
             @font-face {
-                font-family: 'ING Me';
-                src: local('ING Me'), local('INGMe-Regular'), local('INGMe'), url('https://example.com/ing-me.woff') format('woff');
+                font-family: 'Segoe UI';
+                src: local('Segoe UI'), local('Roboto'), local('Arial');
                 /* Note: Since we don't have the font files, we rely on local installation or fallback */
             }
 
             html, body, [class*="css"], .stApp {
-                font-family: 'ING Me', 'Segoe UI', sans-serif !important;
+                font-family: 'Segoe UI', 'Roboto', sans-serif !important;
             }
             
             h1, h2, h3, h4, h5, h6, .stMarkdown, button, input, textarea {
-                font-family: 'ING Me', 'Segoe UI', sans-serif !important;
+                font-family: 'Segoe UI', 'Roboto', sans-serif !important;
             }
 
             body {
@@ -379,7 +379,7 @@ def inject_custom_css():
         div[data-testid="stChatMessage"]:has(div[data-testid="chatAvatarIcon-assistant"]) h2,
         div[data-testid="stChatMessage"]:has(div[data-testid="chatAvatarIcon-assistant"]) h3,
         div[data-testid="stChatMessage"]:has(div[data-testid="chatAvatarIcon-assistant"]) span {
-            color: #FF6200 !important; /* ING Orange Text */
+            color: #FF6200 !important; /* Corporate Orange Text */
             font-weight: 500;
         }
 
@@ -406,7 +406,7 @@ def inject_custom_css():
         /* --- EXPANDER STYLING (Orange Box) --- */
         /* Target the Header (Summary) */
         div[data-testid="stExpander"] > details > summary {
-             background-color: #FF6200 !important; /* ING Orange Header */
+             background-color: #FF6200 !important; /* Corporate Orange Header */
              color: white !important;
              border-radius: 4px;
              font-weight: 600;
@@ -776,7 +776,7 @@ def display_chunk_card(result: Dict[str, Any], index: int, unique_key: str = Non
                 "YAPAY ZEKA ANALİZİ",
                 result["reason"],
                 bg_color="#eef2f5", # Very light blue-grey
-                border_color="#525199" # ING Blue
+                border_color="#525199" # Corporate Blue
             )
             
             if result.get("citation"):
