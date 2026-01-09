@@ -750,7 +750,7 @@ def display_chunk_card(result: Dict[str, Any], index: int, unique_key: str = Non
                 st.session_state.messages.append({"role": "user", "content": f"Şu maddeyi incele: {text_snippet}..."})
 
             st.button(
-                "🦁 Asistana Sor", 
+                "🏦 Asistana Sor", 
                 key=f"ask_{key_val}", 
                 help="Bu maddeyi asistana sor",
                 type="primary",
@@ -1103,7 +1103,7 @@ def main():
     # --- SESSION STATE INIT ---
     if "messages" not in st.session_state:
         st.session_state.messages = []
-        st.session_state.messages.append({"role": "assistant", "content": "Merhaba! Ben ING Hackathon Yapay Zeka Uyum Asistanıyım. Size nasıl yardımcı olabilirim?"})
+        st.session_state.messages.append({"role": "assistant", "content": "Merhaba! Ben Mergen Bank Yapay Zeka Uyum Asistanıyım. Size nasıl yardımcı olabilirim?"})
 
     # 1. LOAD RESULTS FIRST (Moved Up)
     compliance_dir = Path("logs/compliance_results")
@@ -1135,7 +1135,7 @@ def main():
     icon_html_b64 = ""
     icon_excel_b64 = ""
     
-    logo_path = "assets/ing_logo_new.png"
+    logo_path = "assets/bank-icon-logo-design-vector.jpg"
     icon_html_path = "assets/icon_download_blue.png"
     icon_excel_path = "assets/icon_excel_green.jpg"
     
@@ -1161,11 +1161,11 @@ def main():
     with col_main:
         st.markdown(f'''
         <div style="display: flex; align-items: center; gap: 20px; padding: 12px 0;">
-            <img src="data:image/png;base64,{logo_b64}" style="height: 50px;" alt="ING Logo">
+            <img src="data:image/png;base64,{logo_b64}" style="height: 50px;" alt="Mergen Bank Logo">
             <div style="width: 1px; height: 40px; background: #D1D5DB;"></div>
             <div style="display: flex; flex-direction: column; gap: 2px;">
                 <h1 style="font-size: 24px; font-weight: 700; color: #111827; margin: 0;">Banka Dokümanları Uyum ve Denetim Rapor Portalı</h1>
-                <span style="font-size: 11px; color: #6B7280; text-transform: uppercase; letter-spacing: 0.8px; font-weight: 500;">ING AI TECH • V1.0 ENTERPRISE • 🦁 ING Türkiye Hackathon 2025 by Can Mergen</span>
+                <span style="font-size: 11px; color: #6B7280; text-transform: uppercase; letter-spacing: 0.8px; font-weight: 500;">MERGEN AI TECH • V1.0 ENTERPRISE • LLM Hackathon 2025 by Can Mergen</span>
             </div>
         </div>
         ''', unsafe_allow_html=True)
@@ -1662,8 +1662,8 @@ def render_chat_tab():
         st.session_state.messages.append({"role": "assistant", "content": "Merhaba! Ben Uyum Asistanınız. Riskli maddeleri özetlememi ister misiniz?"})
 
     # Load Lion Logo for Chat
-    lion_html = '<div style="font-size: 24px; margin-right: 10px; font-weight:bold; color: #FF6200;">ING</div>' # Fallback
-    chat_logo_path = "assets/ing_lion_chat.png"
+    lion_html = '<div style="font-size: 24px; margin-right: 10px; font-weight:bold; color: #FF6200;">MERGEN</div>' # Fallback
+    chat_logo_path = "assets/bank-icon-logo-design-vector.jpg"
     if Path(chat_logo_path).exists():
         import base64
         with open(chat_logo_path, "rb") as f:
@@ -1875,7 +1875,7 @@ def render_summary_table(filtered_results):
     st.divider()
     ft_c1, ft_c2 = st.columns([0.8, 0.2])
     with ft_c1:
-        st.caption("© 2025 ING Tech & Data  |  Bu rapor yapay zeka destekli olarak üretilmiştir. Yasal bağlayıcılığı yoktur.")
+        st.caption("© 2025 Mergen Bank Tech & Data  |  Bu rapor yapay zeka destekli olarak üretilmiştir. Yasal bağlayıcılığı yoktur.")
     with ft_c2:
         st.caption(
             f"🧠 **Model:** Gemma 2 27b\n"

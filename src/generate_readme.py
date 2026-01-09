@@ -42,7 +42,7 @@ def main():
 
     readme_content = f"""# Banka Dokümanları Uyum ve Denetim Rapor Portalı
 
-> **ING Türkiye Hackathon** kapsamında geliştirilen, BDDK mevzuatı ile banka sözleşmeleri arasındaki uyumu **Yapay Zeka (LLM)** ve **Hibrit Arama (RAG)** teknolojileriyle denetleyen otonom sistemdir.
+> **LLM Hackathon** kapsamında geliştirilen, BDDK mevzuatı ile banka sözleşmeleri arasındaki uyumu **Yapay Zeka (LLM)** ve **Hibrit Arama (RAG)** teknolojileriyle denetleyen otonom sistemdir.
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.41-FF4B4B?style=flat&logo=streamlit)
@@ -171,7 +171,7 @@ Gerçek denetim verileri ile yapılan test sonuçları:
 
 ```bash
 # 1. Projeyi Klonlayın
-git clone https://github.com/ing-hackathon-project.git
+git clone https://github.com/canmergen/llm-hackathon-project.git
 
 # 2. Kurulumu Yapın
 pip install -r requirements.txt
@@ -204,7 +204,7 @@ ING_Hackathon/
 ---
 
 **Geliştirici:** Can Mergen  
-**Etkinlik:** ING Türkiye Hackathon 2025
+**Etkinlik:** LLM Hackathon 2025
 """
 
     with open("README.md", "w", encoding="utf-8") as f:
