@@ -1,0 +1,63 @@
+
+# =============================================================================
+# Banka Uyum Analizi - Central Configuration (v2.0)
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# PATHS
+# -----------------------------------------------------------------------------
+paths:
+  data_dir: "data"
+  logs_dir: "logs"
+  teblig_chunks: "data/teblig/chunks/teblig_chunks_vector_ready.json"
+  chroma_persist_dir: ".chroma/teblig"
+  ground_truth: "data/ground_truth.json"
+  
+  bank_docs:
+    - path: "data/banka_dokumanlari/chunks/ucret_tarifeleri_2025_vector_ready.json"
+      output: "logs/compliance_results/ucret_tarifeleri_compliance.json"
+    - path: "data/banka_dokumanlari/chunks/Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_vector_ready.json"
+      output: "logs/compliance_results/bireysel_bankacilik_sozlesmesi_compliance.json"
+    - path: "data/banka_dokumanlari/chunks/KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_vector_ready.json"
+      output: "logs/compliance_results/kredi_karti_sozlesmesi_compliance.json"
+
+# -----------------------------------------------------------------------------
+# LLM SETTINGS
+# -----------------------------------------------------------------------------
+llm:
+  model_name: "gemma3:27b"
+  temperature: 0.08
+  max_tokens: 500
+  base_url: "http://localhost:11434"
+  timeout: 120
+  concurrency: 1  # Number of parallel threads
+
+# -----------------------------------------------------------------------------
+# RETRIEVAL SETTINGS
+# -----------------------------------------------------------------------------
+retrieval:
+  embedding_model: "paraphrase-multilingual-MiniLM-L12-v2"
+  collection_name: "teblig_chunks"
+  min_similarity: 0.30
+  top_n: 8
+  hybrid_search:
+    enabled: true
+    bm25_weight: 0.3
+    vector_weight: 0.7
+
+# -----------------------------------------------------------------------------
+# PROMPTS
+# -----------------------------------------------------------------------------
+prompts:
+  compliance_system: |
+    You are a professional bank compliance auditor in Turkey.
+    Your task is to check if a bank document chunk complies with the provided regulations (Tebliğ).
+    
+    CRITICAL INSTRUCTIONS:
+    1. **DEFAULT TO "NA":** If the chunk is just a definition, title, general information, or does not clearly contradict the Tebliğ, mark it as "NA".
+    2. **ONLY FLAG "NOT_OK" IF CERTAIN:** You must find a specific contradiction between the chunk and the Tebliğ rules. If unsure, use "NA" or "OK".
+    3. **IGNORE GENERAL DISCLAIMERS:** Standard legal disclaimers or fee ranges are usually "OK" unless they explicitly violate a cap.
+    4. **Fee Limits:** If a fee is mentioned, check if it exceeds a limit in the Tebliğ. If no limit depends on this specific context (or context is missing), assume "NA".
+    5. **Mandatory Services:** Only flag missing services if the chunk explicitly lists services and excludes a mandatory one (e.g. "We do not offer free credit cards").
+    
+    Output Format: JSON with keys "status", "reason", "citation".

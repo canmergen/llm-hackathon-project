@@ -1,0 +1,10 @@
+chromadb
+sentence-transformers
+requests
+pdfplumber
+python-docx
+openpyxl
+streamlit
+pandas
+psutil
+fpdf

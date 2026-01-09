@@ -1,0 +1,1138 @@
+[
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_1__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Giriş ve selamlama metni, Tebliğ kapsamında bir kural içermiyor.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Asgari ödeme tutarı ve oranı 5464 sayılı Kanun ve BDDK kararları konusudur, 2020/7 sayılı Tebliğ'de düzenlenmemektedir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Temerrüt ve geç ödeme hükümleri bu Tebliğ'in (ücret/masraf) konusu değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c3",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Limit, Gecikme Faizi vb. genel tanımlar Tebliğ'de düzenlenen kural niteliğinde değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c4",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Hesap özeti gönderim yöntemleri bu Tebliğ'de özel olarak düzenlenmemektedir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c5",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "BT güvenliği ve hassas veri uyarıları Elektronik Bankacılık Yönetmeliği konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c6",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "POS, Sanal Kart, TROY vb. teknik tanımlar Tebliğ'de düzenlenmemektedir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_3__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Kart teslimi ve imza bandı sorumluluğu 5464 sayılı Kanun konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_3__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Başvuru değerlendirme serbestisi Tebliğ kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Kayıp/çalıntı bildirim yükümlülüğü 5464 sayılı Kanun konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Şifre oluşturma ve SMS süreçleri teknik operasyondur, ücret düzenlemesi içermez.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4__c3",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Kayıp/çalıntı sorumluluk limitleri 5464 sayılı Kanun konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4__c4",
+    "ground_truth_label": "NOT_OK",
+    "ground_truth_reason": "Banka tüm kart yenileme masraflarını peşinen kabul ettiriyor. Tebliğ Madde 11-8 ise yılda 2 adede kadar yenilemenin ücretsiz olmasını emreder.",
+    "teblig_citation": "MADDE 11 - FIKRA 8",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Limit artış/azalış politikaları Ücret Tebliği kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Faiz işletilme başlangıcı genel kredi kuralıdır, ücret tebliği konusu değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5__c3",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "ATM sayım farkları ispat yükü kuralıdır, bu Tebliğ'de düzenlenmez.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_6__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Harcama belgesi ve delil sözleşmesi hükümleri Tebliğ kapsamı dışıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_7__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "İade (Alacak) belgesi tanımı Tebliğ'de bir kural olarak düzenlenmemiştir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Kredi kartı faiz hesaplama yöntemleri (akdi/gecikme) bu Tebliğ'in (ücretler) konusu değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8__c2",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Banka, nakit avans ücretlerini TCMB azami oranlarıyla (Madde 10-6 %1 sınırı) sınırlı tutacağını beyan etmiştir.",
+    "teblig_citation": "MADDE 10 - FIKRA 6",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8__c3",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Ücret artış bildirim beyanı geneldir, spesifik bir Tebliğ kuralı/ihlali içermiyor.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_9__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Döviz çevrim ve kur politikaları Ücret Tebliği kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_9__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Uluslararası kart masrafları yansıtma kuralları Tebliğ'de düzenlenmemektedir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Gelir/Limit rasyoları 5464 sayılı Kanun ve BDDK konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Limit aşımı ve faiz uygulamaları bu Tebliğ (Masraf/Ücret) kapsamı dışıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10__c3",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Operasyonel limit yönetimi tanımıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_11__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Talimat gönderim kanalları kuralları operasyoneldir, Tebliğ'de düzenlenmez.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Döviz çevrim marjı banka politikasıdır, Ücret Tebliği'nde karşılığı yoktur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Yurt dışı kaynaklı TL harcamalardaki teknik çevrim detaylarıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12__c3",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Müşteri ve banka ekstre sorumluluk tanımıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12__c4",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Ekstre gönderim tercihlerinin belirlenmesi operasyonel bir süreçtir, Ücret Tebliği kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Borç ödeme sorumluluğu ve asgari ödeme yükümlülüğü genel bankacılık kuralıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c2",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Nakit avans ücreti beyanı ve faiz/vergi uygulamaları TCMB azami sınırlarına (Madde 10-6) uyum taahhüdü içeriyor.",
+    "teblig_citation": "MADDE 10 - FIKRA 6",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c3",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Ücret, komisyon ve masraf değişikliklerinin 30 gün önceden bildirileceği beyanı Tebliğ Madde 7-1 ile uyumludur.",
+    "teblig_citation": "MADDE 7 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c4",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Kart iptal edilse dahi vadeli borcun devam etmesi genel borçlar hukuku kuralıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c5",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "90 günlük temerrüt ve takip süreci Kredilerin Sınıflandırılması Yönetmeliği konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c6",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Gecikme faiz oranları ayrı bir TCMB tebliği konusudur, bu Masraf Tebliği kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c7",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Dava, icra masrafları ve vekalet ücretleri genel kanun (İİK ve Avukatlık Kanunu) konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c8",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Teminat ve kefalet hükümleri Borçlar Kanunu kapsamındadır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c9",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Teminatın hangi krediye istinaden alındığı beyanı operasyonel bir detaydır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_14__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Kartın geçersiz kılınma süreci ve teknik arıza sorumlulukları Ücret Tebliği kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_14__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Ödül sistemi ve buna bağlı vergi/kullanım kuralları Ücret Tebliği'nde düzenlenmez.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_15__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Mal/hizmet uyuşmazlığında bankanın sorumsuzluğu 6502 sayılı Kanun konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_16__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Sözleşmenin ve alacakların temliki/devri Borçlar Kanunu konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_17__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Rehin, hapis, takas ve mahsup hakları genel bankacılık ve hukuk kuralıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_17__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Maaş rehni ve borca itiraz usulleri Masraf Tebliği kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c1",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Banka yılda 2 adede kadar kart yenilemenin ücretsiz olacağını beyan etmiştir. Bu Tebliğ Madde 11-8 ile tam uyumludur.",
+    "teblig_citation": "MADDE 11 - FIKRA 8",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c2",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Kart türleri bazında yıllık üyelik ücretleri ve ek kart ücret sınırı (%50) Tebliğ Madde 11-4 ile uyumludur.",
+    "teblig_citation": "MADDE 11 - FIKRA 4",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c3",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Faiz oranları Masraf/Ücret Tebliği (2020/7) değil, TCMB Faiz Tebliği konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c4",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Kart iptal talebinin yasal süre içinde yerine getirileceğine dair taahhüt Tebliğ Madde 11-2 ile uyumludur.",
+    "teblig_citation": "MADDE 11 - FIKRA 2",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c5",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Ücretlerin güncel oranlara göre değiştirilebileceği beyanı, Tebliğ'deki genel bilgilendirme yükümlülüğü (Madde 7) ile uyumludur.",
+    "teblig_citation": "MADDE 7",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_19__c1",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Sözleşmenin feshi ve bildirim süreleri Tebliğ'deki kart iptal ve bilgilendirme hakları (Madde 11-2) ile uyumludur.",
+    "teblig_citation": "MADDE 11 - FIKRA 2",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_20__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Yeni kredi ürün tanımları (Kartta Kredi vb.) Ücret Tebliği kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_21__c1",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Ödül ve promosyonların silinme/kullanım şartları Tebliğ Madde 15-2 (ceza tahsil edilemeyeceği) ile ilişkilidir.",
+    "teblig_citation": "MADDE 15 - FIKRA 2",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_21__c2",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Ödüllerin son kullanım tarihi ve iade şartları Tebliğ Madde 15-2 kapsamında değerlendirilmektedir.",
+    "teblig_citation": "MADDE 15 - FIKRA 2",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_22__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Bankanın fesih nedenleri (ölüm, iflas vb.) ve yasal takip süreçleri genel hukuk kuralıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_22__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Kart iptali ve bakiye iade süreleri operasyonel/yasal takip usulleridir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_23__c1",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Sözleşme değişiklerinin 30 gün önceden bildirilmesi Tebliğ Madde 7-1 ile tam uyumludur.",
+    "teblig_citation": "MADDE 7 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_23__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Faiz artışından etkilenmeme şartları 5464 sayılı Kanun konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_24__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Kefalet sorumluluğu ve onay şartları Borçlar Kanunu konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_25__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Sözleşme kapsamı ve banka kartı muafiyet tanımları Ücret Tebliği kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_26__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Dokümanların birbirini tamamlamasına ilişkin hukuki beyan geneldir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_27__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Tebligat adresi değişikliği bildirim yükümlülüğü Masraf Tebliği kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_28__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Banka kayıtlarının delil sayılmasına ilişkin delil sözleşmesi hükümleri Ücret Tebliği dışıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_29__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Banka kayıtlarının delil sayılmasına ilişkin delil sözleşmesi hükümleri Ücret Tebliği dışıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_30__c1",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Sözleşme ve bilgi formunun bir nüshasının kağıt üzerinde veya kalıcı veri saklayıcısı ile verilmesi kuralı Tebliğ Madde 5-1 ile uyumludur.",
+    "teblig_citation": "MADDE 5 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_31__c1",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Sözleşme nüshasının teslim alındığına dair beyan, Madde 5-1'deki bilgilendirme yükümlülüğü ispatına yöneliktir.",
+    "teblig_citation": "MADDE 5 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_32__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Cayma hakkı (14 gün) 6502 sayılı Kanun ve ilgili Tüketici Kredisi yönetmelikleri konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_33__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Kartın banka mülkiyetinde olduğu tanımı operasyoneldir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_34__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Mobil/İnternet bankacılığı kullanım onayı operasyonel bankacılık kuralıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Bilgi güvenliği ve şifre koruma kuralları Elektronik Bankacılık Yönetmeliği konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Şifrelerin üçüncü kişilere verilmemesi yükümlülüğü operasyonel bir kuraldır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35__c3",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Kayıp/çalıntı bildirim ve kanıt kuralları Ücret Tebliği kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35__c4",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Banka kanallarının güvenli yöntem tayini teknik bir tanımdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_36__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Temerrüt faiz oranları faizler tebliği konusudur, masraf tebliği kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_36__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Borç ödeme ve takas mahsup hakları genel hukuk kuralıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_37__c1",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Sözleşmenin fesih haklarına ilişkin prosedürler Tebliğ Madde 11-2 ile ilişkilidir.",
+    "teblig_citation": "MADDE 11 - FIKRA 2",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_38__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Yetkili mahkeme tayini genel kanun konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_39__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Ekstre gönderim kanalları tercihi operasyoneldir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_40__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Sözleşmenin yürürlük ve genel geçiş hükümleri Ücret Tebliği dışıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_40__c2",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Sözleşme nüshasını teslim aldım beyanı Tebliğ Madde 5-1 (bilgilendirme ispatı) ile uyumludur.",
+    "teblig_citation": "MADDE 5 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_41__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Sözleşme bitişi ve imza alanı herhangi bir düzenleme sunmuyor.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_1__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Sözleşme tarafları ve selamlama metni Tebliğ kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_2__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Sözleşmenin konusu ve amacı genel hukuki tanımdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_3__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Hesap açma ve işletme usulleri Mevduat Yönetmeliği konusudur, Ücret Tebliği kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_4__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Mevduat faiz tahakkuku ve vergi kesintileri Masraf Tebliği (2020/7) konusu değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_5__c1",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "EFT ve Havale gibi ödeme hizmetlerindeki ücret sınırları ve usulleri Tebliğ Madde 12 kapsamında düzenlenmektedir.",
+    "teblig_citation": "MADDE 12",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_6__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Kart hizmetlerine ilişkin genel hükümler Ücret Tebliği kapsamı dışındadır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_7__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "İnternet ve mobil bankacılık kullanım beyanları operasyoneldir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_8__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Güvenlik ve şifre kullanım kuralları operasyonel risk yönetimi konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_9__c1",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Elektronik bankacılık işlemlerinde ücretlerin bildirilmesi ve onay usulleri Tebliğ Madde 9 ve 14 ile uyumludur.",
+    "teblig_citation": "MADDE 9, MADDE 14",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_10__c1",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Telefon bankacılığı kayıtları ve bilgilendirme usulleri Tebliğ Madde 5-4 ile uyumludur.",
+    "teblig_citation": "MADDE 5 - FIKRA 4",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_11__c1",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Fatura ve düzenli ödemelerde onay ve bilgilendirme usulleri Tebliğ Madde 9-9 ile uyumludur.",
+    "teblig_citation": "MADDE 9 - FIKRA 9",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_12__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Vergi ve fon gibi yasal yükümlülükler Ücret Tebliği kapsamı dışındadır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_13__c1",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Hareketsiz hesaplara ilişkin bildirim ve uygulama kuralları Tebliğ'in genel şeffaflık hükümleri ile ilişkilidir.",
+    "teblig_citation": "MADDE 11",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_14__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Sır saklama ve gizlilik hükümleri Ücret Tebliği kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_15__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Borçların mahsup ve takas usulleri genel hukuk kuralıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_16__c1",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Sözleşme şartlarındaki değişikliklerin 30 gün önceden bildirilmesi Tebliğ Madde 7-1 ile uyumludur.",
+    "teblig_citation": "MADDE 7 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_17__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Sözleşme süresi ve genel fesih şartları Masraf Tebliği kapsamında değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_18__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Yetkili mahkeme tayini Masraf Tebliği konusu değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_19__c1",
+    "ground_truth_label": "NOT_OK",
+    "ground_truth_reason": "Döviz işlemlerinde %5 komisyon alınması, işlem maliyetini keyfi artırıcı bir uygulamadır ve Tebliğ listesinde yer almaz (Madde 6).",
+    "teblig_citation": "MADDE 6 - FIKRA 2",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_19__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Şifre güvenliği, kayıp/çalıntı sorumluluğu ve 150 TL sınırı 5464 sayılı Kanun konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_19__c3",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Kayıp/çalıntı bildirim ve sigorta süreçleri operasyonel/yasal sorumluluktur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_20__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Elektronik bankacılık güvenlik prosedürleri Tebliğ konusu değildir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c1",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "KMH limit ve şart değişikliklerinin 30 gün önceden bildirilmesi Tebliğ Madde 7-1 ile uyumludur.",
+    "teblig_citation": "MADDE 7 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "KMH faiz oranları ve vergiler Faiz Tebliği ve Vergi Kanunları konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c3",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "KMH'ın hesapla ilişkisi ve otomatik ödeme operasyonları teknik detaylardır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c4",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Muacceliyet ve temerrüt süreçleri İcra İflas ve Borçlar Kanunu konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c5",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Fesih hakları ve teminat/kefalet isteme yetkisi Borçlar Kanunu konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c6",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Müteselsil kefalet ve rehin/mahsup yetkileri Borçlar Kanunu konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c7",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "KMH faiz oranları (Akdi Faiz) Faiz Tebliği konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c8",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Sözleşme örneğinin ilk yıl ücretsiz verilmesi hakkı Tebliğ Madde 9-4 ile uyumludur.",
+    "teblig_citation": "MADDE 9 - FIKRA 4",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c9",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Krediden cayma hakkı ve 14 gün süresi Tüketici Kanunu konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Hesap açılış gerekçeleri ve yasal zorunluluklar Ücret Tebliği dışıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c2",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Operasyonel hesap açılış nedenleri teknik detaylardır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c3",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "TMSF sigorta limitleri ve hesap kapama yetkisi genel bankacılık kuralıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c4",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Mevduat zamanaşımı (10 yıl) Bankacılık Kanunu Madde 62 konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c5",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Ücret ve komisyonların Bilgi Formu'nda yer aldığı beyanı Tebliğ Madde 5 ile uyumludur.",
+    "teblig_citation": "MADDE 5",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c6",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Suç gelirlerinin aklanması (AML) ve KYC kuralları Ücret Tebliği dışıdır.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c7",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Müşteri tanımları ve talimat kanalları operasyoneldir.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c8",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Tebligat adresi ve iletişim kanalları yasal usul konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c9",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Sözleşme fesih ihbar süreleri ve ölüm hali Borçlar Kanunu konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c10",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Şifre sorumluluğu ve delil sözleşmesi HMK ve Borçlar Kanunu konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c11",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Ücretlerin yıllık TÜİK oranında artırılacağı kuralı Tebliğ Madde 7-1 ile tam uyumludur.",
+    "teblig_citation": "MADDE 7 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c12",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Ücret değişikliklerinin 30 gün önceden bildirilmesi Tebliğ Madde 7-1 ile uyumludur.",
+    "teblig_citation": "MADDE 7 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c13",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "FATCA ve vergi uyum beyanları uluslararası vergi hukuku konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c14",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "ABD vergi mükellefiyeti beyanları vergi hukuku konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c15",
+    "ground_truth_label": "OK",
+    "ground_truth_reason": "Sözleşmenin bir örneğinin teslim alındığına dair beyan Tebliğ Madde 5-1 ile ilişkilidir.",
+    "teblig_citation": "MADDE 5 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c16",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Ticari elektronik ileti onayı ETK konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c17",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "KVKK açık rıza metni kişisel verilerin korunması mevzuatı konusudur.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_2__c1",
+    "ground_truth_label": "NOT_OK",
+    "ground_truth_reason": "Hesap işletim ücreti alınması Tebliğ Madde 13-1 uyarınca yasaktır.",
+    "teblig_citation": "MADDE 13 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_3__c1",
+    "ground_truth_label": "NOT_OK",
+    "ground_truth_reason": "Bankanın kendi ATM'sinden yapılan para çekme işlemlerinden ücret alınamaz.",
+    "teblig_citation": "MADDE 14 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_4__c1",
+    "ground_truth_label": "NA",
+    "ground_truth_reason": "Uygunluk denetimi yıllık TÜİK artış oranlarına bağlıdır (Madde 7). Sadece Tebliğ metnine bakılarak doğrulanamaz.",
+    "teblig_citation": "NA",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  }, 
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_5__c1",
+    "ground_truth_label": "NOT_OK",
+    "ground_truth_reason": "Banka 5 TL alıyor, Tebliğ metninde limit 2 TL olarak belirtilmiştir (Enflasyon düzeltmesi hariç salt metin karşılaştırması).",
+    "teblig_citation": "MADDE 12 - FIKRA 3",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_6__c1",
+    "ground_truth_label": "NOT_OK",
+    "ground_truth_reason": "Banka 15 TL alıyor, Tebliğ metninde limit 10 TL olarak belirtilmiştir (Enflasyon düzeltmesi hariç salt metin karşılaştırması).",
+    "teblig_citation": "MADDE 12 - FIKRA 3",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_7__c1",
+    "ground_truth_label": "NOT_OK",
+    "ground_truth_reason": "Hesap açılış işlemlerinden ücret alınması Tebliğ Madde 13-1 uyarınca yasaktır.",
+    "teblig_citation": "MADDE 13 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_8__c1",
+    "ground_truth_label": "NOT_OK",
+    "ground_truth_reason": "Hesap bakım/işletim ücreti alınması Tebliğ Madde 13-1 uyarınca yasaktır.",
+    "teblig_citation": "MADDE 13 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_9__c1",
+    "ground_truth_label": "NOT_OK",
+    "ground_truth_reason": "Finansal tüketicinin onayı olmaksızın yapılan bildirimlerden ücret alınamaz.",
+    "teblig_citation": "MADDE 9 - FIKRA 2",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_10__c1",
+    "ground_truth_label": "NOT_OK",
+    "ground_truth_reason": "Finansal tüketicinin onayı olmaksızın yapılan bildirimlerden ücret alınamaz.",
+    "teblig_citation": "MADDE 9 - FIKRA 2",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_11__c1",
+    "ground_truth_label": "NOT_OK",
+    "ground_truth_reason": "Müşteri onayı olmayan bildirimlerden ücret alınması Tebliğ Madde 9-2 uyarınca yasaktır.",
+    "teblig_citation": "MADDE 9 - FIKRA 2",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_12__c1",
+    "ground_truth_label": "NOT_OK",
+    "ground_truth_reason": "Kendi hesabına para yatırma işleminden ücret alınması Tebliğ Madde 12-1 uyarınca yasaktır.",
+    "teblig_citation": "MADDE 12 - FIKRA 1",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_13__c1",
+    "ground_truth_label": "NOT_OK",
+    "ground_truth_reason": "Sözleşme örneğinin ilk yıl ücretsiz verilmesi zorunludur (Madde 9-4).",
+    "teblig_citation": "MADDE 9 - FIKRA 4",
+    "confidence": "high",
+    "annotator": "gemini_expert"
+  }
+]

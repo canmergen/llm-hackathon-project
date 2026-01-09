@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "records_total": 124,
+    "parents": 54,
+    "children": 70,
+    "duplicate_chunk_ids": 0,
+    "child_too_long": 0,
+    "child_too_short": 1,
+    "child_missing_parent_id": 0,
+    "child_orphan": 0
+  },
+  "sample": {
+    "duplicate_chunk_ids": [],
+    "child_too_long": [],
+    "child_too_short": [
+      "MADDE_16_1__c1"
+    ],
+    "child_missing_parent_id": [],
+    "child_orphan": []
+  }
+}

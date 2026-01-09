@@ -1,0 +1,67 @@
+{
+  "counts": {
+    "chunks": 54,
+    "unit_types": {
+      "fikra": 53,
+      "gecici_madde": 1
+    }
+  },
+  "duplicate_chunk_ids": [],
+  "empty_text": [],
+  "bad_pages": [],
+  "unknown_or_missing_scope": [
+    "MADDE_2_1",
+    "MADDE_3_1",
+    "MADDE_4_1",
+    "MADDE_16_1",
+    "MADDE_17_1"
+  ],
+  "bad_unit_type": [],
+  "header_format_warn": [],
+  "text_length_stats": {
+    "min": 63,
+    "max": 2245,
+    "top_10_longest": [
+      [
+        "MADDE_4_1",
+        2245
+      ],
+      [
+        "MADDE_7_1",
+        1070
+      ],
+      [
+        "MADDE_5_4",
+        949
+      ],
+      [
+        "MADDE_12_3",
+        845
+      ],
+      [
+        "MADDE_15_1",
+        800
+      ],
+      [
+        "MADDE_11_1",
+        750
+      ],
+      [
+        "MADDE_11_7",
+        634
+      ],
+      [
+        "MADDE_5_3",
+        583
+      ],
+      [
+        "MADDE_8_1",
+        566
+      ],
+      [
+        "MADDE_10_4",
+        561
+      ]
+    ]
+  }
+}
