@@ -1,0 +1,2208 @@
+[
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_1__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_1",
+    "unit_type": "section",
+    "doc_type": "contract",
+    "section_name": "Değerli Müşterimiz,",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 0,
+    "para_end": 1,
+    "text": "Bankamızdan kullanabileceğiniz kredi kartı ve hizmetleri ile ilgili bilgiler aşağıda yer almaktadır. Bu üründen faydalanmanız halinde imzalamış olduğunuz Bireysel Bankacılık Hizmetleri Sözleşmesi’nin Giriş Hükümleri ve Ortak Hükümleri de tarafınıza uygulanacaktır.",
+    "scope": [
+      "account_management",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "Heading 1"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_1",
+    "text_for_embedding": "Bankamızdan kullanabileceğiniz kredi kartı ve hizmetleri ile ilgili bilgiler aşağıda yer almaktadır. Bu üründen faydalanmanız halinde imzalamış olduğunuz Bireysel Bankacılık Hizmetleri Sözleşmesi’nin Giriş Hükümleri ve Ortak Hükümleri de tarafınıza uygulanacaktır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2",
+    "unit_type": "section",
+    "doc_type": "contract",
+    "section_name": "TANIMLAR:",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 2,
+    "para_end": 19,
+    "text": "Asgari Ödeme Tutarı: Asgari tutar BDDK tarafından belirlenmekte olup Banka, bu miktardan az olmamak üzere asgari ödeme tutarı belirleyebilecektir. Uygulanacak asgari ödeme oranları ing.com.tr internet sitesinde yer alır. Ayrıca, asgari ödeme tutarı ile ilgili bilgiye Kart Hamili’ne gönderilen Hesap Özeti’nde yer verilecektir. Herhangi bir Hesap Özeti’nde belirlenen asgari borç tutarının son ödeme tarihinden itibaren 45 gün boyunca ödenmemesi durumunda ilgili kredi kartı kullanıma kapatılır. Bir takvim yılı içinde asgari ödeme tutarı; toplam üç kez ödenmeyen kredi kartları nakit kullanımına, üst üste üç kez ödenmeyen kredi kartları nakit kullanımı ile mal ve hizmet alımına kapatılır. Söz konusu kredi kartlarının limitleri dönem borcunun tamamının ödenmesine kadar artırılamaz; bu tür kartlar nakit kullanımına veya kullanıma kapalı tutulur.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "Heading 1"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2",
+    "text_for_embedding": "Asgari Ödeme Tutarı: Asgari tutar BDDK tarafından belirlenmekte olup Banka, bu miktardan az olmamak üzere asgari ödeme tutarı belirleyebilecektir. Uygulanacak asgari ödeme oranları ing.com.tr internet sitesinde yer alır. Ayrıca, asgari ödeme tutarı ile ilgili bilgiye Kart Hamili’ne gönderilen Hesap Özeti’nde yer verilecektir. Herhangi bir Hesap Özeti’nde belirlenen asgari borç tutarının son ödeme tarihinden itibaren 45 gün boyunca ödenmemesi durumunda ilgili kredi kartı kullanıma kapatılır. Bir takvim yılı içinde asgari ödeme tutarı; toplam üç kez ödenmeyen kredi kartları nakit kullanımına, üst üste üç kez ödenmeyen kredi kartları nakit kullanımı ile mal ve hizmet alımına kapatılır. Söz konusu kredi kartlarının limitleri dönem borcunun tamamının ödenmesine kadar artırılamaz; bu tür kartlar nakit kullanımına veya kullanıma kapalı tutulur."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2",
+    "unit_type": "section",
+    "doc_type": "contract",
+    "section_name": "TANIMLAR:",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 2,
+    "para_end": 19,
+    "text": "Sözleşmede yer alan temerrüt, geç veya eksik ödeme ile ilgili hükümler saklıdır.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "Heading 1"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2",
+    "text_for_embedding": "Sözleşmede yer alan temerrüt, geç veya eksik ödeme ile ilgili hükümler saklıdır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c3",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2",
+    "unit_type": "section",
+    "doc_type": "contract",
+    "section_name": "TANIMLAR:",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 2,
+    "para_end": 19,
+    "text": "Azami Harcama Limiti (Kredi Kartı Limiti): Banka’ca belirlenerek Kredi Kartı Hamillerince harcamalarda ve nakit çekiminde aşılmaması (Kredi Kartı Limiti) gereken tutarı, Ek Kart Hamili: Kart Hamili (veya Müşteri’nin) yazılı talimatı ile kendi hesabından ve aynı limit dahilinde tasarrufta bulunabilen, kendisi ile birlikte müşterek ve müteselsil borçlu olan kişiyi, Gecikme Faizi: Hesap Özetinde bildirilen Kredi Kartı İşlemleri ile Nakit Çekim veya Kullanım İşlemleri için Asgari Ödeme Tutarının Son Ödeme Tarihinde Ödenmemesi halinde ya da kısmi ödenmesi halinde, son ödeme gününden ödeme tarihine kadar, asgari tutarın ödenmeyen kısmına ya da hiç ödememe halinde asgari ödeme tutarının tamamına yürütülen ve uygulanan oran sınırları 5464 Sayılı Yasa ile belirlenmiş bulunan faizi, Hesap Kesim Tarihi: Kredi Kartı Hamillerinin Kredi Kartı ile bir önceki hesap kesim tarihinden itibaren yapmış olduğu işlemlere ait borç ve alacak kayıtlarının düzenlendiği tarihi, Kart Hamili: Talebi halinde adına verilen kredi kartını doğrudan kullanma yetkisine sahip ve bu Sözleşmeyi Müşteri sıfatıyla imzalayan kişiyi, Kredi Kartı/Ek Kart: Banka’nın kart hamiline ve/veya ek kart hamiline tanıdığı azami kredi limiti dahilinde, yurt içinde ve/veya yurt dışında mukim üye işyerlerinde peşin (tek ödemeli) ve taksitli alışveriş yapma ve/veya hizmet sağlamada ödeme aracı olarak ve/veya nakit çekmede kullanılmak için üzerinde manyetik bant veya chip (akıllı kart) olan ya da sadece Mobil Bankacılık üzerinden karekod ödemesi veya internet, e-ticaret, posta/telefon siparişleri gibi yüz yüze yapılmayan ve satış belgesi imzalamaksızın tamamlanan işlemlerin de yapılmasına yönelik olarak çıkartılan, Banka’nın işbirliği içinde bulunduğu kuruluşların logolarını taşıyan ortak markalı fiziki veya dijital kredi kartları ve diğer özel plastik kartlardır.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "Heading 1"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2",
+    "text_for_embedding": "Azami Harcama Limiti (Kredi Kartı Limiti): Banka’ca belirlenerek Kredi Kartı Hamillerince harcamalarda ve nakit çekiminde aşılmaması (Kredi Kartı Limiti) gereken tutarı, Ek Kart Hamili: Kart Hamili (veya Müşteri’nin) yazılı talimatı ile kendi hesabından ve aynı limit dahilinde tasarrufta bulunabilen, kendisi ile birlikte müşterek ve müteselsil borçlu olan kişiyi, Gecikme Faizi: Hesap Özetinde bildirilen Kredi Kartı İşlemleri ile Nakit Çekim veya Kullanım İşlemleri için Asgari Ödeme Tutarının Son Ödeme Tarihinde Ödenmemesi halinde ya da kısmi ödenmesi halinde, son ödeme gününden ödeme tarihine kadar, asgari tutarın ödenmeyen kısmına ya da hiç ödememe halinde asgari ödeme tutarının tamamına yürütülen ve uygulanan oran sınırları 5464 Sayılı Yasa ile belirlenmiş bulunan faizi, Hesap Kesim Tarihi: Kredi Kartı Hamillerinin Kredi Kartı ile bir önceki hesap kesim tarihinden itibaren yapmış olduğu işlemlere ait borç ve alacak kayıtlarının düzenlendiği tarihi, Kart Hamili: Talebi halinde adına verilen kredi kartını doğrudan kullanma yetkisine sahip ve bu Sözleşmeyi Müşteri sıfatıyla imzalayan kişiyi, Kredi Kartı/Ek Kart: Banka’nın kart hamiline ve/veya ek kart hamiline tanıdığı azami kredi limiti dahilinde, yurt içinde ve/veya yurt dışında mukim üye işyerlerinde peşin (tek ödemeli) ve taksitli alışveriş yapma ve/veya hizmet sağlamada ödeme aracı olarak ve/veya nakit çekmede kullanılmak için üzerinde manyetik bant veya chip (akıllı kart) olan ya da sadece Mobil Bankacılık üzerinden karekod ödemesi veya internet, e-ticaret, posta/telefon siparişleri gibi yüz yüze yapılmayan ve satış belgesi imzalamaksızın tamamlanan işlemlerin de yapılmasına yönelik olarak çıkartılan, Banka’nın işbirliği içinde bulunduğu kuruluşların logolarını taşıyan ortak markalı fiziki veya dijital kredi kartları ve diğer özel plastik kartlardır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c4",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2",
+    "unit_type": "section",
+    "doc_type": "contract",
+    "section_name": "TANIMLAR:",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 2,
+    "para_end": 19,
+    "text": "(işbu Sözleşme’de kısaca Kart olarak anılacaklardır.) Kredi Kart Hamilleri: Kart Hamili ve Ek Kart Hamili için ortak olan hükümlerde, Kart Hamili ve Ek Kart Hamilini, Kredi Kartı Hesap Özeti: Kredi kartları için, Kart Hamili’ne gönderilmekle Ek Kart Hamili için de bağlayıcı olan, hesap detayları, alacak borç bilgileri ve Bankanın kararına göre, işbu Sözleşme’de ve Sözleşme’nin eki ve ayrılmaz parçası olan Kredi Kartı Bilgi Formu’nda belirtilen şekilde uygulanmaya başlayacak faiz, ücret vb. her türlü değişikliği gösteren ve borcu olması halinde, her bir hesap dönemi sonunda posta yoluyla, elektronik posta yoluyla veya Dijital Ekstre olarak ING Mobil ve İnternet Şube üzerinden (tavsiye edilen) gönderilebilen hesap dökümünü ifade eder.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "Heading 1"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2",
+    "text_for_embedding": "(işbu Sözleşme’de kısaca Kart olarak anılacaklardır.) Kredi Kart Hamilleri: Kart Hamili ve Ek Kart Hamili için ortak olan hükümlerde, Kart Hamili ve Ek Kart Hamilini, Kredi Kartı Hesap Özeti: Kredi kartları için, Kart Hamili’ne gönderilmekle Ek Kart Hamili için de bağlayıcı olan, hesap detayları, alacak borç bilgileri ve Bankanın kararına göre, işbu Sözleşme’de ve Sözleşme’nin eki ve ayrılmaz parçası olan Kredi Kartı Bilgi Formu’nda belirtilen şekilde uygulanmaya başlayacak faiz, ücret vb. her türlü değişikliği gösteren ve borcu olması halinde, her bir hesap dönemi sonunda posta yoluyla, elektronik posta yoluyla veya Dijital Ekstre olarak ING Mobil ve İnternet Şube üzerinden (tavsiye edilen) gönderilebilen hesap dökümünü ifade eder."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c5",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2",
+    "unit_type": "section",
+    "doc_type": "contract",
+    "section_name": "TANIMLAR:",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 2,
+    "para_end": 19,
+    "text": "Bankaların Bilgi Sistemleri ve Elektronik Bankacılık Hizmetleri Hakkında Yönetmelik hükümleri gereğince, Kart Hamili’ne gönderilecek hesap özeti hassas veri veya sır niteliğinde veri içerebileceğinden size özel kullanıcı kodu ve şifreniz ile güvenli iletişim kanalı olan ING Mobil ve İnternet Şubesi’nden Dijital Ekstre olarak almanız tavsiye edilmektedir.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "Heading 1"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2",
+    "text_for_embedding": "Bankaların Bilgi Sistemleri ve Elektronik Bankacılık Hizmetleri Hakkında Yönetmelik hükümleri gereğince, Kart Hamili’ne gönderilecek hesap özeti hassas veri veya sır niteliğinde veri içerebileceğinden size özel kullanıcı kodu ve şifreniz ile güvenli iletişim kanalı olan ING Mobil ve İnternet Şubesi’nden Dijital Ekstre olarak almanız tavsiye edilmektedir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c6",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2",
+    "unit_type": "section",
+    "doc_type": "contract",
+    "section_name": "TANIMLAR:",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 2,
+    "para_end": 19,
+    "text": "Kredi Kartı Sigorta Prim Bedeli: Kartın kaybolması ya da çalınması halinde, Kart Hamili’nin yapacağı bildirimden önceki 24 saat içinde gerçekleşen hukuka aykırı kullanımından doğan zararlarda, Kart Hamili’nin sorumlu olduğu tutarın da sigorta kapsamına alınması için Kart Hamili tarafından ödenen bedeli, Kredi Kart Sistemleri: Kart Hamili İşyeri Sözleşmesi yapma yetkisi veren Visa, Eurocard/Mastercard gibi uluslararası kuruluşları ve Bankalararası Kart Merkezi A.Ş.’yi (TROY kartlar için), Nakit Ödeme (Çekme) Belgesi: Nakit çekme karşılığında düzenlenip Kart Hamili/Ek Kart Hamili’nce imzalanan veya ATM’lerden nakit çekme halinde ATM’nin ürettiği belgeyi, POS: Kartla yapılan işlemlerin otokontrolünü yapan ve Banka’dan otorizasyon alan özel terminali, Sanal Kart: Kredi Kartı hamillerinin internet, telefon, mail order gibi iletişim araçlarını kullanarak, fiziken karta ihtiyaç duyulmayan alışverişlerde kullanılmak üzere Kart’a bağlı olarak ek kart niteliğinde verilen ve yukarıda belirtilen alanlar dışında kullanılamayan Kredi Kartını, Tüketici Kredisi Sözleşmesi Niteliğindeki Kredi Kartı Sözleşmeleri: 6502 sayılı Tüketicinin Korunması Hakkındaki Kanun’un 22’nci maddesinde düzenlenen; faiz veya benzeri bir menfaat karşılığında, ödemenin üç aydan daha uzun süre ertelendiği veya benzer şekilde taksitle ödeme imkânı sağlanan kredi kartı sözleşmelerini; Üye İşyeri: “Kart Hamili İşyeri Sözleşmesi” imzalamış olan gerçek veya tüzel kişileri, Dijital Kredi Kartı: Basılı bir fiziki kart olmaksızın kart başvurusu onaylanır onaylanmaz kullanıma başlanabilen ve KART HALİMİ’ne teslim edilmiş sayılan, mobil bankacılık uygulaması üzerinden karekod ile ödeme veya kart numarası üzerinden internet, telefon, mail order gibi iletişim araçlarını kullanarak, fiziken karta ihtiyaç duyulmayan alışverişlerde kullanılabilen, asıl kart niteliğinde olan Kredi Kartını, Temassız Kart: KART HAMİLİ’nin Bankaya bildirdiği kayıtlı cep telefonu üzerinden ödeme aracı olarak tanımlanarak, elektronik işlem terminaline (POS) temassız olarak okutup işlem yapmasını sağlayan kartı, ifade eder.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "Heading 1"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2",
+    "text_for_embedding": "Kredi Kartı Sigorta Prim Bedeli: Kartın kaybolması ya da çalınması halinde, Kart Hamili’nin yapacağı bildirimden önceki 24 saat içinde gerçekleşen hukuka aykırı kullanımından doğan zararlarda, Kart Hamili’nin sorumlu olduğu tutarın da sigorta kapsamına alınması için Kart Hamili tarafından ödenen bedeli, Kredi Kart Sistemleri: Kart Hamili İşyeri Sözleşmesi yapma yetkisi veren Visa, Eurocard/Mastercard gibi uluslararası kuruluşları ve Bankalararası Kart Merkezi A.Ş.’yi (TROY kartlar için), Nakit Ödeme (Çekme) Belgesi: Nakit çekme karşılığında düzenlenip Kart Hamili/Ek Kart Hamili’nce imzalanan veya ATM’lerden nakit çekme halinde ATM’nin ürettiği belgeyi, POS: Kartla yapılan işlemlerin otokontrolünü yapan ve Banka’dan otorizasyon alan özel terminali, Sanal Kart: Kredi Kartı hamillerinin internet, telefon, mail order gibi iletişim araçlarını kullanarak, fiziken karta ihtiyaç duyulmayan alışverişlerde kullanılmak üzere Kart’a bağlı olarak ek kart niteliğinde verilen ve yukarıda belirtilen alanlar dışında kullanılamayan Kredi Kartını, Tüketici Kredisi Sözleşmesi Niteliğindeki Kredi Kartı Sözleşmeleri: 6502 sayılı Tüketicinin Korunması Hakkındaki Kanun’un 22’nci maddesinde düzenlenen; faiz veya benzeri bir menfaat karşılığında, ödemenin üç aydan daha uzun süre ertelendiği veya benzer şekilde taksitle ödeme imkânı sağlanan kredi kartı sözleşmelerini; Üye İşyeri: “Kart Hamili İşyeri Sözleşmesi” imzalamış olan gerçek veya tüzel kişileri, Dijital Kredi Kartı: Basılı bir fiziki kart olmaksızın kart başvurusu onaylanır onaylanmaz kullanıma başlanabilen ve KART HALİMİ’ne teslim edilmiş sayılan, mobil bankacılık uygulaması üzerinden karekod ile ödeme veya kart numarası üzerinden internet, telefon, mail order gibi iletişim araçlarını kullanarak, fiziken karta ihtiyaç duyulmayan alışverişlerde kullanılabilen, asıl kart niteliğinde olan Kredi Kartını, Temassız Kart: KART HAMİLİ’nin Bankaya bildirdiği kayıtlı cep telefonu üzerinden ödeme aracı olarak tanımlanarak, elektronik işlem terminaline (POS) temassız olarak okutup işlem yapmasını sağlayan kartı, ifade eder."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_3__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_3",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 21,
+    "para_end": 21,
+    "text": "BANKA, kredi kartını asıl KART HAMİLİ’ne teslim eder veya teslim edilmesini sağlar. EK KART ile yapılan işlemlerden doğan her türlü borçtan EK KART HAMİLİ de KART HAMİLİ ile birlikte müştereken ve müteselsilen sorumludur. KART’ın arka yüzündeki yetkili imza bandı, KART’ın üzerinde adı yazılı olan KART HAMİLİ veya EK KART HAMİLİ tarafından KART teslim alındığında hemen imzalanır. KART’ın KART HAMİLİ veya EK KART HAMİLİ tarafından imzalanmamasından doğacak olan her türlü mali, hukuki ve cezai sorumluluk KREDİ KART HAMİLLERİ’ne aittir. KREDİ KARTI HAMİLLERİ’nin sorumlulukları BANKA tarafından kendilerine tahsis edilmiş KART’ı ve şifreyi KART HAMİLİ’nin teslim alması ile, fiziki kart basımı olmayan Dijital Kredi Kartında ise kartın dijital olarak oluşması ile, sanal kartlar için ise sanal kart numara ve/veya şifresinin herhangi bir işlemde kullanımı ile başlar.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_3",
+    "text_for_embedding": "BANKA, kredi kartını asıl KART HAMİLİ’ne teslim eder veya teslim edilmesini sağlar. EK KART ile yapılan işlemlerden doğan her türlü borçtan EK KART HAMİLİ de KART HAMİLİ ile birlikte müştereken ve müteselsilen sorumludur. KART’ın arka yüzündeki yetkili imza bandı, KART’ın üzerinde adı yazılı olan KART HAMİLİ veya EK KART HAMİLİ tarafından KART teslim alındığında hemen imzalanır. KART’ın KART HAMİLİ veya EK KART HAMİLİ tarafından imzalanmamasından doğacak olan her türlü mali, hukuki ve cezai sorumluluk KREDİ KART HAMİLLERİ’ne aittir. KREDİ KARTI HAMİLLERİ’nin sorumlulukları BANKA tarafından kendilerine tahsis edilmiş KART’ı ve şifreyi KART HAMİLİ’nin teslim alması ile, fiziki kart basımı olmayan Dijital Kredi Kartında ise kartın dijital olarak oluşması ile, sanal kartlar için ise sanal kart numara ve/veya şifresinin herhangi bir işlemde kullanımı ile başlar."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_3__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_3",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 21,
+    "para_end": 21,
+    "text": "BANKA, kredi kartı almak üzere yapılan başvuruları değerlendirir ve kart verilme süresini belirler.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_3",
+    "text_for_embedding": "BANKA, kredi kartı almak üzere yapılan başvuruları değerlendirir ve kart verilme süresini belirler."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 22,
+    "para_end": 25,
+    "text": "Kredi Kart Hamili Kartının kaybolması ya da çalınması durumunda derhal telefonla Bankaya bildirimde bulunacaktır. Aksi takdirde 5464 sayılı Kanunun öngördüğü hükümler çerçevesinde işlem yapılacaktır. Müşteri, kendisine/Ek Kart Hamili’ne verilen Kartı ve Kartın kullanılması için gerekli şifre bilgilerini güvenli bir şekilde korumak ve bu bilgilerin başkaları tarafından kullanılmasına engel olacak önlemleri almakla yükümlüdür.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4",
+    "text_for_embedding": "Kredi Kart Hamili Kartının kaybolması ya da çalınması durumunda derhal telefonla Bankaya bildirimde bulunacaktır. Aksi takdirde 5464 sayılı Kanunun öngördüğü hükümler çerçevesinde işlem yapılacaktır. Müşteri, kendisine/Ek Kart Hamili’ne verilen Kartı ve Kartın kullanılması için gerekli şifre bilgilerini güvenli bir şekilde korumak ve bu bilgilerin başkaları tarafından kullanılmasına engel olacak önlemleri almakla yükümlüdür."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 22,
+    "para_end": 25,
+    "text": "Müşteri, Bankamızda kayıtlı cep telefonu numarasından gönderilmek kaydı ile kartın kendisine teslimi sonrasında kart şifresinin oluşturulması, kart şifresinin unutulması nedeni ile kart şifresinin oluşturulması ve kartın internet işlemlerine açılmasına yönelik taleplerini SMS ile bankamıza iletebilecek, müşterinin bu taleplerine istinaden oluşturulan şifre Banka tarafından müşterinin kayıtlı cep telefonu numarasına gönderilebilecek, kart internet işlemlerine açılabilecektir. Müşteri, kendisine/Ek Kart Hamili’ne verilen Kartın ve Kartın kullanılması için gerekli şifre bilgilerinin kaybedilmesi, çalınma, zorla alınma gibi herhangi bir şekilde elden çıkması veya iradesi dışında gerçekleşmiş herhangi bir işlemi öğrenmesi halinde, bu hususu derhal Bankaya bildirecektir.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4",
+    "text_for_embedding": "Müşteri, Bankamızda kayıtlı cep telefonu numarasından gönderilmek kaydı ile kartın kendisine teslimi sonrasında kart şifresinin oluşturulması, kart şifresinin unutulması nedeni ile kart şifresinin oluşturulması ve kartın internet işlemlerine açılmasına yönelik taleplerini SMS ile bankamıza iletebilecek, müşterinin bu taleplerine istinaden oluşturulan şifre Banka tarafından müşterinin kayıtlı cep telefonu numarasına gönderilebilecek, kart internet işlemlerine açılabilecektir. Müşteri, kendisine/Ek Kart Hamili’ne verilen Kartın ve Kartın kullanılması için gerekli şifre bilgilerinin kaybedilmesi, çalınma, zorla alınma gibi herhangi bir şekilde elden çıkması veya iradesi dışında gerçekleşmiş herhangi bir işlemi öğrenmesi halinde, bu hususu derhal Bankaya bildirecektir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4__c3",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 22,
+    "para_end": 25,
+    "text": "Kartın ve kartın kullanılması için gerekli şifre bilgilerinin kaybolması ve çalınması halinde Kart Hamili’nin Bankaya yapacağı bildirimden önceki 24 saatten önce gerçekleştirilen işlemlerden, Kart Hamili, sorumlu olduğunu kabul etmektedir. Kart Hamili, Bankaya yapacağı bildirimden önceki yirmi dört saat içinde gerçekleşen hukuka aykırı kullanımdan doğan zararlardan yüz elli Türk lirası ile sınırlı olmak üzere sorumlu olup hukuka aykırı kullanımın, kendisinin ağır ihmaline veya kastına dayanması veya bildirimin yirmi dört saat içinde yapılmaması hallerinde bu sınırın uygulanmayacağını kabul etmektedir. KREDİ KARTI HAMİLİ’nin 5464 sayılı Yasa kapsamında sorumlu olduğu tutarın da tazmini konusunda talepte bulunabilmesi için sigorta prim bedelini ödemiş olması şarttır. Prim ödenmediği takdirde BANKA’nın, KART HAMİLİ’nin sorumlu olduğu bu tutarı tazmin yükümlülüğü bulunmamaktadır.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4",
+    "text_for_embedding": "Kartın ve kartın kullanılması için gerekli şifre bilgilerinin kaybolması ve çalınması halinde Kart Hamili’nin Bankaya yapacağı bildirimden önceki 24 saatten önce gerçekleştirilen işlemlerden, Kart Hamili, sorumlu olduğunu kabul etmektedir. Kart Hamili, Bankaya yapacağı bildirimden önceki yirmi dört saat içinde gerçekleşen hukuka aykırı kullanımdan doğan zararlardan yüz elli Türk lirası ile sınırlı olmak üzere sorumlu olup hukuka aykırı kullanımın, kendisinin ağır ihmaline veya kastına dayanması veya bildirimin yirmi dört saat içinde yapılmaması hallerinde bu sınırın uygulanmayacağını kabul etmektedir. KREDİ KARTI HAMİLİ’nin 5464 sayılı Yasa kapsamında sorumlu olduğu tutarın da tazmini konusunda talepte bulunabilmesi için sigorta prim bedelini ödemiş olması şarttır. Prim ödenmediği takdirde BANKA’nın, KART HAMİLİ’nin sorumlu olduğu bu tutarı tazmin yükümlülüğü bulunmamaktadır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4__c4",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 22,
+    "para_end": 25,
+    "text": "KART HAMİLİ ilgili sigorta prim bedelini ödemek koşuluyla bildirimden önceki 24 saat içinde gerçekleşen hukuka aykırı kullanımdan doğan zararla ilgili yasal sorumluluk tutarı için sigorta yaptırılmasını talep edebilecektir. Nakit çekim işlemleri ve şifreli işlemler sigorta kapsamı dışındadır. Bildirim tarih ve saati ile ilgili ihtilaf halinde, aksi ispatlanmadığı sürece BANKA kayıtları esas alınır. BANKA tarafından kartın yenilenmesi halinde KREDİ KART HAMİLLERİ doğacak kart bedeli ve diğer masrafları peşinen ödemeyi ve/veya KART HAMİLİ hesabına kendiliğinden borç kaydedilmesini kabul ederler.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4",
+    "text_for_embedding": "KART HAMİLİ ilgili sigorta prim bedelini ödemek koşuluyla bildirimden önceki 24 saat içinde gerçekleşen hukuka aykırı kullanımdan doğan zararla ilgili yasal sorumluluk tutarı için sigorta yaptırılmasını talep edebilecektir. Nakit çekim işlemleri ve şifreli işlemler sigorta kapsamı dışındadır. Bildirim tarih ve saati ile ilgili ihtilaf halinde, aksi ispatlanmadığı sürece BANKA kayıtları esas alınır. BANKA tarafından kartın yenilenmesi halinde KREDİ KART HAMİLLERİ doğacak kart bedeli ve diğer masrafları peşinen ödemeyi ve/veya KART HAMİLİ hesabına kendiliğinden borç kaydedilmesini kabul ederler."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 26,
+    "para_end": 26,
+    "text": "Nakit Çekim Limiti doğrudan doğruya BANKA tarafından belirlenir. Kart Hamili’nden talep alınmadıkça kart limitleri artırılmayacaktır. KART HAMİLİ ve/veya EK KART HAMİLİ nakit çekme işlemlerinde BANKA’nın belirleyeceği limitleri aşmamayı ve nakit çekme işlemi esnasında BANKA tarafından kendisine talep ettiğinden fazla ödeme yapılması halinde, fazla olan bu tutarı BANKA’ya derhal geri ödemeyi taahhüt eder. BANKA, KREDİ KARTI HAMİLİ’ne duyurmak suretiyle nakit kredi limitini günün koşullarına ve KART HAMİLİ’nin durumuna göre azaltma yetkisine sahiptir.",
+    "scope": [
+      "fees_disclosure",
+      "refund_procedures",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5",
+    "text_for_embedding": "Nakit Çekim Limiti doğrudan doğruya BANKA tarafından belirlenir. Kart Hamili’nden talep alınmadıkça kart limitleri artırılmayacaktır. KART HAMİLİ ve/veya EK KART HAMİLİ nakit çekme işlemlerinde BANKA’nın belirleyeceği limitleri aşmamayı ve nakit çekme işlemi esnasında BANKA tarafından kendisine talep ettiğinden fazla ödeme yapılması halinde, fazla olan bu tutarı BANKA’ya derhal geri ödemeyi taahhüt eder. BANKA, KREDİ KARTI HAMİLİ’ne duyurmak suretiyle nakit kredi limitini günün koşullarına ve KART HAMİLİ’nin durumuna göre azaltma yetkisine sahiptir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 26,
+    "para_end": 26,
+    "text": "KART HAMİLİ ve/veya EK KART HAMİLİ, BANKA’ca imkân tanınan elektronik bankacılık hizmetleri aracılığı ile veya sair şekilde düzenli ödeme/fatura ödemeleri/otomatik ödemelere ilişkin başvuru talimatı verdiği takdirde, ilgili ödemenin BANKA’ca yapıldığı tarihte, provizyon (onay) alınmak suretiyle KART hesabının BANKA’ca kendiliğinden borçlandırılacağını kabul ve beyan eder. KREDİ KARTI HAMİLLERİ; KART hesabından nakit çekme işleminde ve nakit özelliği taşıyan diğer işlemlerde aldığı nakit kadar KART hesabına aynı gün borç kaydı yapılacağını, faizin aynı gün işlemeye başlayacağını ve işlem tarihinden itibaren o tarihte geçerli olan orandan nakit avans ücreti, nakit avans faizi ve faiz üzerinden de KKDF ve BSMV tahakkuk ettirileceğini kabul ve taahhüt eder.",
+    "scope": [
+      "fees_disclosure",
+      "refund_procedures",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5",
+    "text_for_embedding": "KART HAMİLİ ve/veya EK KART HAMİLİ, BANKA’ca imkân tanınan elektronik bankacılık hizmetleri aracılığı ile veya sair şekilde düzenli ödeme/fatura ödemeleri/otomatik ödemelere ilişkin başvuru talimatı verdiği takdirde, ilgili ödemenin BANKA’ca yapıldığı tarihte, provizyon (onay) alınmak suretiyle KART hesabının BANKA’ca kendiliğinden borçlandırılacağını kabul ve beyan eder. KREDİ KARTI HAMİLLERİ; KART hesabından nakit çekme işleminde ve nakit özelliği taşıyan diğer işlemlerde aldığı nakit kadar KART hesabına aynı gün borç kaydı yapılacağını, faizin aynı gün işlemeye başlayacağını ve işlem tarihinden itibaren o tarihte geçerli olan orandan nakit avans ücreti, nakit avans faizi ve faiz üzerinden de KKDF ve BSMV tahakkuk ettirileceğini kabul ve taahhüt eder."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5__c3",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 26,
+    "para_end": 26,
+    "text": "5464 sayılı Kanunun 26’ncı maddesi uyarınca nakit kullanıma ilişkin borçlar hakkında, faizin başlama tarihi olarak işlem tarihi esas alınacaktır. BANKA’nın ve anlaşmalı bulunduğu kredi kartı sistemlerinin üyesi kuruluşlara ait ATM’ler aracılığı ile nakit çekme işleminden doğan uyuşmazlıklarda, tarafların belge ve kayıtları esas alınır. Aynı şekilde KART HAMİLİ ve/veya EK KART HAMİLİ, BANKA’nın ATM’leri ile nakit yatırdıkları takdirde beyan edecekleri meblağ ile BANKA yetkililerince zarfın açılması sırasında tutulacak tutanak arasında farklılık olması halinde; BANKA yetkililerince tespit edilen tutarın esas alınacağını, kabul ve taahhüt ederler.",
+    "scope": [
+      "fees_disclosure",
+      "refund_procedures",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5",
+    "text_for_embedding": "5464 sayılı Kanunun 26’ncı maddesi uyarınca nakit kullanıma ilişkin borçlar hakkında, faizin başlama tarihi olarak işlem tarihi esas alınacaktır. BANKA’nın ve anlaşmalı bulunduğu kredi kartı sistemlerinin üyesi kuruluşlara ait ATM’ler aracılığı ile nakit çekme işleminden doğan uyuşmazlıklarda, tarafların belge ve kayıtları esas alınır. Aynı şekilde KART HAMİLİ ve/veya EK KART HAMİLİ, BANKA’nın ATM’leri ile nakit yatırdıkları takdirde beyan edecekleri meblağ ile BANKA yetkililerince zarfın açılması sırasında tutulacak tutanak arasında farklılık olması halinde; BANKA yetkililerince tespit edilen tutarın esas alınacağını, kabul ve taahhüt ederler."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_6__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_6",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 27,
+    "para_end": 28,
+    "text": "Harcama Belgesinin Düzenlenmesi: KART HAMİLİ ve/veya EK KART HAMİLİ, Harcama Belgesi düzenlemelerine imkân olmayan alışveriş ve işlemlerin, ancak BANKA kayıtları ile ispat edilebileceğini ve bunun bir delil sözleşmesi niteliğinde olduğunu ve satış, nakit çekme veya teslim belgesi bulunmadığı gibi itirazlar öne sürerek BANKA’ya karşı bu Sözleşme’den kaynaklanan yükümlülüklerinin yerine getirilmesinde kaçınamayacaklarını beyan ve kabul ederler.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_6",
+    "text_for_embedding": "Harcama Belgesinin Düzenlenmesi: KART HAMİLİ ve/veya EK KART HAMİLİ, Harcama Belgesi düzenlemelerine imkân olmayan alışveriş ve işlemlerin, ancak BANKA kayıtları ile ispat edilebileceğini ve bunun bir delil sözleşmesi niteliğinde olduğunu ve satış, nakit çekme veya teslim belgesi bulunmadığı gibi itirazlar öne sürerek BANKA’ya karşı bu Sözleşme’den kaynaklanan yükümlülüklerinin yerine getirilmesinde kaçınamayacaklarını beyan ve kabul ederler."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_7__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_7",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 29,
+    "para_end": 29,
+    "text": "Alacak Belgesi, banka kartı veya kredi kartı kullanılarak alınmış olan malın iadesi veya hizmetin alımından vazgeçilmesi veya yapılan işlemin iptali halinde Kart Hamili’nin hesabına alacak kaydedilmek üzere üye iş yeri tarafından düzenlenen belgedir.",
+    "scope": [
+      "refund_procedures",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_7",
+    "text_for_embedding": "Alacak Belgesi, banka kartı veya kredi kartı kullanılarak alınmış olan malın iadesi veya hizmetin alımından vazgeçilmesi veya yapılan işlemin iptali halinde Kart Hamili’nin hesabına alacak kaydedilmek üzere üye iş yeri tarafından düzenlenen belgedir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 30,
+    "para_end": 30,
+    "text": "KART HAMİLİ ve/veya EK KART HAMİLİ, ATM’lerden veya şubelerden BANKA’nın belirlediği limitler dahilinde çektikleri ya da mal ve hizmet alımlarında harcama yaptıkları tutarlar kadar borçlandıklarını ve bu borcu kabul ettiklerini ve bu tutarların KART hesabına faiz, KKDF, BSMV vb. ile birlikte BANKA tarafından kendiliğinden borç kaydedileceğini, sonra varsa Alacak Belgelerinin KART hesabına alacak kaydını kabul ve taahhüt ederler. Dönem borcunun bir kısmının son ödeme tarihine kadar ödenmesi halinde kalan hesap bakiyesi üzerinden, hesap kesim tarihinden itibaren, faiz hesaplanır. Kalan kredi kartı işlemleri üzerinden hesap bakiyesine asgari tutar ve üzerinde ödeme yapılması durumunda akdi faiz, asgari tutarın altında ödeme yapılması durumunda ise asgari tutarın ödenmeyen kısmı için gecikme faizi, kalan hesap bakiyesinin asgari tutarı aşan kısmı için akdi faiz uygulanır.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8",
+    "text_for_embedding": "KART HAMİLİ ve/veya EK KART HAMİLİ, ATM’lerden veya şubelerden BANKA’nın belirlediği limitler dahilinde çektikleri ya da mal ve hizmet alımlarında harcama yaptıkları tutarlar kadar borçlandıklarını ve bu borcu kabul ettiklerini ve bu tutarların KART hesabına faiz, KKDF, BSMV vb. ile birlikte BANKA tarafından kendiliğinden borç kaydedileceğini, sonra varsa Alacak Belgelerinin KART hesabına alacak kaydını kabul ve taahhüt ederler. Dönem borcunun bir kısmının son ödeme tarihine kadar ödenmesi halinde kalan hesap bakiyesi üzerinden, hesap kesim tarihinden itibaren, faiz hesaplanır. Kalan kredi kartı işlemleri üzerinden hesap bakiyesine asgari tutar ve üzerinde ödeme yapılması durumunda akdi faiz, asgari tutarın altında ödeme yapılması durumunda ise asgari tutarın ödenmeyen kısmı için gecikme faizi, kalan hesap bakiyesinin asgari tutarı aşan kısmı için akdi faiz uygulanır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 30,
+    "para_end": 30,
+    "text": "Aynı şekilde nakit çekim veya kullanım işlemleri üzerinden hesap bakiyesine asgari tutar ve üzerinde ödeme yapılması durumunda nakit çekim ve kullanım işlemleri akdi faizi, asgari tutarın altında ödeme yapılması durumunda ise asgari tutarın ödenmeyen kısmı için nakit çekim ve kullanım işlemleri gecikme faizi, kalan hesap bakiyesinin asgari tutarı aşan kısmı için nakit çekim ve kullanım işlemleri akdi faiz uygulanır. Gecikme hali de dahil olmak üzere faiz hesaplamalarında bileşik faiz uygulanmaz. Nakit kullanımına ilişkin borçlar ve nakit kullanımı kapsamında değerlendirilecek tüm işlemler için faiz, işlem tarihi itibarıyla hesaplanacaktır. Uygulanacak akdi ve gecikme faiz oranları T.C. Merkez Bankası tarafından belirlenen azami oranların üstünde olmayacaktır. KART HAMİLLERİ BANKA’nın belirlediği ücret, faiz ve vergileri vs., BANKA’ya ödemeyi kabul ve beyan ederler.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8",
+    "text_for_embedding": "Aynı şekilde nakit çekim veya kullanım işlemleri üzerinden hesap bakiyesine asgari tutar ve üzerinde ödeme yapılması durumunda nakit çekim ve kullanım işlemleri akdi faizi, asgari tutarın altında ödeme yapılması durumunda ise asgari tutarın ödenmeyen kısmı için nakit çekim ve kullanım işlemleri gecikme faizi, kalan hesap bakiyesinin asgari tutarı aşan kısmı için nakit çekim ve kullanım işlemleri akdi faiz uygulanır. Gecikme hali de dahil olmak üzere faiz hesaplamalarında bileşik faiz uygulanmaz. Nakit kullanımına ilişkin borçlar ve nakit kullanımı kapsamında değerlendirilecek tüm işlemler için faiz, işlem tarihi itibarıyla hesaplanacaktır. Uygulanacak akdi ve gecikme faiz oranları T.C. Merkez Bankası tarafından belirlenen azami oranların üstünde olmayacaktır. KART HAMİLLERİ BANKA’nın belirlediği ücret, faiz ve vergileri vs., BANKA’ya ödemeyi kabul ve beyan ederler."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8__c3",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 30,
+    "para_end": 30,
+    "text": "Oran ve miktarlarda yapılacak değişiklikler KART HAMİLLERİ’ne Hesap Özeti ile veya Kredi Kartı Bilgi Formu’nda belirtilen şekillerde bildirilecektir.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8",
+    "text_for_embedding": "Oran ve miktarlarda yapılacak değişiklikler KART HAMİLLERİ’ne Hesap Özeti ile veya Kredi Kartı Bilgi Formu’nda belirtilen şekillerde bildirilecektir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_9__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_9",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 31,
+    "para_end": 34,
+    "text": "BANKA; Yabancı para üzerinden gerçekleştirilen işlemlerle ilgili olarak, KART’ın dahil bulunduğu yabancı KART (VISA/MASTERCARD) kuruluşlarınca uygulanan pariteler üzerinden hesaplanan yabancı para tutarı üzerinden bildirilen her türlü borç kaydını, hesap kayıt tarihinde bu işlemler için kendi kullanacağı Kur ve Kambiyo Gider Vergisi ile komisyonunu Türk lirasına çevirmeye ve KART hesabına kendiliğinden borç kaydetmeye veya KREDİ KART HAMİLLERİ’nden yabancı para veya Türk lirası üzerinden talebe ve bunları kredi kartı hesap özetine yansıtmaya yetkilidir. BANKA’nın Kredi KARTI alacağını yabancı para üzerinden talep etmesi halinde tutar, KREDİ KARTI HAMİLLERİ tarafından Türk lirası olarak ödenmek istenirse fiili ödeme günündeki BANKA efektif satış kuru esas alınarak ödenir.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_9",
+    "text_for_embedding": "BANKA; Yabancı para üzerinden gerçekleştirilen işlemlerle ilgili olarak, KART’ın dahil bulunduğu yabancı KART (VISA/MASTERCARD) kuruluşlarınca uygulanan pariteler üzerinden hesaplanan yabancı para tutarı üzerinden bildirilen her türlü borç kaydını, hesap kayıt tarihinde bu işlemler için kendi kullanacağı Kur ve Kambiyo Gider Vergisi ile komisyonunu Türk lirasına çevirmeye ve KART hesabına kendiliğinden borç kaydetmeye veya KREDİ KART HAMİLLERİ’nden yabancı para veya Türk lirası üzerinden talebe ve bunları kredi kartı hesap özetine yansıtmaya yetkilidir. BANKA’nın Kredi KARTI alacağını yabancı para üzerinden talep etmesi halinde tutar, KREDİ KARTI HAMİLLERİ tarafından Türk lirası olarak ödenmek istenirse fiili ödeme günündeki BANKA efektif satış kuru esas alınarak ödenir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_9__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_9",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 31,
+    "para_end": 34,
+    "text": "Ayrıca kartın ilgili bulunduğu uluslararası kuruluş ve sistemlerce kartın kullanımı ile ilgili olarak BANKA’ya bildirilecek masraf, ek ödeme ve komisyonlar da vergi, resim, harç ve fon gibi feri’leri ile birlikte BANKA’ca yukarıdaki esaslar çerçevesinde Türk lirasına çevrilerek hukuk kurallarına uygun şekilde KART hesabına borç kaydedilecek veya yabancı para üzerinden de hesap özetine yansıtılabilecektir.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_9",
+    "text_for_embedding": "Ayrıca kartın ilgili bulunduğu uluslararası kuruluş ve sistemlerce kartın kullanımı ile ilgili olarak BANKA’ya bildirilecek masraf, ek ödeme ve komisyonlar da vergi, resim, harç ve fon gibi feri’leri ile birlikte BANKA’ca yukarıdaki esaslar çerçevesinde Türk lirasına çevrilerek hukuk kurallarına uygun şekilde KART hesabına borç kaydedilecek veya yabancı para üzerinden de hesap özetine yansıtılabilecektir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 35,
+    "para_end": 36,
+    "text": "İlk defa KART sahibi oluyorsanız; tüm KART’larınızın toplam limiti, ilk yıl için, aylık ortalama net gelirinizin iki katını, ikinci ve sonraki yıllar için ise dört katını aşmayacaktır; ve aylık veya yıllık ortalama gelir düzeyiniz tespit edilemiyorsa tüm KART’larınız için toplam limitiniz en fazla bin Türk lirasıdır. BANKA, KART limitini Müşteri’ye, KART’ın teslimi sırasında gönderilen doküman ile bildirir. BANKA, azami harcama limitlerini günün şartlarına ve/ veya KART HAMİLİ’nin mali durumuna göre artırıp azaltmak suretiyle değiştirebilir ve bu değişiklik KART HAMİLİ’ne değişikliğin yürürlüğe girmesinden 30 gün önce yazılı olarak veya kalıcı veri saklayıcısı ile bildirilir. KART HAMİLİ’nden talep alınmadıkça kart limiti artırılmayacaktır.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10",
+    "text_for_embedding": "İlk defa KART sahibi oluyorsanız; tüm KART’larınızın toplam limiti, ilk yıl için, aylık ortalama net gelirinizin iki katını, ikinci ve sonraki yıllar için ise dört katını aşmayacaktır; ve aylık veya yıllık ortalama gelir düzeyiniz tespit edilemiyorsa tüm KART’larınız için toplam limitiniz en fazla bin Türk lirasıdır. BANKA, KART limitini Müşteri’ye, KART’ın teslimi sırasında gönderilen doküman ile bildirir. BANKA, azami harcama limitlerini günün şartlarına ve/ veya KART HAMİLİ’nin mali durumuna göre artırıp azaltmak suretiyle değiştirebilir ve bu değişiklik KART HAMİLİ’ne değişikliğin yürürlüğe girmesinden 30 gün önce yazılı olarak veya kalıcı veri saklayıcısı ile bildirilir. KART HAMİLİ’nden talep alınmadıkça kart limiti artırılmayacaktır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 35,
+    "para_end": 36,
+    "text": "Limit artışı için talebi alınan KART HAMİLİ’ne, artışın gerçekleşeceği tarihten 30 gün öncesinde ayrıca yapılacak bildirime KART HAMİLİ’nce itiraz edilmemesi halinde limit artışı geçerli olacaktır. KART HAMİLİ ve/veya EK KART HAMİLİ, Kanunun 9’uncu maddesi uyarınca belirlenecek kredi kartı limitinin BANKA’nın inisiyatifi dışında KART HAMİLİ’nin harcamalarıyla aşılması halinde ve/veya tahsis edilen limitin yüzde %20’sini geçmemesi ve bir sonraki hesap döneminde kapatılması koşuluyla, bir takvim yılında ikiden fazla olmamak üzere, kart limitinde aşım olması halinde aşılan tutar için işlem tarihi ile ödeme tarihi arasındaki süre için Bankanın kullanmış olduğu akdi faiz oranlarının üzerinden faiz ve yasal kesintilerin hesaplanacağı, KART Hesabına borç kaydedileceğini kabul eder. BANKA, limit aşımı halinde kart hesabını kapatıp Sözleşme’yi feshederek KART’ı geri isteme hakkına sahiptir.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10",
+    "text_for_embedding": "Limit artışı için talebi alınan KART HAMİLİ’ne, artışın gerçekleşeceği tarihten 30 gün öncesinde ayrıca yapılacak bildirime KART HAMİLİ’nce itiraz edilmemesi halinde limit artışı geçerli olacaktır. KART HAMİLİ ve/veya EK KART HAMİLİ, Kanunun 9’uncu maddesi uyarınca belirlenecek kredi kartı limitinin BANKA’nın inisiyatifi dışında KART HAMİLİ’nin harcamalarıyla aşılması halinde ve/veya tahsis edilen limitin yüzde %20’sini geçmemesi ve bir sonraki hesap döneminde kapatılması koşuluyla, bir takvim yılında ikiden fazla olmamak üzere, kart limitinde aşım olması halinde aşılan tutar için işlem tarihi ile ödeme tarihi arasındaki süre için Bankanın kullanmış olduğu akdi faiz oranlarının üzerinden faiz ve yasal kesintilerin hesaplanacağı, KART Hesabına borç kaydedileceğini kabul eder. BANKA, limit aşımı halinde kart hesabını kapatıp Sözleşme’yi feshederek KART’ı geri isteme hakkına sahiptir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10__c3",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 35,
+    "para_end": 36,
+    "text": "BANKA, birden fazla KART’ı tek bir KART hesabına bağlayabilir ve bu kartlar için tek bir azami harcama limiti belirleyebilir. KART HAMİLİ ve/veya EK KART HAMİLİ, BANKA’nın azami harcama limiti içinde nakit çekme ve bunun dışındaki işlemlerin limitini ayrı ayrı belirleyip KART HAMİLİ’ne HESAP ÖZETİ ile bildirmesi halinde, genel olarak azami harcama limiti müsait olsa dahi tek tek bu limitlere uyacaklarını ve uymamalarından doğacak sorumluluğun kendilerine ait olacağını kabul ve taahhüt ederler.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10",
+    "text_for_embedding": "BANKA, birden fazla KART’ı tek bir KART hesabına bağlayabilir ve bu kartlar için tek bir azami harcama limiti belirleyebilir. KART HAMİLİ ve/veya EK KART HAMİLİ, BANKA’nın azami harcama limiti içinde nakit çekme ve bunun dışındaki işlemlerin limitini ayrı ayrı belirleyip KART HAMİLİ’ne HESAP ÖZETİ ile bildirmesi halinde, genel olarak azami harcama limiti müsait olsa dahi tek tek bu limitlere uyacaklarını ve uymamalarından doğacak sorumluluğun kendilerine ait olacağını kabul ve taahhüt ederler."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_11__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_11",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 37,
+    "para_end": 37,
+    "text": "KART HAMİLİ, talimatlarını faks, elektronik bankacılık veya BANKA’nın kurduğu telefon sistemi aracılığı ile gönderebilecektir. BANKA, KART HAMİLİ’nin gönderdiği ve her sayfasında KART HAMİLİ’nin imzasını taşımayan faks talimatlarını işleme koymama hakkına sahiptir. BANKA, faks talimatının aslının kendisine gönderilmemesi halinde veya faks, telefon veya elektronik bankacılık aracılığı ile gönderilen talimatların taraflar arasında imzalanan Bireysel Bankacılık Hizmetleri Sözleşmesi’ne ve/veya işbu Sözleşme’ye aykırı olduğunu tespit ettiği takdirde işlem yapmama hakkına sahiptir. KART HAMİLİ, Elektronik Bankacılık ve BANKA’nın kurduğu telefon sistemi aracılığı ile güvenlik adımlarından geçirilmiş olan şifre ve kullanıcı bilgileri ile vereceği talimatların doğruluğunu ve yukarıda belirlenen koşulları içeren talimatların BANKA ile olan uyuşmazlıklarda delil oluşturacağını beyan ve kabul eder.",
+    "scope": [
+      "account_management",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_11",
+    "text_for_embedding": "KART HAMİLİ, talimatlarını faks, elektronik bankacılık veya BANKA’nın kurduğu telefon sistemi aracılığı ile gönderebilecektir. BANKA, KART HAMİLİ’nin gönderdiği ve her sayfasında KART HAMİLİ’nin imzasını taşımayan faks talimatlarını işleme koymama hakkına sahiptir. BANKA, faks talimatının aslının kendisine gönderilmemesi halinde veya faks, telefon veya elektronik bankacılık aracılığı ile gönderilen talimatların taraflar arasında imzalanan Bireysel Bankacılık Hizmetleri Sözleşmesi’ne ve/veya işbu Sözleşme’ye aykırı olduğunu tespit ettiği takdirde işlem yapmama hakkına sahiptir. KART HAMİLİ, Elektronik Bankacılık ve BANKA’nın kurduğu telefon sistemi aracılığı ile güvenlik adımlarından geçirilmiş olan şifre ve kullanıcı bilgileri ile vereceği talimatların doğruluğunu ve yukarıda belirlenen koşulları içeren talimatların BANKA ile olan uyuşmazlıklarda delil oluşturacağını beyan ve kabul eder."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 38,
+    "para_end": 41,
+    "text": "KART HAMİLİ ve/veya EK KART HAMİLİ, KART’ın yurt içinde veya yurt dışında kullanımından dolayı hesaba yapılacak tüm borç ve alacak kayıtları Hesap Kesim Tarihi’nde HESAP ÖZETİ’ne dökülerek Sözleşme’de beyan ettiği adresine veya tercih ettiği diğer yöntemler ile gönderilir. Yurt dışında yapılan alışveriş ve nakit avans işlemleri TL’ye dönüştürülerek hesap özetinde döviz cinsi ve tutarı da bildirilerek belirtilir. Yabancı para cinsinden gerçekleştirilen işlemler (USD hariç), Visa ve MasterCard tarafından, bu kuruluşların uyguladığı dönüşüm kurları esas alınarak %2 marjlı olarak önce USD’ye çevrilir ve Banka’ya USD olarak yansıtılır. Bu işlemler, işlemlerin Bankaya yansıdığı tarihte saat 17.30 itibarıyla geçerli olan, ing.com.tr’de ilan edilen Bankamız Alternatif Dağıtım Kanalları USD döviz satış kuru ile Türk lirasına çevrilerek kart hesabına borç kaydedilir.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12",
+    "text_for_embedding": "KART HAMİLİ ve/veya EK KART HAMİLİ, KART’ın yurt içinde veya yurt dışında kullanımından dolayı hesaba yapılacak tüm borç ve alacak kayıtları Hesap Kesim Tarihi’nde HESAP ÖZETİ’ne dökülerek Sözleşme’de beyan ettiği adresine veya tercih ettiği diğer yöntemler ile gönderilir. Yurt dışında yapılan alışveriş ve nakit avans işlemleri TL’ye dönüştürülerek hesap özetinde döviz cinsi ve tutarı da bildirilerek belirtilir. Yabancı para cinsinden gerçekleştirilen işlemler (USD hariç), Visa ve MasterCard tarafından, bu kuruluşların uyguladığı dönüşüm kurları esas alınarak %2 marjlı olarak önce USD’ye çevrilir ve Banka’ya USD olarak yansıtılır. Bu işlemler, işlemlerin Bankaya yansıdığı tarihte saat 17.30 itibarıyla geçerli olan, ing.com.tr’de ilan edilen Bankamız Alternatif Dağıtım Kanalları USD döviz satış kuru ile Türk lirasına çevrilerek kart hesabına borç kaydedilir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 38,
+    "para_end": 41,
+    "text": "Yurt içinde faaliyet gösteren yabancı iş yerlerinden ya da internet siteleri üzerinden yapılan bazı mal/hizmet alımlarında, satış işlemi/belgesi TL tutar üzerinden düzenlenmiş olmasına rağmen, ilgili iş yerinin anlaşmalı bankasının yurt dışında yerleşik olması nedeniyle, işlem tutarları Bankamıza VISA ve MASTERCARD tarafından USD cinsinden transfer edilmektedir. Bu uygulama Uluslararası Kartlı Ödeme Sistemleri kuralları gereği olup Bankamızdan kaynaklanmamaktadır. USD cinsinden gelen harcama tutarları Bankamızca ilgili kurdan TL’ye dönüştürülerek ekstrenize yansıtılmaktadır. KART HAMİLİ, talep etmesi halinde, BANKA’nın da kabulü şartıyla, HESAP ÖZETİ’nin posta yoluyla değil, BANKA’ya bildireceği e-posta adresine veya Dijital Ekstre olarak ING Mobil ve İnternet Şube üzerinden (tavsiye edilen) gönderilmesini kabul ve taahhüt eder.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12",
+    "text_for_embedding": "Yurt içinde faaliyet gösteren yabancı iş yerlerinden ya da internet siteleri üzerinden yapılan bazı mal/hizmet alımlarında, satış işlemi/belgesi TL tutar üzerinden düzenlenmiş olmasına rağmen, ilgili iş yerinin anlaşmalı bankasının yurt dışında yerleşik olması nedeniyle, işlem tutarları Bankamıza VISA ve MASTERCARD tarafından USD cinsinden transfer edilmektedir. Bu uygulama Uluslararası Kartlı Ödeme Sistemleri kuralları gereği olup Bankamızdan kaynaklanmamaktadır. USD cinsinden gelen harcama tutarları Bankamızca ilgili kurdan TL’ye dönüştürülerek ekstrenize yansıtılmaktadır. KART HAMİLİ, talep etmesi halinde, BANKA’nın da kabulü şartıyla, HESAP ÖZETİ’nin posta yoluyla değil, BANKA’ya bildireceği e-posta adresine veya Dijital Ekstre olarak ING Mobil ve İnternet Şube üzerinden (tavsiye edilen) gönderilmesini kabul ve taahhüt eder."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12__c3",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 38,
+    "para_end": 41,
+    "text": "KART HAMİLİ’nin borca itirazı, yapması gereken ödemeyi durdurmaz. Ayrıca ekstrenin ulaşmaması halinde KART HAMİLİ, borcunu BANKAnın diğer kanalları aracılığıyla öğrenmeye özen göstermek zorundadır. Hesap Özeti’nin Dijital Ekstre olarak gönderilmesi talep edilmiş ise bahse konu gönderim ING Mobil/İnternet Şube aracılığı ile gerçekleştirileceğinden, Hesap Özeti’nin görüntülenebilmesi için KART HAMİLİ tarafından ilgili dijital kanal kullanıcı kodu talep edilmesi gerekmektedir. Bu kodun talebi, tanımlanması ve HESAP ÖZETİ’nin görüntülenmesi sorumluluğu KART HAMİLİNE aittir. HESAP ÖZETİ ile yapılacak bildirimler kullanıcı kodu tanımlanmamış olsa dahi KART HAMİLİ’ni bağlayıcı olacaktır. Hesap özeti gönderiminiz başvuru esnasında yaptığınız ya da sonradan kanallarda değiştirdiğiniz tercihe göre sağlanmaktadır.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12",
+    "text_for_embedding": "KART HAMİLİ’nin borca itirazı, yapması gereken ödemeyi durdurmaz. Ayrıca ekstrenin ulaşmaması halinde KART HAMİLİ, borcunu BANKAnın diğer kanalları aracılığıyla öğrenmeye özen göstermek zorundadır. Hesap Özeti’nin Dijital Ekstre olarak gönderilmesi talep edilmiş ise bahse konu gönderim ING Mobil/İnternet Şube aracılığı ile gerçekleştirileceğinden, Hesap Özeti’nin görüntülenebilmesi için KART HAMİLİ tarafından ilgili dijital kanal kullanıcı kodu talep edilmesi gerekmektedir. Bu kodun talebi, tanımlanması ve HESAP ÖZETİ’nin görüntülenmesi sorumluluğu KART HAMİLİNE aittir. HESAP ÖZETİ ile yapılacak bildirimler kullanıcı kodu tanımlanmamış olsa dahi KART HAMİLİ’ni bağlayıcı olacaktır. Hesap özeti gönderiminiz başvuru esnasında yaptığınız ya da sonradan kanallarda değiştirdiğiniz tercihe göre sağlanmaktadır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12__c4",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 38,
+    "para_end": 41,
+    "text": "KART HAMİLİ tarafından birden fazla yöntem ile HESAP ÖZETİ gönderilmesi talep edilmiş ise BANKA uygun bulduğu yöntem/yöntemler ile gönderimde bulunabilir. Hesap Özeti gönderim tercihiniz tüm kartlarınız bakımından geçerli sayılacaktır. KART HAMİLİ’nin birden fazla kredi kartı bulunması halinde tüm kredi kartları için tek bir HESAP ÖZETİ düzenlenecektir. Kart başvurusu ING Mobil ve İnternet Şubesi üzerinden yapılmışsa hesap özeti tercihi güvenli yöntem olarak değerlendirilen Dijital Ekstre olarak atanacak olup, Kart Hamili dilerse banka kanallarından tercih değişikliğinde bulunabilecektir. BANKA, belirli durumlarda KART HAMİLİ’nin bankaya kaydettirdiği cep telefonu numarasına ekstrenin oluştuğuna dair bilgilendirmede bulunabilecektir.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12",
+    "text_for_embedding": "KART HAMİLİ tarafından birden fazla yöntem ile HESAP ÖZETİ gönderilmesi talep edilmiş ise BANKA uygun bulduğu yöntem/yöntemler ile gönderimde bulunabilir. Hesap Özeti gönderim tercihiniz tüm kartlarınız bakımından geçerli sayılacaktır. KART HAMİLİ’nin birden fazla kredi kartı bulunması halinde tüm kredi kartları için tek bir HESAP ÖZETİ düzenlenecektir. Kart başvurusu ING Mobil ve İnternet Şubesi üzerinden yapılmışsa hesap özeti tercihi güvenli yöntem olarak değerlendirilen Dijital Ekstre olarak atanacak olup, Kart Hamili dilerse banka kanallarından tercih değişikliğinde bulunabilecektir. BANKA, belirli durumlarda KART HAMİLİ’nin bankaya kaydettirdiği cep telefonu numarasına ekstrenin oluştuğuna dair bilgilendirmede bulunabilecektir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 42,
+    "para_end": 46,
+    "text": "KART HAMİLİ ve/veya EK KART HAMİLİ, GEÇiCi KART ile yapılan harcamalar ve nakit çekimlerden doğan borçları da dahil olmak üzere, KART kullanımından doğan ve HESAP ÖZETİ’nde bildirilen asgari tutarı Son Ödeme Tarihi’ne kadar ödemekle yükümlüdür. Son Ödeme Tarihi’ne kadar ödemekle yükümlüdür. KREDİ KART HAMİLLERİ, yapacakları ödemelerde KART numarasının verilmemesi veya eksik bilgi nedeniyle ödemenin KART hesabına eksik ve/veya yanlış yansımasından, buna benzer çıkabilecek ihtilaflardan BANKA’nın kusuru olmadığı takdirde sorumlu olmayacağını kabul ve taahhüt ederler. KART HAMİLİ ve/veya EK KART HAMİLİ, kendilerine HESAP ÖZETİ’nde belirtilen oran ve şartlarda faiz, KKDF ve BSMV uygulanmasını kabul ederler.",
+    "scope": [
+      "fees_disclosure",
+      "refund_procedures",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "text_for_embedding": "KART HAMİLİ ve/veya EK KART HAMİLİ, GEÇiCi KART ile yapılan harcamalar ve nakit çekimlerden doğan borçları da dahil olmak üzere, KART kullanımından doğan ve HESAP ÖZETİ’nde bildirilen asgari tutarı Son Ödeme Tarihi’ne kadar ödemekle yükümlüdür. Son Ödeme Tarihi’ne kadar ödemekle yükümlüdür. KREDİ KART HAMİLLERİ, yapacakları ödemelerde KART numarasının verilmemesi veya eksik bilgi nedeniyle ödemenin KART hesabına eksik ve/veya yanlış yansımasından, buna benzer çıkabilecek ihtilaflardan BANKA’nın kusuru olmadığı takdirde sorumlu olmayacağını kabul ve taahhüt ederler. KART HAMİLİ ve/veya EK KART HAMİLİ, kendilerine HESAP ÖZETİ’nde belirtilen oran ve şartlarda faiz, KKDF ve BSMV uygulanmasını kabul ederler."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 42,
+    "para_end": 46,
+    "text": "KART HAMİLİ ve/veya EK KART HAMİLİ, KART ile Nakit Çekme işleminde Nakit Avans Ücreti alınacağını ve işlem tutarı üzerinden faiz, KKDF ve BSMV’nin BANKA tarafından nakit çekme tarihinden itibaren uygulanacağını kabul eder. Son Ödeme Tarihi’ne kadar KREDİ KARTI HAMİLLERİ’nin mal ve/veya hizmet alımı ve/veya nakit çekme işlemi, mal veya hizmet alımından kaynaklanan taksitli ve/veya vadeli alışveriş yapmasından ve/veya KART’ın herhangi bir şekilde kullanımından doğan ve kendisine HESAP ÖZETİ ile bildirilen borcun tamamı ödenmediği (borcu Sözleşme’de kendisine tanınan imkânlar çerçevesinde kredilendirdiği) takdirde yürürlükteki hukuk kurallarına uygun şekilde, borcun ödenmeyen kısmına, tespit olunan veya sonradan değiştirilecek olan azami sınırları geçmemek kaydıyla, yetkili merciler tarafından tayin edilen oranlarda faiz, gecikme faizi, KKDF ve BSMV ödemeyi kabul eder.",
+    "scope": [
+      "fees_disclosure",
+      "refund_procedures",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "text_for_embedding": "KART HAMİLİ ve/veya EK KART HAMİLİ, KART ile Nakit Çekme işleminde Nakit Avans Ücreti alınacağını ve işlem tutarı üzerinden faiz, KKDF ve BSMV’nin BANKA tarafından nakit çekme tarihinden itibaren uygulanacağını kabul eder. Son Ödeme Tarihi’ne kadar KREDİ KARTI HAMİLLERİ’nin mal ve/veya hizmet alımı ve/veya nakit çekme işlemi, mal veya hizmet alımından kaynaklanan taksitli ve/veya vadeli alışveriş yapmasından ve/veya KART’ın herhangi bir şekilde kullanımından doğan ve kendisine HESAP ÖZETİ ile bildirilen borcun tamamı ödenmediği (borcu Sözleşme’de kendisine tanınan imkânlar çerçevesinde kredilendirdiği) takdirde yürürlükteki hukuk kurallarına uygun şekilde, borcun ödenmeyen kısmına, tespit olunan veya sonradan değiştirilecek olan azami sınırları geçmemek kaydıyla, yetkili merciler tarafından tayin edilen oranlarda faiz, gecikme faizi, KKDF ve BSMV ödemeyi kabul eder."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c3",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 42,
+    "para_end": 46,
+    "text": "Ödeme gününün tatil gününe rastlaması durumunda vade bugünü izleyen ilk iş günüdür. KART HAMİLİ/EK KART HAMİLİ; KKDF ve BSMV gibi vergi ve fonların oranlarında yetkili mercilerce değişiklik yapılması halinde bu yeni oranların değişiklik tarihindenitibaren kendilerine uygulanmasını kabul eder. Faiz oranlarındaki artışın ise kâğıt üzerinde yazılı olarak veya Kredi Kartı Bilgi Formu’nda belirtilen şekiller ile bildirilmesinden 30 gün sonra uygulanmasını kabul eder. KREDİ KARTI HAMİLLERİ faiz artırımına ilişkin bildirim tarihinden itibaren en geç altmış gün içinde tüm borcunu ödeyerek Kredi Kartı’nı kullanmaya son verirse faiz artışından etkilenmeyecektir. Aksi halde faiz artışını kabul etmiş sayılır. Faiz oranının artırılması halinde, yeni faiz oranı geriye dönük olarak uygulanamaz. BANKA faiz, komisyon ve masraflarda yapacağı değişikliği HESAP ÖZETİ’nde gösterir.",
+    "scope": [
+      "fees_disclosure",
+      "refund_procedures",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "text_for_embedding": "Ödeme gününün tatil gününe rastlaması durumunda vade bugünü izleyen ilk iş günüdür. KART HAMİLİ/EK KART HAMİLİ; KKDF ve BSMV gibi vergi ve fonların oranlarında yetkili mercilerce değişiklik yapılması halinde bu yeni oranların değişiklik tarihindenitibaren kendilerine uygulanmasını kabul eder. Faiz oranlarındaki artışın ise kâğıt üzerinde yazılı olarak veya Kredi Kartı Bilgi Formu’nda belirtilen şekiller ile bildirilmesinden 30 gün sonra uygulanmasını kabul eder. KREDİ KARTI HAMİLLERİ faiz artırımına ilişkin bildirim tarihinden itibaren en geç altmış gün içinde tüm borcunu ödeyerek Kredi Kartı’nı kullanmaya son verirse faiz artışından etkilenmeyecektir. Aksi halde faiz artışını kabul etmiş sayılır. Faiz oranının artırılması halinde, yeni faiz oranı geriye dönük olarak uygulanamaz. BANKA faiz, komisyon ve masraflarda yapacağı değişikliği HESAP ÖZETİ’nde gösterir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c4",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 42,
+    "para_end": 46,
+    "text": "KREDİ KARTI HAMİLLERİ tarafından yapılan harcamaya esas tarih, alışverişin yapıldığı ve taksit ve/ veya vadelere bölündüğü günün tarihi olup, işbu tarih, harcamaya konu ilgili alışverişin Harcama Belgesi kopyasında kayıtlıdır. KREDİ KARTI HAMİLLERİ, kartlarını kullanarak yapmış oldukları alışverişlerden, borç tamamen kapatılıncaya kadar, KART herhangi bir nedenden dolayı iptal edilmiş ve/veya geçerlilik süresi dolmuş olsa dahi sorumludur. Bu durumda BANKA, geçerlilik süresi dolan ve yenilenmeyen KART’larla ilgili olarak vadeli borçlarından dolayı KREDİ KARTI HAMİLLERİ’ne Hesap Özeti göndermeye devam eder. KART HAMİLİ, bu vadeli borçlarını Sözleşme’de düzenlenen hükümlere göre Hesap Özeti’nde gösterilen tarihlerde ödemek zorundadır.",
+    "scope": [
+      "fees_disclosure",
+      "refund_procedures",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "text_for_embedding": "KREDİ KARTI HAMİLLERİ tarafından yapılan harcamaya esas tarih, alışverişin yapıldığı ve taksit ve/ veya vadelere bölündüğü günün tarihi olup, işbu tarih, harcamaya konu ilgili alışverişin Harcama Belgesi kopyasında kayıtlıdır. KREDİ KARTI HAMİLLERİ, kartlarını kullanarak yapmış oldukları alışverişlerden, borç tamamen kapatılıncaya kadar, KART herhangi bir nedenden dolayı iptal edilmiş ve/veya geçerlilik süresi dolmuş olsa dahi sorumludur. Bu durumda BANKA, geçerlilik süresi dolan ve yenilenmeyen KART’larla ilgili olarak vadeli borçlarından dolayı KREDİ KARTI HAMİLLERİ’ne Hesap Özeti göndermeye devam eder. KART HAMİLİ, bu vadeli borçlarını Sözleşme’de düzenlenen hükümlere göre Hesap Özeti’nde gösterilen tarihlerde ödemek zorundadır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c5",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 42,
+    "para_end": 46,
+    "text": "KART HAMİLİ’nin ve/veya EK KART HAMİLİ’nin birbirini takip eden iki dönem Hesap Özeti’nde belirtilen Asgari Tutar’ı son ödeme gününde kısmen veya tamamen ödemeyerek gecikmeye düşmesi halinde, BANKA, kalan tüm borcun ifasını talep etme ve KART HAMİLİ aleyhine yasal işlemlere başlama hakkına sahiptir. Muacceliyet İhtarnamesi sonrasında BANKA tarafından Hesap Özeti düzenlenmesi, İhtarnamede yer alan borcun sona erdiği anlamına gelmemektedir. İhtarname sonrasında düzenlenen Hesap Özetinde yer alan Son Ödeme Tarihi henüz geçmemiş olsa dahi gecikme gün sayısının 90 günü geçmesi halinde, Kredilerin Sınıflandırılması ve Bunlar İçin Ayrılacak Karşılıklara İlişkin Usul ve Esaslar Hakkında Yönetmelik gereği kredi kartı yasal takip hesaplarına alınacak, bu durum Banka tarafından ilgili resmi kurumlara bildirilecek ve kart hamili hakkında yasal takip işlemleri başlatılabilecektir.",
+    "scope": [
+      "fees_disclosure",
+      "refund_procedures",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "text_for_embedding": "KART HAMİLİ’nin ve/veya EK KART HAMİLİ’nin birbirini takip eden iki dönem Hesap Özeti’nde belirtilen Asgari Tutar’ı son ödeme gününde kısmen veya tamamen ödemeyerek gecikmeye düşmesi halinde, BANKA, kalan tüm borcun ifasını talep etme ve KART HAMİLİ aleyhine yasal işlemlere başlama hakkına sahiptir. Muacceliyet İhtarnamesi sonrasında BANKA tarafından Hesap Özeti düzenlenmesi, İhtarnamede yer alan borcun sona erdiği anlamına gelmemektedir. İhtarname sonrasında düzenlenen Hesap Özetinde yer alan Son Ödeme Tarihi henüz geçmemiş olsa dahi gecikme gün sayısının 90 günü geçmesi halinde, Kredilerin Sınıflandırılması ve Bunlar İçin Ayrılacak Karşılıklara İlişkin Usul ve Esaslar Hakkında Yönetmelik gereği kredi kartı yasal takip hesaplarına alınacak, bu durum Banka tarafından ilgili resmi kurumlara bildirilecek ve kart hamili hakkında yasal takip işlemleri başlatılabilecektir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c6",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 42,
+    "para_end": 46,
+    "text": "KART HAMİLİ ve Sözleşme’de imzası bulunan diğer sorumlular, alacağın muaccel olduğu/ödenmesinin gerektiği tarihten itibaren KART’ın kat edildiği tarihteki Merkez Bankası tarafından yayınlanan Kredi Kart işlemlerinde uygulanacak Azami Gecikme Faizi ve faizin gider vergisini, komisyon, ücretler vb.’ni ödemeyi kabul ve taahhüt ederler. Uygulanacak akdi ve gecikme faiz oranları T.C. Merkez Bankası tarafından belirlenen azami oranların üstünde olmayacaktır. Bileşik faiz uygulanmayacaktır.",
+    "scope": [
+      "fees_disclosure",
+      "refund_procedures",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "text_for_embedding": "KART HAMİLİ ve Sözleşme’de imzası bulunan diğer sorumlular, alacağın muaccel olduğu/ödenmesinin gerektiği tarihten itibaren KART’ın kat edildiği tarihteki Merkez Bankası tarafından yayınlanan Kredi Kart işlemlerinde uygulanacak Azami Gecikme Faizi ve faizin gider vergisini, komisyon, ücretler vb.’ni ödemeyi kabul ve taahhüt ederler. Uygulanacak akdi ve gecikme faiz oranları T.C. Merkez Bankası tarafından belirlenen azami oranların üstünde olmayacaktır. Bileşik faiz uygulanmayacaktır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c7",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 42,
+    "para_end": 46,
+    "text": "İşbu Sözleşme’den doğan borçlarının tahsili konusunda KART HAMİLİ ve/veya EK KART HAMİLİ ve kefiller aleyhine dava veya icra takibine başvurulduğu takdirde ve BANKA’nın haklı çıkmış olması şartıyla bütün dava ve icra harç ve masrafları, ihtarname masrafı yanı sıra Avukatlık Asgari Ücret Tarifesi’ne göre hesaplanacak avukatlık ücreti ve bunun gider vergisini icraca tahsilatta BANKA’nın ödeyeceği cezaevi harcını da ödemeyi kabul ve taahhüt ederler. Kart Hamili ve/veya EK KART HAMİLİ ve kefiller, Banka’nın ihtiyati tedbir veya ihtiyati haciz talebinde bulunması halinde teminat yatırmamasını kabul eder. Ancak KART HAMİLLERİ ve kefiller yetkili makamlarca teminat istenildiği takdirde diğer bankalardan alınacak teminat mektuplarından doğacak komisyonların kendileri tarafından ödeneceğini kabul ve taahhüt ederler.",
+    "scope": [
+      "fees_disclosure",
+      "refund_procedures",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "text_for_embedding": "İşbu Sözleşme’den doğan borçlarının tahsili konusunda KART HAMİLİ ve/veya EK KART HAMİLİ ve kefiller aleyhine dava veya icra takibine başvurulduğu takdirde ve BANKA’nın haklı çıkmış olması şartıyla bütün dava ve icra harç ve masrafları, ihtarname masrafı yanı sıra Avukatlık Asgari Ücret Tarifesi’ne göre hesaplanacak avukatlık ücreti ve bunun gider vergisini icraca tahsilatta BANKA’nın ödeyeceği cezaevi harcını da ödemeyi kabul ve taahhüt ederler. Kart Hamili ve/veya EK KART HAMİLİ ve kefiller, Banka’nın ihtiyati tedbir veya ihtiyati haciz talebinde bulunması halinde teminat yatırmamasını kabul eder. Ancak KART HAMİLLERİ ve kefiller yetkili makamlarca teminat istenildiği takdirde diğer bankalardan alınacak teminat mektuplarından doğacak komisyonların kendileri tarafından ödeneceğini kabul ve taahhüt ederler."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c8",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 42,
+    "para_end": 46,
+    "text": "Aynı durum Sözleşme’nin herhangi bir nedenden dolayı feshi, kredi değerliğini yitirme veya Kredi Kartı’nın iptali durumunda da geçerlidir. Bankanın Taksitli ve Vade Farklı satışlar için yetki verdiği bir veya birden fazla Üye iş yeri ile arasında mevcut olan sözleşmenin feshi durumunda, KART HAMİLLERİ o Üye iş yeri/Üye iş yerlerinden Taksitli veya Vade Farklı işlem yapmayı talep edemez. Banka, KART borcunuzun teminatı için adi kefalet, rehin, alacak temliki, garanti vb. teminatlar talep edebilir. Alacaklarınıza ilişkin verilen şahsi teminatlar kanunlarda aksine hüküm yoksa müteselsil kefalet sayılır. Borcun ödenmemesi halinde BANKA, işbu teminatlara başvurarak alacağını tahsil edebilir. Teminat ile güvenceye alınan borcun tamamen ödenmesi ve kredi ilişkisinin sona ermesi halinde kefiller ile rehin verenlerin hakları ayrık kalmak üzere, teminat iade edilir Borçlu dışında 3.",
+    "scope": [
+      "fees_disclosure",
+      "refund_procedures",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "text_for_embedding": "Aynı durum Sözleşme’nin herhangi bir nedenden dolayı feshi, kredi değerliğini yitirme veya Kredi Kartı’nın iptali durumunda da geçerlidir. Bankanın Taksitli ve Vade Farklı satışlar için yetki verdiği bir veya birden fazla Üye iş yeri ile arasında mevcut olan sözleşmenin feshi durumunda, KART HAMİLLERİ o Üye iş yeri/Üye iş yerlerinden Taksitli veya Vade Farklı işlem yapmayı talep edemez. Banka, KART borcunuzun teminatı için adi kefalet, rehin, alacak temliki, garanti vb. teminatlar talep edebilir. Alacaklarınıza ilişkin verilen şahsi teminatlar kanunlarda aksine hüküm yoksa müteselsil kefalet sayılır. Borcun ödenmemesi halinde BANKA, işbu teminatlara başvurarak alacağını tahsil edebilir. Teminat ile güvenceye alınan borcun tamamen ödenmesi ve kredi ilişkisinin sona ermesi halinde kefiller ile rehin verenlerin hakları ayrık kalmak üzere, teminat iade edilir Borçlu dışında 3."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c9",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 42,
+    "para_end": 46,
+    "text": "şahıslardan bir teminat alınır ise bu teminatın hangi krediye istinaden alındığı ilgili teminat sözleşmesinde belirtilecektir.",
+    "scope": [
+      "fees_disclosure",
+      "refund_procedures",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+    "text_for_embedding": "şahıslardan bir teminat alınır ise bu teminatın hangi krediye istinaden alındığı ilgili teminat sözleşmesinde belirtilecektir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_14__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_14",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 47,
+    "para_end": 48,
+    "text": "BANKA, ancak yazılı ve BANKA’nın Telefon Bankacılığı kanalı ile yapacağı sözlü bildirimin BANKA’ya ulaşmasından sonra kartı geçersiz kılacak işlemleri başlatabilecektir. Kredi Kartı Hamilleri’nin bu bildirimin BANKA’ya ulaştığı tarihe kadar yapılmış olan harcama ve nakit çekmelerden kaynaklanan borçtan doğan sorumlulukları devam eder. Kredi Kart Hamilleri, elektronik ortamda yapacakları alışverişler veya BANKA’nın internet hizmeti sunması sırasında herhangi bir zamanda oluşabilecek arıza vb. teknik sebepler ile bu hizmetlerin sunulmasına ara veya son verilmesinden yahut hizmetin kesintiye uğramasından, keza yazılım ve donanım veya internet sunucusundan kaynaklanan aksaklıklar nedeniyle doğacak zararlardan BANKA’nın kusuru olmaması kaydıyla sorumlu olmayacağını kabul ve beyan ederler.",
+    "scope": [
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_14",
+    "text_for_embedding": "BANKA, ancak yazılı ve BANKA’nın Telefon Bankacılığı kanalı ile yapacağı sözlü bildirimin BANKA’ya ulaşmasından sonra kartı geçersiz kılacak işlemleri başlatabilecektir. Kredi Kartı Hamilleri’nin bu bildirimin BANKA’ya ulaştığı tarihe kadar yapılmış olan harcama ve nakit çekmelerden kaynaklanan borçtan doğan sorumlulukları devam eder. Kredi Kart Hamilleri, elektronik ortamda yapacakları alışverişler veya BANKA’nın internet hizmeti sunması sırasında herhangi bir zamanda oluşabilecek arıza vb. teknik sebepler ile bu hizmetlerin sunulmasına ara veya son verilmesinden yahut hizmetin kesintiye uğramasından, keza yazılım ve donanım veya internet sunucusundan kaynaklanan aksaklıklar nedeniyle doğacak zararlardan BANKA’nın kusuru olmaması kaydıyla sorumlu olmayacağını kabul ve beyan ederler."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_14__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_14",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 47,
+    "para_end": 48,
+    "text": "KART HAMİLİ, KART’ın kullanımı sonucu kendilerine verilecek ödüller nedeni ile doğacak her türlü vergi ve harçların kendisine ait olduğunu ve BANKA’nın bu tutarları KART’ına borç kaydetmeye yetkili olduğunu kabul ve beyan eder. KART HAMİLİ’nin asgari ödeme tutarını Son Ödeme Günü’nde ödememesi veya BANKA’nın, KART HAMİLİ’nin kusuru nedeni ile herhangi bir sebeple hesabı kapatarak KART’ı iptal etmesi durumunda, kazanılmış olan ödüller kullanılamaz.",
+    "scope": [
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_14",
+    "text_for_embedding": "KART HAMİLİ, KART’ın kullanımı sonucu kendilerine verilecek ödüller nedeni ile doğacak her türlü vergi ve harçların kendisine ait olduğunu ve BANKA’nın bu tutarları KART’ına borç kaydetmeye yetkili olduğunu kabul ve beyan eder. KART HAMİLİ’nin asgari ödeme tutarını Son Ödeme Günü’nde ödememesi veya BANKA’nın, KART HAMİLİ’nin kusuru nedeni ile herhangi bir sebeple hesabı kapatarak KART’ı iptal etmesi durumunda, kazanılmış olan ödüller kullanılamaz."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_15__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_15",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 49,
+    "para_end": 49,
+    "text": "Kart, belirli bir iş yerinde ya da belirli bir marka mal/hizmet alımı şartıyla verilmeyip uluslararası kart kuruluşları nın düzenlemelerine tabi olduğundan, BANKA; Kart ile alınacak mal veya hizmetlerin cinsi, niteliği, içeriği, miktarı, bedeli, garantisi, nakli, taksit tutarı ve sayısı, ayıplı çıkması, iptali, iadesi ve sair konularda anlaşmazlık olduğu takdirde herhangi bir sorumluluk kabul etmediği gibi aracı ve taraftar da değildir ve bu konuda herhangi bir araştırma yapmak yada garanti vermekle de yükümlü tutulamaz. Banka mal ya da hizmet alımından doğacak uyuşmazlıklardan, mal ya da hizmetin ayıbından, hiç ya da gereği gibi ifa/teslim edilmemesinden sorumlu değildir. Bu nedenlere dayalı olarak Bankaya karşı bu Sözleşme’den doğan borçların ödenmesi aksatılamaz ya da savunma olarak Bankaya karşı ileri sürülemez.",
+    "scope": [
+      "refund_procedures",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_15",
+    "text_for_embedding": "Kart, belirli bir iş yerinde ya da belirli bir marka mal/hizmet alımı şartıyla verilmeyip uluslararası kart kuruluşları nın düzenlemelerine tabi olduğundan, BANKA; Kart ile alınacak mal veya hizmetlerin cinsi, niteliği, içeriği, miktarı, bedeli, garantisi, nakli, taksit tutarı ve sayısı, ayıplı çıkması, iptali, iadesi ve sair konularda anlaşmazlık olduğu takdirde herhangi bir sorumluluk kabul etmediği gibi aracı ve taraftar da değildir ve bu konuda herhangi bir araştırma yapmak yada garanti vermekle de yükümlü tutulamaz. Banka mal ya da hizmet alımından doğacak uyuşmazlıklardan, mal ya da hizmetin ayıbından, hiç ya da gereği gibi ifa/teslim edilmemesinden sorumlu değildir. Bu nedenlere dayalı olarak Bankaya karşı bu Sözleşme’den doğan borçların ödenmesi aksatılamaz ya da savunma olarak Bankaya karşı ileri sürülemez."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_16__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_16",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 50,
+    "para_end": 50,
+    "text": "BANKA, tüm hak ve borçları ile birlikte işbu Sözleşme’yi veya KART HAMİLİ’nden olan alacaklarını üçüncü kişilere temlik edebilir, bu Sözleşme’den kaynaklanan tüm hak ve alacaklarını bir başka kuruluşa devredebilir ve rehnedebilir, ileride yetki vereceği başka bir kuruluş vasıtasıyla KART işlemlerini yürütebilir.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_16",
+    "text_for_embedding": "BANKA, tüm hak ve borçları ile birlikte işbu Sözleşme’yi veya KART HAMİLİ’nden olan alacaklarını üçüncü kişilere temlik edebilir, bu Sözleşme’den kaynaklanan tüm hak ve alacaklarını bir başka kuruluşa devredebilir ve rehnedebilir, ileride yetki vereceği başka bir kuruluş vasıtasıyla KART işlemlerini yürütebilir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_17__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_17",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 51,
+    "para_end": 53,
+    "text": "KART HAMİLİ ve/veya EK KART HAMİLİ, BANKA’ya karşı doğmuş ve doğacak tüm borçlar için BANKA’nın merkez ve tüm şubelerinde mevcut olan ve olabilecek her türlü hak ve alacakları, mevduat hesapları, bloke POS bedelleri, döviz tevdiat hesapları, bloke hesapları üzerinde BANKA lehine rehin hakkı tesis ettiğini, herhangi bir şekilde BANKA nezdinde bulunabilecek her türlü kıymetli evrak, kıymetli madenler ve Sermaye Piyasası Kurumu Türev Araçları üzerinde BANKA’nın rehin ve hapis hakkı olduğunu, BANKA’nın ihbarda bulunmadan BANKA’da mevcut her türlü alacakları, Destek Hesap (KMH) dâhil her türlü hesapları veya tahsil edilen kıymetli evrak bedelleri ile takas ve mahsup hakkının olduğunu, KART HAMİLİ ve/veya EK KART HAMİLİ tarafından yapılan ödemelerin mahsubunda BANKA’nın Borçlar Kanunu’na göre uygulama yapma yetkisi bulunduğunu ve yine BANKA’nın, lehine gelmiş olan havaleleri ihbarda bulunmadan adına kabul etmeye yetkili olduğunu kabul eder.",
+    "scope": [
+      "fees_disclosure",
+      "account_management",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_17",
+    "text_for_embedding": "KART HAMİLİ ve/veya EK KART HAMİLİ, BANKA’ya karşı doğmuş ve doğacak tüm borçlar için BANKA’nın merkez ve tüm şubelerinde mevcut olan ve olabilecek her türlü hak ve alacakları, mevduat hesapları, bloke POS bedelleri, döviz tevdiat hesapları, bloke hesapları üzerinde BANKA lehine rehin hakkı tesis ettiğini, herhangi bir şekilde BANKA nezdinde bulunabilecek her türlü kıymetli evrak, kıymetli madenler ve Sermaye Piyasası Kurumu Türev Araçları üzerinde BANKA’nın rehin ve hapis hakkı olduğunu, BANKA’nın ihbarda bulunmadan BANKA’da mevcut her türlü alacakları, Destek Hesap (KMH) dâhil her türlü hesapları veya tahsil edilen kıymetli evrak bedelleri ile takas ve mahsup hakkının olduğunu, KART HAMİLİ ve/veya EK KART HAMİLİ tarafından yapılan ödemelerin mahsubunda BANKA’nın Borçlar Kanunu’na göre uygulama yapma yetkisi bulunduğunu ve yine BANKA’nın, lehine gelmiş olan havaleleri ihbarda bulunmadan adına kabul etmeye yetkili olduğunu kabul eder."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_17__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_17",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 51,
+    "para_end": 53,
+    "text": "KART HAMİLİ ve/veya EK KART HAMİLİ’nin BANKA tarafından hesaplanan borca ve hesaplama yöntemine itirazı ödemeyi durdurmaz. KART HAMİLLERİ’nin Banka personeli olması halinde Banka’dan aldıkları her türlü maaş, ücret, ikramiye, prim, ihbar veya kıdem tazminatı, izin ücreti vs. olmak üzere yukarıda sayılan türden her türlü hak ve alacağının Banka lehine rehinli olduğunu kabul ile BANKA’nın hapis ve mahsup hakkına sahip olduğunu kabul ederler.",
+    "scope": [
+      "fees_disclosure",
+      "account_management",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_17",
+    "text_for_embedding": "KART HAMİLİ ve/veya EK KART HAMİLİ’nin BANKA tarafından hesaplanan borca ve hesaplama yöntemine itirazı ödemeyi durdurmaz. KART HAMİLLERİ’nin Banka personeli olması halinde Banka’dan aldıkları her türlü maaş, ücret, ikramiye, prim, ihbar veya kıdem tazminatı, izin ücreti vs. olmak üzere yukarıda sayılan türden her türlü hak ve alacağının Banka lehine rehinli olduğunu kabul ile BANKA’nın hapis ve mahsup hakkına sahip olduğunu kabul ederler."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 54,
+    "para_end": 57,
+    "text": "KART HAMİLİ ve/veya EK KART HAMİLİ BANKA’ca belirlenecek tutarda, her yıl üyelik aidatlarını (Kart ve/veya Ek Kart Yenileme Ücreti) ödemeyi peşinen kabul ve taahhüt eder. Bir takvim yılı içerisinde kayıp, çalıntı ve benzeri nedenler dolayısıyla gerçekleştirilen iki adede kadar kart yenileme karşılığında ücret alınmayacak olup ikiden fazla kart yenilemelerinde yenileme ücreti alınacaktır KART HAMİLLERİ’nden Sözleşme’de yer alan ücret, komisyon, masraf ve vergiler dışında herhangi bir isim altında ödeme talep edilmeyecek ve hesabından kesinti yapılmayacaktır.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18",
+    "text_for_embedding": "KART HAMİLİ ve/veya EK KART HAMİLİ BANKA’ca belirlenecek tutarda, her yıl üyelik aidatlarını (Kart ve/veya Ek Kart Yenileme Ücreti) ödemeyi peşinen kabul ve taahhüt eder. Bir takvim yılı içerisinde kayıp, çalıntı ve benzeri nedenler dolayısıyla gerçekleştirilen iki adede kadar kart yenileme karşılığında ücret alınmayacak olup ikiden fazla kart yenilemelerinde yenileme ücreti alınacaktır KART HAMİLLERİ’nden Sözleşme’de yer alan ücret, komisyon, masraf ve vergiler dışında herhangi bir isim altında ödeme talep edilmeyecek ve hesabından kesinti yapılmayacaktır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 54,
+    "para_end": 57,
+    "text": "Uygulanacak tutar ve oranlar şöyledir: Bonus Card 840 TL (Ek Kart: 420 TL), Bonus Plus Card 970 TL (Ek Kart: 485 TL), Bonus Premium Card 970 TL (Ek Kart: 485 TL), Bonus Gold Card 970 TL (Ek kart: 485 TL) Bonus Platinum Card 1.090 TL (Ek Kart: 545 TL), Özel Bankacılık Kredi Kartı 1.090 TL (Ek Kart: 545 TL), Pegasus BolBol Classic Kart 480 TL (Ek Kart: 240 TL), Pegasus BolBol Premium Kart 1.320 TL’dir (Ek Kart: 660 TL). BSMV dahil. Nakit çekim işlemlerinde yurt içinde uygulanacak ücret, çekilen kredi tutarının %1’i, yurt içi diğer bankalarda %3,5+0,50 TL, yurt dışında ise %1 olarak uygulanmaktadır. Ayrıca; Kredi Kartı İşlemleri Akdi Faizi: Dönem borcunuz 25.000 TL altında ise aylık %3,50, 25.000- 150.000 TL arası ise aylık %4,00, 150.000 TL üzeri ise aylık %4,50’dir.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18",
+    "text_for_embedding": "Uygulanacak tutar ve oranlar şöyledir: Bonus Card 840 TL (Ek Kart: 420 TL), Bonus Plus Card 970 TL (Ek Kart: 485 TL), Bonus Premium Card 970 TL (Ek Kart: 485 TL), Bonus Gold Card 970 TL (Ek kart: 485 TL) Bonus Platinum Card 1.090 TL (Ek Kart: 545 TL), Özel Bankacılık Kredi Kartı 1.090 TL (Ek Kart: 545 TL), Pegasus BolBol Classic Kart 480 TL (Ek Kart: 240 TL), Pegasus BolBol Premium Kart 1.320 TL’dir (Ek Kart: 660 TL). BSMV dahil. Nakit çekim işlemlerinde yurt içinde uygulanacak ücret, çekilen kredi tutarının %1’i, yurt içi diğer bankalarda %3,5+0,50 TL, yurt dışında ise %1 olarak uygulanmaktadır. Ayrıca; Kredi Kartı İşlemleri Akdi Faizi: Dönem borcunuz 25.000 TL altında ise aylık %3,50, 25.000- 150.000 TL arası ise aylık %4,00, 150.000 TL üzeri ise aylık %4,50’dir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c3",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 54,
+    "para_end": 57,
+    "text": "Kredi Kartı İşlemleri Gecikme Faizi: Dönem borcunuz 25.000 TL altında ise aylık %3,80, 25.000-150.000 TL arası ise aylık %4,30, 150.000 TL üzeri ise aylık %4,80’dir. Kredi Kartı Nakit ve Taksitli Avans Faizi: %4,75, Kredi Kartı Nakit ve Taksitli Avans Gecikme Faizi: %5,05’tir. Limit Aşım Faizi olarak ise Kredi Kartı İşlemleri Akdi Faizi uygulanır. Yıllık efektif faiz oranı; sözleşmenin imzalandığı tarihte TCMB tarafından yayınlanan azami faiz oranı x 12’dir. (KKDF ve BSMV hariç) Uygulanacak oranlar ing.com.tr internet sitesinde yer alır. TCMB’nin belirlediği ve açıklayacağı oranlarda değişiklik gerçekleşecektir. Taksitli Avans İşlemlerinde, çekilen taksitli avans tutarına kullandırılan tüm vadelerde %5,00 faiz oranı yansıtılacaktır.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18",
+    "text_for_embedding": "Kredi Kartı İşlemleri Gecikme Faizi: Dönem borcunuz 25.000 TL altında ise aylık %3,80, 25.000-150.000 TL arası ise aylık %4,30, 150.000 TL üzeri ise aylık %4,80’dir. Kredi Kartı Nakit ve Taksitli Avans Faizi: %4,75, Kredi Kartı Nakit ve Taksitli Avans Gecikme Faizi: %5,05’tir. Limit Aşım Faizi olarak ise Kredi Kartı İşlemleri Akdi Faizi uygulanır. Yıllık efektif faiz oranı; sözleşmenin imzalandığı tarihte TCMB tarafından yayınlanan azami faiz oranı x 12’dir. (KKDF ve BSMV hariç) Uygulanacak oranlar ing.com.tr internet sitesinde yer alır. TCMB’nin belirlediği ve açıklayacağı oranlarda değişiklik gerçekleşecektir. Taksitli Avans İşlemlerinde, çekilen taksitli avans tutarına kullandırılan tüm vadelerde %5,00 faiz oranı yansıtılacaktır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c4",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 54,
+    "para_end": 57,
+    "text": "(Bu orana KKDF ve BSMV dahil değildir.) Kredi kartından EFT yoluyla yapılacak Borç Transferi için 3-6 ay vadelerde uygulanacak net faiz oranları Taksitli Avans faiz oranları ile aynıdır. Borç transferi işlemlerinde, havale/EFT yansıtılacaktır. (Bu orana KKDF ve BSMV dahil değildir.) Kart Hamilleri, Bankanın yukarıdaki faiz ve ücretlerin oran miktar ve asgari tutarlarını belirlemeye, artırıp eksiltmeye tek taraflı yetkili olduğunu, bunlarda yapılacak değişikliklerin Hesap Özeti veya Kredi Kartı Bilgilendirme Formu’nda belirtilen şekiller ile bildirileceğini kabul ederler. KART HAMİLİ talep etmek suretiyle kartı iptal ettirmek ve Sözleşme’yi feshetmek hakkına sahiptir. Kartın iptal edilmesine ve Sözleşme’nin feshine ilişkin KART HAMİLİ’nce yapılan talebin en geç 7 gün içinde BANKA tarafından yerine getirilmesi zorunludur.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18",
+    "text_for_embedding": "(Bu orana KKDF ve BSMV dahil değildir.) Kredi kartından EFT yoluyla yapılacak Borç Transferi için 3-6 ay vadelerde uygulanacak net faiz oranları Taksitli Avans faiz oranları ile aynıdır. Borç transferi işlemlerinde, havale/EFT yansıtılacaktır. (Bu orana KKDF ve BSMV dahil değildir.) Kart Hamilleri, Bankanın yukarıdaki faiz ve ücretlerin oran miktar ve asgari tutarlarını belirlemeye, artırıp eksiltmeye tek taraflı yetkili olduğunu, bunlarda yapılacak değişikliklerin Hesap Özeti veya Kredi Kartı Bilgilendirme Formu’nda belirtilen şekiller ile bildirileceğini kabul ederler. KART HAMİLİ talep etmek suretiyle kartı iptal ettirmek ve Sözleşme’yi feshetmek hakkına sahiptir. Kartın iptal edilmesine ve Sözleşme’nin feshine ilişkin KART HAMİLİ’nce yapılan talebin en geç 7 gün içinde BANKA tarafından yerine getirilmesi zorunludur."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c5",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 54,
+    "para_end": 57,
+    "text": "İşbu maddede belirtilen oran ve tutarlar güncel tutarlara göre süreç içerisinde Banka tarafından değiştirilebilir.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18",
+    "text_for_embedding": "İşbu maddede belirtilen oran ve tutarlar güncel tutarlara göre süreç içerisinde Banka tarafından değiştirilebilir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_19__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_19",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 58,
+    "para_end": 58,
+    "text": "KART HAMİLİ herhangi bir zamanda ücretsiz olarak, en geç 1 ay öncesinden Bankaya bildirimde bulunarak Sözleşme’yi feshedebilir. Banka da dilediği zaman KART HAMİLİ’ne en geç 2 ay önceden bildirimde bulunarak Sözleşme’yi feshedebilir. Şu kadar ki; haklı nedenlerin varlığı halinde Bankanın bildirim süresini beklemeksizin Sözleşme’yi fesih hakkı saklıdır. İşbu halde Banka KART HAMİLİ’ni mümkün olması halinde fesihten önce veya en geç fesihten hemen sonra, fesih ve nedenleri hakkında bilgilendirir. İşbu madde kapsamında yapılacak bildirimler yazılı veya kalıcı veri saklayıcısı ile yapılabilir.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_19",
+    "text_for_embedding": "KART HAMİLİ herhangi bir zamanda ücretsiz olarak, en geç 1 ay öncesinden Bankaya bildirimde bulunarak Sözleşme’yi feshedebilir. Banka da dilediği zaman KART HAMİLİ’ne en geç 2 ay önceden bildirimde bulunarak Sözleşme’yi feshedebilir. Şu kadar ki; haklı nedenlerin varlığı halinde Bankanın bildirim süresini beklemeksizin Sözleşme’yi fesih hakkı saklıdır. İşbu halde Banka KART HAMİLİ’ni mümkün olması halinde fesihten önce veya en geç fesihten hemen sonra, fesih ve nedenleri hakkında bilgilendirir. İşbu madde kapsamında yapılacak bildirimler yazılı veya kalıcı veri saklayıcısı ile yapılabilir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_20__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_20",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 59,
+    "para_end": 59,
+    "text": "TKHK, 5464 sayılı Banka Kartları ve Kredi Kartları Kanunu ve kredi kartlarına ilişkin sair ilgili mevzuata uygun olması kaydıyla, Banka Kart Hamili’ne talebine istinaden Kartta Kredi ürünü ile kredi kartı alışveriş limitinden ayrı olarak bir kredi kartı limiti tanımlayabilir.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_20",
+    "text_for_embedding": "TKHK, 5464 sayılı Banka Kartları ve Kredi Kartları Kanunu ve kredi kartlarına ilişkin sair ilgili mevzuata uygun olması kaydıyla, Banka Kart Hamili’ne talebine istinaden Kartta Kredi ürünü ile kredi kartı alışveriş limitinden ayrı olarak bir kredi kartı limiti tanımlayabilir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_21__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_21",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 60,
+    "para_end": 62,
+    "text": "Banka’nın Kart’a bağlı düzenleyeceği promosyonlar, işbu Sözleşme’nin ayrılmaz parçası olup Kart Hamili/ Ek Kart Hamili; bu promosyon şartlarına uyacaklarını ve gerek bu promosyonlar, gerekse kartın kullanımı ya da bulundurulması neticesinde kazandıkları bonusların/ödüllerin/promosyonların kullanımı için Kart’larının, Banka’ya olan borçları veya Sözleşme’ye aykırı kullanımı nedeniyle Banka tarafından veya kendi talepleri üzerine kullanım dışı bırakılmamış/iptal edilmemiş olması gerektiğini, aksi takdirde ödüllerin kullanılmayan kısmı üzerinde herhangi bir tasarrufta bulunamayacağını ve kapatılan/iptal edilen Banka ve Kredi kartları üzerinde biriken bonusların/ ödüllerin/promosyonların Banka tarafından, Müşteri’ye bildirimde bulunularak her bir takvim yılı sonunda silineceğini kabul ve taahhüt ederler.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_21",
+    "text_for_embedding": "Banka’nın Kart’a bağlı düzenleyeceği promosyonlar, işbu Sözleşme’nin ayrılmaz parçası olup Kart Hamili/ Ek Kart Hamili; bu promosyon şartlarına uyacaklarını ve gerek bu promosyonlar, gerekse kartın kullanımı ya da bulundurulması neticesinde kazandıkları bonusların/ödüllerin/promosyonların kullanımı için Kart’larının, Banka’ya olan borçları veya Sözleşme’ye aykırı kullanımı nedeniyle Banka tarafından veya kendi talepleri üzerine kullanım dışı bırakılmamış/iptal edilmemiş olması gerektiğini, aksi takdirde ödüllerin kullanılmayan kısmı üzerinde herhangi bir tasarrufta bulunamayacağını ve kapatılan/iptal edilen Banka ve Kredi kartları üzerinde biriken bonusların/ ödüllerin/promosyonların Banka tarafından, Müşteri’ye bildirimde bulunularak her bir takvim yılı sonunda silineceğini kabul ve taahhüt ederler."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_21__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_21",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 60,
+    "para_end": 62,
+    "text": "Ayrıca Banka, bir takvim yılı içerisinde kullanılmayan ödül ve bonusları kartın kapalı veya açık olmasına bağlı olmaksızın, Müşteri’ye önceden bildirimde bulunarak bunlara ilişkin son kullanım tarihi belirleyebilecek ve geri alabilecektir. Kart Hamili ve Ek Kart Hamili, nakit çekimi veya bu Sözleşme gereğince nakit çekimi hükmünde olan işlemler için ödül kazanamayacaklardır. Hangi tip kullanımların ödül kazandırıcı kullanım olduğunu belirleme yetkisinin Banka’da bulunduğunu, Banka’ca herhangi bir faiz tahakkuk ettirmeksizin gerçekleştirecekleri taksitli mal ve hizmet alımlarında ödülün, her bir taksit/ödeme vadesinde kazanılabileceğini kabul ve beyan ederler.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_21",
+    "text_for_embedding": "Ayrıca Banka, bir takvim yılı içerisinde kullanılmayan ödül ve bonusları kartın kapalı veya açık olmasına bağlı olmaksızın, Müşteri’ye önceden bildirimde bulunarak bunlara ilişkin son kullanım tarihi belirleyebilecek ve geri alabilecektir. Kart Hamili ve Ek Kart Hamili, nakit çekimi veya bu Sözleşme gereğince nakit çekimi hükmünde olan işlemler için ödül kazanamayacaklardır. Hangi tip kullanımların ödül kazandırıcı kullanım olduğunu belirleme yetkisinin Banka’da bulunduğunu, Banka’ca herhangi bir faiz tahakkuk ettirmeksizin gerçekleştirecekleri taksitli mal ve hizmet alımlarında ödülün, her bir taksit/ödeme vadesinde kazanılabileceğini kabul ve beyan ederler."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_22__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_22",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 63,
+    "para_end": 63,
+    "text": "BANKA, KART HAMİLİ’nin ölümü, iflası, kısıtlanması, aleyhinde icra takibi başlatılması, işbu Sözleşme’nin hükümlerinden herhangi birini ihlal etmesi veya taraflar arasındaki diğer sözleşmelere aykırılık, kartın kullanılmasındaki aksaklıklar dahil, asgari ödenmesi gereken tutarın ödenmeyerek ilgili yasa gereği muacceliyet işlemine tabi tutulması, limitin aşılması ve bunun gibi BANKA alacağının geri ödenmesini ve Sözleşme’nin yürütülmesini zora sokacak sair objektif nedenler ile de Sözleşme’yi fesih ve bakiyeyi talep edebilir. KART HAMİLİ, yukarıda belirtilen nedenlerden dolayı Sözleşme’nin feshi durumunda ayrıca ihbara gerek olmaksızın tüm borçlarını derhal ve nakden ödemeyi ve bu Sözleşme’den doğan borçlarını gününde ödememeleri halinde BANKA’ca yasal takibe başvurulması halinde gecikme faizi, faizin gider vergisi, icra masrafları ve avukatlık ücretini ödemeyi kabul ve taahhüt eder.",
+    "scope": [
+      "fees_disclosure",
+      "refund_procedures",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_22",
+    "text_for_embedding": "BANKA, KART HAMİLİ’nin ölümü, iflası, kısıtlanması, aleyhinde icra takibi başlatılması, işbu Sözleşme’nin hükümlerinden herhangi birini ihlal etmesi veya taraflar arasındaki diğer sözleşmelere aykırılık, kartın kullanılmasındaki aksaklıklar dahil, asgari ödenmesi gereken tutarın ödenmeyerek ilgili yasa gereği muacceliyet işlemine tabi tutulması, limitin aşılması ve bunun gibi BANKA alacağının geri ödenmesini ve Sözleşme’nin yürütülmesini zora sokacak sair objektif nedenler ile de Sözleşme’yi fesih ve bakiyeyi talep edebilir. KART HAMİLİ, yukarıda belirtilen nedenlerden dolayı Sözleşme’nin feshi durumunda ayrıca ihbara gerek olmaksızın tüm borçlarını derhal ve nakden ödemeyi ve bu Sözleşme’den doğan borçlarını gününde ödememeleri halinde BANKA’ca yasal takibe başvurulması halinde gecikme faizi, faizin gider vergisi, icra masrafları ve avukatlık ücretini ödemeyi kabul ve taahhüt eder."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_22__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_22",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 63,
+    "para_end": 63,
+    "text": "Talep halinde KART HAMİLLİĞİ’nin sona ermesiyle, bu Sözleşme şartlarında KART HAMİLİ’nin ödeme yükümlülükleri doğrultusunda KART hesabı alacak bakiyesi veriyor ise kart üyeliğinin sona erişinden itibaren en geç iki ay içinde KART HAMİLİ’ne iade edilir. Asgari tutarın son ödeme tarihini takip eden üç ay içinde ödenmemesi durumunda BANKA tarafından KART HAMİLİ’ne yapılacak bildirimden itibaren bir aylık süre içerisinde bu tutarın ödenmemesi ya da Banka Kartı ile Kredi Kartı kullanımından dolayı adli cezaların uygulanması halinde, BANKA tarafından KART HAMİLİ’ne verilen Kredi Kartları iptal edilir ve borcun tamamı ödeninceye kadar yeni kredi kartı düzenlenmez.",
+    "scope": [
+      "fees_disclosure",
+      "refund_procedures",
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_22",
+    "text_for_embedding": "Talep halinde KART HAMİLLİĞİ’nin sona ermesiyle, bu Sözleşme şartlarında KART HAMİLİ’nin ödeme yükümlülükleri doğrultusunda KART hesabı alacak bakiyesi veriyor ise kart üyeliğinin sona erişinden itibaren en geç iki ay içinde KART HAMİLİ’ne iade edilir. Asgari tutarın son ödeme tarihini takip eden üç ay içinde ödenmemesi durumunda BANKA tarafından KART HAMİLİ’ne yapılacak bildirimden itibaren bir aylık süre içerisinde bu tutarın ödenmemesi ya da Banka Kartı ile Kredi Kartı kullanımından dolayı adli cezaların uygulanması halinde, BANKA tarafından KART HAMİLİ’ne verilen Kredi Kartları iptal edilir ve borcun tamamı ödeninceye kadar yeni kredi kartı düzenlenmez."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_23__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_23",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 64,
+    "para_end": 64,
+    "text": "BANKA, KART HAMİLİ’nin lehine olan değişiklikleri, taraflara herhangi bir ihbarda bulunmaksızın derhal Sözleşme’ye ilave etmeye ve uygulamaya yetkilidir. Akdi faiz oranı dışında Sözleşme’nin diğer şartlarında yapılacak değişiklikler Kart Hamili’ne 30 gün önceden hesap özetiyle, yazılı olarak veya kalıcı veri saklayıcısı ile bildirilir. Kartın kullanılmaya devam olunması halinde, Sözleşme’de meydana gelen değişikliklerin kabul edildiği varsayılır. Bu değişiklikleri kabul etmemesi halinde KART HAMİLİ’nin kartı iptal ederek sözleşmeyi fesih hakkı vardır. Faiz oranlarının artırılması durumunda ise bu değişikliğin hüküm ifade edebilmesi için otuz gün önceden KART HAMİLİ’ne bildirilmesi zorunludur. Değişiklikler, Hesap Özeti’nde en az on iki punto harfler kullanılarak belirtilir.",
+    "scope": [
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_23",
+    "text_for_embedding": "BANKA, KART HAMİLİ’nin lehine olan değişiklikleri, taraflara herhangi bir ihbarda bulunmaksızın derhal Sözleşme’ye ilave etmeye ve uygulamaya yetkilidir. Akdi faiz oranı dışında Sözleşme’nin diğer şartlarında yapılacak değişiklikler Kart Hamili’ne 30 gün önceden hesap özetiyle, yazılı olarak veya kalıcı veri saklayıcısı ile bildirilir. Kartın kullanılmaya devam olunması halinde, Sözleşme’de meydana gelen değişikliklerin kabul edildiği varsayılır. Bu değişiklikleri kabul etmemesi halinde KART HAMİLİ’nin kartı iptal ederek sözleşmeyi fesih hakkı vardır. Faiz oranlarının artırılması durumunda ise bu değişikliğin hüküm ifade edebilmesi için otuz gün önceden KART HAMİLİ’ne bildirilmesi zorunludur. Değişiklikler, Hesap Özeti’nde en az on iki punto harfler kullanılarak belirtilir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_23__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_23",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 64,
+    "para_end": 64,
+    "text": "KART HAMİLİ faiz artırımına ilişkin bildirim tarihinden itibaren en geç altmış gün içinde tüm borcunu ödeyip kredi kartını kullanmaya son verdiği takdirde faiz artışından etkilenmez. KART HAMİLİ talep etmek suretiyle kartı iptal ettirmek ve Sözleşme’yi feshetmek hakkına sahiptir.",
+    "scope": [
+      "credit_card",
+      "fees_calculation"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_23",
+    "text_for_embedding": "KART HAMİLİ faiz artırımına ilişkin bildirim tarihinden itibaren en geç altmış gün içinde tüm borcunu ödeyip kredi kartını kullanmaya son verdiği takdirde faiz artışından etkilenmez. KART HAMİLİ talep etmek suretiyle kartı iptal ettirmek ve Sözleşme’yi feshetmek hakkına sahiptir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_24__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_24",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 65,
+    "para_end": 65,
+    "text": "Borcu ödeyen kefiller ile rehin verenlerin halefiyetten doğan yasal hakları saklı kalmak kaydıyla borç ödendiğinde teminat iade edilecektir. Borcun teminatına kefalet alınması halinde, kefil için gecikme hali, Kart Hamili’nin borcunun kendisine bildirilmesi ile başlayacaktır. Kefalet 6098 sayılı Türk Borçlar Kanunu’nun adi kefalet hükümlerine tabi olup önce asıl borçluya başvurulup tüm tahsil yolları denenmeden kefilden borcun ödenmesi talep edilmeyecektir. İşbu Sözleşme hükümlerinde kefilin sorumluluğunu artıracak değişikliklerin ve kart limitindeki artışın kefil açısından geçerli olabilmesi kefilin yazılı onayına bağlıdır.",
+    "scope": [
+      "refund_procedures",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_24",
+    "text_for_embedding": "Borcu ödeyen kefiller ile rehin verenlerin halefiyetten doğan yasal hakları saklı kalmak kaydıyla borç ödendiğinde teminat iade edilecektir. Borcun teminatına kefalet alınması halinde, kefil için gecikme hali, Kart Hamili’nin borcunun kendisine bildirilmesi ile başlayacaktır. Kefalet 6098 sayılı Türk Borçlar Kanunu’nun adi kefalet hükümlerine tabi olup önce asıl borçluya başvurulup tüm tahsil yolları denenmeden kefilden borcun ödenmesi talep edilmeyecektir. İşbu Sözleşme hükümlerinde kefilin sorumluluğunu artıracak değişikliklerin ve kart limitindeki artışın kefil açısından geçerli olabilmesi kefilin yazılı onayına bağlıdır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_25__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_25",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 66,
+    "para_end": 66,
+    "text": "KART HAMİLİ ve/veya EK KART HAMİLİ, BANKA’nın haklı sebeple yetkili kuruluş ve mercilere haklarında bilgi vermesine rıza gösterir (muvafakat eder).",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_25",
+    "text_for_embedding": "KART HAMİLİ ve/veya EK KART HAMİLİ, BANKA’nın haklı sebeple yetkili kuruluş ve mercilere haklarında bilgi vermesine rıza gösterir (muvafakat eder)."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_26__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_26",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 67,
+    "para_end": 67,
+    "text": "KART HAMİLİ’nin gecikmeye düşmesi halinde veya diğer herhangi bir durumda BANKA’nın işbu şart ve koşullar ile sahip olduğu hak ve yetkileri kullanmaması, hiçbir şekilde bu hak ve yetkileri kullanmaktan feragat ettiği/vazgeçtiği anlamına gelmez.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_26",
+    "text_for_embedding": "KART HAMİLİ’nin gecikmeye düşmesi halinde veya diğer herhangi bir durumda BANKA’nın işbu şart ve koşullar ile sahip olduğu hak ve yetkileri kullanmaması, hiçbir şekilde bu hak ve yetkileri kullanmaktan feragat ettiği/vazgeçtiği anlamına gelmez."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_27__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_27",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 68,
+    "para_end": 68,
+    "text": "KART HAMİLİ’nin Hesap Özeti ile kendisine bildirilen borç ve alacak kayıtlarına ilişkin itiraz hakkı saklıdır. Ancak KART HAMİLİ, itirazlarını son ödeme tarihinden itibaren on gün içinde ve yazılı olarak KART’ını aldığı BANKA Genel Müdürlüğü Kart Hizmetleri Grubu’na (Banka’nın kurduğu Telefon Bankacılığı sistemine) veya Banka Şubesine yapacağını, daha sonraki itirazların kabul edilmeyeceğini beyan ve kabul eder. Bu halde Hesap Özeti İcra İflas Kanunu’nda belirtilen kesin belgelerden sayılır.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_27",
+    "text_for_embedding": "KART HAMİLİ’nin Hesap Özeti ile kendisine bildirilen borç ve alacak kayıtlarına ilişkin itiraz hakkı saklıdır. Ancak KART HAMİLİ, itirazlarını son ödeme tarihinden itibaren on gün içinde ve yazılı olarak KART’ını aldığı BANKA Genel Müdürlüğü Kart Hizmetleri Grubu’na (Banka’nın kurduğu Telefon Bankacılığı sistemine) veya Banka Şubesine yapacağını, daha sonraki itirazların kabul edilmeyeceğini beyan ve kabul eder. Bu halde Hesap Özeti İcra İflas Kanunu’nda belirtilen kesin belgelerden sayılır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_28__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_28",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 69,
+    "para_end": 69,
+    "text": "İşbu Sözleşme içinde geçen ve KART HAMİLLERİ’nin Kredi Kartı kullanımında imza atılmasını gerektiren tüm işlemlerde KART HAMİLLERİ’nce PIN pad aracılığı ile girilen şifre ile elektronik imza da atılabilecektir.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_28",
+    "text_for_embedding": "İşbu Sözleşme içinde geçen ve KART HAMİLLERİ’nin Kredi Kartı kullanımında imza atılmasını gerektiren tüm işlemlerde KART HAMİLLERİ’nce PIN pad aracılığı ile girilen şifre ile elektronik imza da atılabilecektir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_29__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_29",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 70,
+    "para_end": 71,
+    "text": "Kart Hamili, adresinde meydana gelen değişiklikleri, değişiklik tarihinden itibaren on beş gün içinde Banka’ya bildirmekle yükümlü olup adres değişikliğini söz konusu süre zarfında Banka’ya bildirmemesi halinde eski adresine yapılacak bildirimler geçerli olacaktır.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_29",
+    "text_for_embedding": "Kart Hamili, adresinde meydana gelen değişiklikleri, değişiklik tarihinden itibaren on beş gün içinde Banka’ya bildirmekle yükümlü olup adres değişikliğini söz konusu süre zarfında Banka’ya bildirmemesi halinde eski adresine yapılacak bildirimler geçerli olacaktır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_30__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_30",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 72,
+    "para_end": 72,
+    "text": "Kart Hamillerinden işbu Sözleşme’de yer alan ücret, komisyon, masraf ve vergiler dışında herhangi bir isim altında ödeme talep edilemeyecek ve hesabından kesinti yapılamayacaktır.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_30",
+    "text_for_embedding": "Kart Hamillerinden işbu Sözleşme’de yer alan ücret, komisyon, masraf ve vergiler dışında herhangi bir isim altında ödeme talep edilemeyecek ve hesabından kesinti yapılamayacaktır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_31__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_31",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 73,
+    "para_end": 73,
+    "text": "Kesintisiz olarak en az 180 gün süreyle hareket görmeyen KART hareketsiz kabul edilir. Hareketsiz kalınan müddetçe yıllık üyelik aidatı tahsil edilmeyecektir. Ancak Bankanın Bireysel Bankacılık Hizmetleri Sözleşmesi’nin Ortak Hükümler bölümünde düzenlenen yöntemlerle bildirimde bulunarak KART’ı kapatma hakkı da bulunmaktadır.",
+    "scope": [
+      "account_management",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_31",
+    "text_for_embedding": "Kesintisiz olarak en az 180 gün süreyle hareket görmeyen KART hareketsiz kabul edilir. Hareketsiz kalınan müddetçe yıllık üyelik aidatı tahsil edilmeyecektir. Ancak Bankanın Bireysel Bankacılık Hizmetleri Sözleşmesi’nin Ortak Hükümler bölümünde düzenlenen yöntemlerle bildirimde bulunarak KART’ı kapatma hakkı da bulunmaktadır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_32__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_32",
+    "unit_type": "section",
+    "doc_type": "contract",
+    "section_name": "GENEL HÜKÜMLER",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 74,
+    "para_end": 74,
+    "text": "Müşteri, sözleşme şartlarını edindiği tarihten itibaren 14 gün içinde aşağıda yer alan iletişim kanalları dahilinde Bankaya yazılı veya kalıcı veri saklayıcısıyla bildirerek sözleşmeden cayabilir. Krediden cayarsa, anapara ve kredi kullanım tarihinden geri ödeme tarihine kadar işleyecek akdi faizi (“Toplam Tutar”) cayma bildirimini göndermesinden itibaren en geç 30 gün içinde Bankaya ödemesi gerekir, aksi halde caymamış sayılır. Ödemeyi, “Cayma Sebebiyle Ödeme” açıklamasıyla yapar ve bu ödemenin cayma sebebiyle yapıldığını ve krediden mahsup edilebileceğini bankaya yazılı olarak veya Müşteri İletişim Merkezi’ni arayarak bildirir. Aksi takdirde ödemiş olduğu tutarın üzerine haciz/tedbir vb. sınırlamalar konması ve sair zararlardan Banka sorumlu olmayacaktır. Müşteri cayma hakkını kullanırsa, Bankanın bir kamu kurum/kuruluşuna/3.kişilere ödediği masraflar da müşteriden tahsil edilir.",
+    "scope": [
+      "refund_procedures",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "Heading 1"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_32",
+    "text_for_embedding": "Müşteri, sözleşme şartlarını edindiği tarihten itibaren 14 gün içinde aşağıda yer alan iletişim kanalları dahilinde Bankaya yazılı veya kalıcı veri saklayıcısıyla bildirerek sözleşmeden cayabilir. Krediden cayarsa, anapara ve kredi kullanım tarihinden geri ödeme tarihine kadar işleyecek akdi faizi (“Toplam Tutar”) cayma bildirimini göndermesinden itibaren en geç 30 gün içinde Bankaya ödemesi gerekir, aksi halde caymamış sayılır. Ödemeyi, “Cayma Sebebiyle Ödeme” açıklamasıyla yapar ve bu ödemenin cayma sebebiyle yapıldığını ve krediden mahsup edilebileceğini bankaya yazılı olarak veya Müşteri İletişim Merkezi’ni arayarak bildirir. Aksi takdirde ödemiş olduğu tutarın üzerine haciz/tedbir vb. sınırlamalar konması ve sair zararlardan Banka sorumlu olmayacaktır. Müşteri cayma hakkını kullanırsa, Bankanın bir kamu kurum/kuruluşuna/3.kişilere ödediği masraflar da müşteriden tahsil edilir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_33__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_33",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "Cayma Bildiriminin Yapılabileceği İletişim Bilgileri: Telefon Numarası: 0850 222 0 600 İnternet Sitesi: ing.com.tr",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 76,
+    "para_end": 76,
+    "text": "KART HAMİLİ’ne tahsis edilmiş olan bireysel kredi kartları bireysel kullanıma yöneliktir. Kredi Kartının ticari amaçlı olarak kullanıldığının, amaç dışı kullanıldığının veya gerçek olmayan (fiktif ) işlemlere konu edildiğinin Banka tarafından tespit edilmesi halinde, BANKA’nın söz konusu kartı kapatma ve/veya kart limitini ve/veya ticari harcamalardan kazanılan puan, promosyon ve benzeri faydaları iptal etme/geri alma hakkı bulunmaktadır.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_33",
+    "text_for_embedding": "KART HAMİLİ’ne tahsis edilmiş olan bireysel kredi kartları bireysel kullanıma yöneliktir. Kredi Kartının ticari amaçlı olarak kullanıldığının, amaç dışı kullanıldığının veya gerçek olmayan (fiktif ) işlemlere konu edildiğinin Banka tarafından tespit edilmesi halinde, BANKA’nın söz konusu kartı kapatma ve/veya kart limitini ve/veya ticari harcamalardan kazanılan puan, promosyon ve benzeri faydaları iptal etme/geri alma hakkı bulunmaktadır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_34__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_34",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "Cayma Bildiriminin Yapılabileceği İletişim Bilgileri: Telefon Numarası: 0850 222 0 600 İnternet Sitesi: ing.com.tr",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 77,
+    "para_end": 77,
+    "text": "KART HAMİLİ’nin işbu Sözleşme’den kaynaklanan uyuşmazlıklar için Tüketici Mahkemesi veya tüketici hakem heyetlerine ve Banka’nın Müşteri Çözüm Merkezi’ne başvurma hakkı bulunmaktadır. KART HAMİLİ, sözleşmenin bir örneğini sözleşmenin düzenlendiği tarihten itibaren ilk yıl ücretsiz olarak almak hakkına sahiptir. Kart sözleşmesi bu amaçla şubelerimizin sistemlerinde hazır hale getirilmiştir.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_34",
+    "text_for_embedding": "KART HAMİLİ’nin işbu Sözleşme’den kaynaklanan uyuşmazlıklar için Tüketici Mahkemesi veya tüketici hakem heyetlerine ve Banka’nın Müşteri Çözüm Merkezi’ne başvurma hakkı bulunmaktadır. KART HAMİLİ, sözleşmenin bir örneğini sözleşmenin düzenlendiği tarihten itibaren ilk yıl ücretsiz olarak almak hakkına sahiptir. Kart sözleşmesi bu amaçla şubelerimizin sistemlerinde hazır hale getirilmiştir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "Cayma Bildiriminin Yapılabileceği İletişim Bilgileri: Telefon Numarası: 0850 222 0 600 İnternet Sitesi: ing.com.tr",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 78,
+    "para_end": 83,
+    "text": "Temassız KART’ın temassız mobil ödeme işlemlerinde kullanımı; KART HAMİLİ’nin Bankaya bildirdirdiği kayıtlı cep telefonunu ödeme aracı olarak tanımlayıp, elektronik işlem terminaline (POS) temassız olarak okutup işlem yapmasını sağlar. Bu işlemlerde harcama belgesi düzenlenmesi/imzalanması zorunlu değildir. KART’ın temassız mobil ödeme işlemlerinde kullanılabilmesi için KART HAMİLİ, BANKA’nın söz konusu dönemde desteklediği teknolojiyle uyumlu cep elefonu için gereken teknolojik çözüme sahip olmalıdır. KART HAMİLİ, cep telefonunun temassız işlemlerde kullanılabilmesi için, Android akıllı telefonundan ING ParaMara uygulamasını indirerek bu uygulama içerisinde BANKA tarafından kendisine tanımlanmış kredi kartını uygulamaya tanıtıp aktif hale getirmesi ve bu karta Temassız özellik tanımlaması gerekmektedir.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35",
+    "text_for_embedding": "Temassız KART’ın temassız mobil ödeme işlemlerinde kullanımı; KART HAMİLİ’nin Bankaya bildirdirdiği kayıtlı cep telefonunu ödeme aracı olarak tanımlayıp, elektronik işlem terminaline (POS) temassız olarak okutup işlem yapmasını sağlar. Bu işlemlerde harcama belgesi düzenlenmesi/imzalanması zorunlu değildir. KART’ın temassız mobil ödeme işlemlerinde kullanılabilmesi için KART HAMİLİ, BANKA’nın söz konusu dönemde desteklediği teknolojiyle uyumlu cep elefonu için gereken teknolojik çözüme sahip olmalıdır. KART HAMİLİ, cep telefonunun temassız işlemlerde kullanılabilmesi için, Android akıllı telefonundan ING ParaMara uygulamasını indirerek bu uygulama içerisinde BANKA tarafından kendisine tanımlanmış kredi kartını uygulamaya tanıtıp aktif hale getirmesi ve bu karta Temassız özellik tanımlaması gerekmektedir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "Cayma Bildiriminin Yapılabileceği İletişim Bilgileri: Telefon Numarası: 0850 222 0 600 İnternet Sitesi: ing.com.tr",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 78,
+    "para_end": 83,
+    "text": "Müşteri; bu işlemler kapsamında Banka tarafından Müşteriye ait asıl KART’a bağlı bir EK KART yaratılacağını, yaratılan EK KART’ıyla BANKA tarafından belirlenen ve BANKA tarafından müşteriye gönderilen Kredi Kartı Hesap Ekstresin’de duyurulan limitler dahilinde temassız işlemlerini sorumluluğu ken disinde olmak üzere şifresiz gerçekleştirebileceğini kabul ve beyan eder. Temassız kartlar MasterCard logolu kartlar olacağından müşterinin asıl kartının Visa olması halinde oluşturulacak ek kartı MasterCard olacaktır ve sadece MasterCard kampanyalarından yararlanabilecektir. BANKA, şifresiz işlem adedini, şifresiz işlem üst tutarını ve toplam şifresiz işlem tutarını değiştirebilir, bu değişiklik müşteriye kredi kartı hesap ekstresinde bildirilir.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35",
+    "text_for_embedding": "Müşteri; bu işlemler kapsamında Banka tarafından Müşteriye ait asıl KART’a bağlı bir EK KART yaratılacağını, yaratılan EK KART’ıyla BANKA tarafından belirlenen ve BANKA tarafından müşteriye gönderilen Kredi Kartı Hesap Ekstresin’de duyurulan limitler dahilinde temassız işlemlerini sorumluluğu ken disinde olmak üzere şifresiz gerçekleştirebileceğini kabul ve beyan eder. Temassız kartlar MasterCard logolu kartlar olacağından müşterinin asıl kartının Visa olması halinde oluşturulacak ek kartı MasterCard olacaktır ve sadece MasterCard kampanyalarından yararlanabilecektir. BANKA, şifresiz işlem adedini, şifresiz işlem üst tutarını ve toplam şifresiz işlem tutarını değiştirebilir, bu değişiklik müşteriye kredi kartı hesap ekstresinde bildirilir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35__c3",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "Cayma Bildiriminin Yapılabileceği İletişim Bilgileri: Telefon Numarası: 0850 222 0 600 İnternet Sitesi: ing.com.tr",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 78,
+    "para_end": 83,
+    "text": "KART HAMİLİ, BANKA sisteminde kayıtlı cep telefonunu mobil ödeme işlemlerinde yukarıda belirtilen surette temassız ödeme aracı olarak kullanacağını, bu özelliğin münhasıran kendi kullanımında olacağını, temassız olarak gerçekleştireceği tüm işlemlerin hesabına borç kaydedileceğini, temassız mobil ödeme işlemleri için Müşteri tarafından belirlenen işlem adedi başına kullanacağı şifrenin, PIN’in gizliliğini ve güvenliğini sağlayacağını, başka hiçbir kişiye hiçbir durumda kullandırmayacağını veya kullanımını sağlayacak bilgileri üçüncü kişilere kesinlikle açıklamayacağını, bunu açıklamasından doğacak her türlü zararın ve sorumluluğun kendisine ait olduğunu, temassız mobil ödeme işlemleri için kullanacağı telefon hattının başka bir SIM kartla değiştirilmesi ve/veya başka bir GSM operatörüne geçirilmesi durumlarında SIM kartın imha edilmesiyle ilgili her türlü sorumluluğun kendisine ait olduğunu kabul ve beyan eder.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35",
+    "text_for_embedding": "KART HAMİLİ, BANKA sisteminde kayıtlı cep telefonunu mobil ödeme işlemlerinde yukarıda belirtilen surette temassız ödeme aracı olarak kullanacağını, bu özelliğin münhasıran kendi kullanımında olacağını, temassız olarak gerçekleştireceği tüm işlemlerin hesabına borç kaydedileceğini, temassız mobil ödeme işlemleri için Müşteri tarafından belirlenen işlem adedi başına kullanacağı şifrenin, PIN’in gizliliğini ve güvenliğini sağlayacağını, başka hiçbir kişiye hiçbir durumda kullandırmayacağını veya kullanımını sağlayacak bilgileri üçüncü kişilere kesinlikle açıklamayacağını, bunu açıklamasından doğacak her türlü zararın ve sorumluluğun kendisine ait olduğunu, temassız mobil ödeme işlemleri için kullanacağı telefon hattının başka bir SIM kartla değiştirilmesi ve/veya başka bir GSM operatörüne geçirilmesi durumlarında SIM kartın imha edilmesiyle ilgili her türlü sorumluluğun kendisine ait olduğunu kabul ve beyan eder."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35__c4",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "Cayma Bildiriminin Yapılabileceği İletişim Bilgileri: Telefon Numarası: 0850 222 0 600 İnternet Sitesi: ing.com.tr",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 78,
+    "para_end": 83,
+    "text": "KART HAMİLİ, temassız mobil ödeme işlemleri için kullanacağı Telefonun, SIM kartın veya hafıza kartının, çalınması veya üçüncü kişilerin eline geçmesinden şüphe duyması veya şüphe duyduğu söz konusu durumların gerçekleşmesi halinde, derhal BANKA’nın Çağrı Merkezi’ni bilgilendireceğini, bu durumda BANKA’nın telefon üzerinde bulunan kredi kartını kapatacağını kabul ve beyan eder. Bildirimin yapılmaması halinde üçüncü şahıslarca kullanılabileceğini, bu tür işlemlere ilişkin her türlü hukuki, mali ve cezai sorumluluğun kendisine ait olduğunu, bu işlemler açısından 01 Mart 2006 tarih, 26095 sayılı Resmi Gazete’de yayınlanarak yürürlüğe giren Banka Kartları ve Kredi Kartları Kanunu’nun kartın sigortalanmasına ilişkin hükümlerinin uygulanamayacağını kabul ve beyan eder.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35",
+    "text_for_embedding": "KART HAMİLİ, temassız mobil ödeme işlemleri için kullanacağı Telefonun, SIM kartın veya hafıza kartının, çalınması veya üçüncü kişilerin eline geçmesinden şüphe duyması veya şüphe duyduğu söz konusu durumların gerçekleşmesi halinde, derhal BANKA’nın Çağrı Merkezi’ni bilgilendireceğini, bu durumda BANKA’nın telefon üzerinde bulunan kredi kartını kapatacağını kabul ve beyan eder. Bildirimin yapılmaması halinde üçüncü şahıslarca kullanılabileceğini, bu tür işlemlere ilişkin her türlü hukuki, mali ve cezai sorumluluğun kendisine ait olduğunu, bu işlemler açısından 01 Mart 2006 tarih, 26095 sayılı Resmi Gazete’de yayınlanarak yürürlüğe giren Banka Kartları ve Kredi Kartları Kanunu’nun kartın sigortalanmasına ilişkin hükümlerinin uygulanamayacağını kabul ve beyan eder."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_36__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_36",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "Cayma Bildiriminin Yapılabileceği İletişim Bilgileri: Telefon Numarası: 0850 222 0 600 İnternet Sitesi: ing.com.tr",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 84,
+    "para_end": 84,
+    "text": "Dijital Kredi Kartı; bir fiziki karta bağlı olmaksızın ING Mobil ve İnternet Şubesi üzerinden görüntüleme yapılarak kart numarası üzerinden internet, telefon, mail order gibi iletişim araçlarını kullanarak alışveriş yapılabilen, ING Mobil üzerinden karekod ile ödeme seçeneğiyle de fiziki POS’lar üzerinden alışverişe imkan tanıyan asıl kart niteliğindeki kredi kartlarıdır. KART HAMİLİ, aynı kart tipinden sadece fiziki ya da sadece dijital kredi kartına sahip olabilir. KART HAMİLİ, mevcut dijital kredi kartını fiziki kredi kartına çevirmek isterse mevcut dijital kartı otomatik olarak kapatılıp fiziki kredi kartı oluşturularak KART HAMİLİ’ne ulaştırılır. Aynı şekilde KART HAMİLİ mevcut fiziki kredi kartını dijital kredi kartına çevirmek istediğinde fiziki olan mevcut kart otomatik olarak kapatılarak dijital kredi kartı oluşturulmaktadır.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_36",
+    "text_for_embedding": "Dijital Kredi Kartı; bir fiziki karta bağlı olmaksızın ING Mobil ve İnternet Şubesi üzerinden görüntüleme yapılarak kart numarası üzerinden internet, telefon, mail order gibi iletişim araçlarını kullanarak alışveriş yapılabilen, ING Mobil üzerinden karekod ile ödeme seçeneğiyle de fiziki POS’lar üzerinden alışverişe imkan tanıyan asıl kart niteliğindeki kredi kartlarıdır. KART HAMİLİ, aynı kart tipinden sadece fiziki ya da sadece dijital kredi kartına sahip olabilir. KART HAMİLİ, mevcut dijital kredi kartını fiziki kredi kartına çevirmek isterse mevcut dijital kartı otomatik olarak kapatılıp fiziki kredi kartı oluşturularak KART HAMİLİ’ne ulaştırılır. Aynı şekilde KART HAMİLİ mevcut fiziki kredi kartını dijital kredi kartına çevirmek istediğinde fiziki olan mevcut kart otomatik olarak kapatılarak dijital kredi kartı oluşturulmaktadır."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_36__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_36",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "Cayma Bildiriminin Yapılabileceği İletişim Bilgileri: Telefon Numarası: 0850 222 0 600 İnternet Sitesi: ing.com.tr",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 84,
+    "para_end": 84,
+    "text": "Bu kart çevrim işlemi, 1 yıl içinde en fazla 1 kere ve yalnızca aynı tip kartlar arasında gerçekleştirilebilir. Kart Hamili, dijital karta çevirdiği mevcut fiziki kartının ücretli bir kart olması ve dijital karta çevirmeden önce ilgili karta ilişkin kart ücreti doğmuş olması halinde ilgili ücretin kendisinden tahsil edileceğini ya da mevcut dijital kartını ücretli bir fiziki karta çevirdiğinde ilgili fiziki kartın ücretinin kendisinden tahsil edileceğini kabul ettiğini beyan eder.",
+    "scope": [
+      "fees_disclosure",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_36",
+    "text_for_embedding": "Bu kart çevrim işlemi, 1 yıl içinde en fazla 1 kere ve yalnızca aynı tip kartlar arasında gerçekleştirilebilir. Kart Hamili, dijital karta çevirdiği mevcut fiziki kartının ücretli bir kart olması ve dijital karta çevirmeden önce ilgili karta ilişkin kart ücreti doğmuş olması halinde ilgili ücretin kendisinden tahsil edileceğini ya da mevcut dijital kartını ücretli bir fiziki karta çevirdiğinde ilgili fiziki kartın ücretinin kendisinden tahsil edileceğini kabul ettiğini beyan eder."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_37__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_37",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "Cayma Bildiriminin Yapılabileceği İletişim Bilgileri: Telefon Numarası: 0850 222 0 600 İnternet Sitesi: ing.com.tr",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 85,
+    "para_end": 85,
+    "text": "Banka, müşterilerine sunduğu bankacılık hizmetleri karşılığında alacağı ücretleri şeffaflık ilkesi çerçevesinde belirlemiştir. Hesap açılış ve işletim ücretleri, ATM kullanım ücretleri, elektronik fon transfer (EFT) işlem ücretleri, müşteri bilgilendirme hizmetleri ve diğer bankacılık işlemlerine ilişkin güncel ücret tarifeleri EK-1 (ucret_tarifeleri_2025.xlsx) dosyasında detaylı olarak açıklanmıştır. İşbu ücret tarifeleri, sözleşmenin ayrılmaz bir parçasıdır ve müşteri tarafından kabul edilmiş sayılır. Ücret tarifelerinde belirtilen tutarlar, ilgili hizmetin kullanımı sırasında müşteri hesabından otomatik olarak tahsil edilecektir. Banka, ücret tarifelerinde değişiklik yapma hakkını saklı tutar ve değişiklikler yasal mevzuat çerçevesinde müşteriye bildirilecektir.",
+    "scope": [
+      "fees_disclosure",
+      "account_management",
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_37",
+    "text_for_embedding": "Banka, müşterilerine sunduğu bankacılık hizmetleri karşılığında alacağı ücretleri şeffaflık ilkesi çerçevesinde belirlemiştir. Hesap açılış ve işletim ücretleri, ATM kullanım ücretleri, elektronik fon transfer (EFT) işlem ücretleri, müşteri bilgilendirme hizmetleri ve diğer bankacılık işlemlerine ilişkin güncel ücret tarifeleri EK-1 (ucret_tarifeleri_2025.xlsx) dosyasında detaylı olarak açıklanmıştır. İşbu ücret tarifeleri, sözleşmenin ayrılmaz bir parçasıdır ve müşteri tarafından kabul edilmiş sayılır. Ücret tarifelerinde belirtilen tutarlar, ilgili hizmetin kullanımı sırasında müşteri hesabından otomatik olarak tahsil edilecektir. Banka, ücret tarifelerinde değişiklik yapma hakkını saklı tutar ve değişiklikler yasal mevzuat çerçevesinde müşteriye bildirilecektir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_38__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_38",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "Cayma Bildiriminin Yapılabileceği İletişim Bilgileri: Telefon Numarası: 0850 222 0 600 İnternet Sitesi: ing.com.tr",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 86,
+    "para_end": 86,
+    "text": "KART HAMİLİ, kart kullanımı hakkında kart ile birlikte gönderilen yazılı dokümanlardan ve ing.com.tr kredi kartları bölümünden bilgi alabilir.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_38",
+    "text_for_embedding": "KART HAMİLİ, kart kullanımı hakkında kart ile birlikte gönderilen yazılı dokümanlardan ve ing.com.tr kredi kartları bölümünden bilgi alabilir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_39__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_39",
+    "unit_type": "list_item",
+    "doc_type": "contract",
+    "section_name": "Cayma Bildiriminin Yapılabileceği İletişim Bilgileri: Telefon Numarası: 0850 222 0 600 İnternet Sitesi: ing.com.tr",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 87,
+    "para_end": 87,
+    "text": "KART HAMİLİ, kart borcunu ING şubeleri, internet bankacılığından, ING ATM’lerinden ve 0850 222 0 600’den öğrenebilir kanallarından ödeyebilir.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "List Paragraph"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_39",
+    "text_for_embedding": "KART HAMİLİ, kart borcunu ING şubeleri, internet bankacılığından, ING ATM’lerinden ve 0850 222 0 600’den öğrenebilir kanallarından ödeyebilir."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_40__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_40",
+    "unit_type": "section",
+    "doc_type": "contract",
+    "section_name": "Cayma Bildiriminin Yapılabileceği İletişim Bilgileri: Telefon Numarası: 0850 222 0 600 İnternet Sitesi: ing.com.tr",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 88,
+    "para_end": 110,
+    "text": "Ekleri: Ayrılmaz parça niteliğindeki “Kredi Kartı Sözleşme Öncesi Bilgi Formu ve Kredi Kartı Bilgi Formu” İşbu dokümanda yer alan hüküm ve koşullar, dokümanın tarafınızca dijital olarak onaylanması halinde, mevcut müşterilerimiz için –Bankamız uygulaması gereği adres ve kimlik teyit ve/veya sözleşme imza sürecinin işletildiği belirli durumlar hariç olmak üzere- dijital onay anında, diğer tüm müşterilerimiz için ise Bankamız yükümlülükleri çerçevesinde adres ve kimlik teyidi yapıldıktan sonra geçerli olacaktır. Aşağıda imzası bulunanlar, 10 sayfadan oluşan bu Sözleşmenin tamamını anladıklarını, müzakere ettiklerini ve Sözleşmeyi kısmen veya tamamen kabul edebileceklerini bildiğini ve bununla beraber mevcut durumda tüm Sözleşme hükümlerinin haklarında geçerli olacağını bunun için de her sayfayı ayrı ayrı imza veya paraf etmeye gerek olmadığını, kabul ve beyan ederler.",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "Heading 1"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_40",
+    "text_for_embedding": "Ekleri: Ayrılmaz parça niteliğindeki “Kredi Kartı Sözleşme Öncesi Bilgi Formu ve Kredi Kartı Bilgi Formu” İşbu dokümanda yer alan hüküm ve koşullar, dokümanın tarafınızca dijital olarak onaylanması halinde, mevcut müşterilerimiz için –Bankamız uygulaması gereği adres ve kimlik teyit ve/veya sözleşme imza sürecinin işletildiği belirli durumlar hariç olmak üzere- dijital onay anında, diğer tüm müşterilerimiz için ise Bankamız yükümlülükleri çerçevesinde adres ve kimlik teyidi yapıldıktan sonra geçerli olacaktır. Aşağıda imzası bulunanlar, 10 sayfadan oluşan bu Sözleşmenin tamamını anladıklarını, müzakere ettiklerini ve Sözleşmeyi kısmen veya tamamen kabul edebileceklerini bildiğini ve bununla beraber mevcut durumda tüm Sözleşme hükümlerinin haklarında geçerli olacağını bunun için de her sayfayı ayrı ayrı imza veya paraf etmeye gerek olmadığını, kabul ve beyan ederler."
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_40__c2",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_40",
+    "unit_type": "section",
+    "doc_type": "contract",
+    "section_name": "Cayma Bildiriminin Yapılabileceği İletişim Bilgileri: Telefon Numarası: 0850 222 0 600 İnternet Sitesi: ing.com.tr",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 88,
+    "para_end": 110,
+    "text": "(NOKTALI KISMA EL YAZINIZ İLE Kredi Kartları Hizmet Sözleşmesinin bir örneğini teslim aldım YAZINIZ) Müşteri Adı ve Soyadı: Tarih: Başvurulan Kart Türü: ING Bonus Kart ING Pegasus Premium Kart ING Pegasus Classic Kart ING Dijital Bonus Kart ING Dijital Pegasus Premium Kart",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "Heading 1"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_40",
+    "text_for_embedding": "(NOKTALI KISMA EL YAZINIZ İLE Kredi Kartları Hizmet Sözleşmesinin bir örneğini teslim aldım YAZINIZ) Müşteri Adı ve Soyadı: Tarih: Başvurulan Kart Türü: ING Bonus Kart ING Pegasus Premium Kart ING Pegasus Classic Kart ING Dijital Bonus Kart ING Dijital Pegasus Premium Kart"
+  },
+  {
+    "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_41__c1",
+    "doc_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL",
+    "unit_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_41",
+    "unit_type": "paragraph",
+    "doc_type": "contract",
+    "section_name": "Müşteri İmzası",
+    "article_no": null,
+    "article_title": null,
+    "para_start": 111,
+    "para_end": 117,
+    "text": "ING Dijital Pegasus Classic Kart ING Light Kart",
+    "scope": [
+      "credit_card"
+    ],
+    "metadata": {
+      "style": "Body Text"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_41",
+    "text_for_embedding": "ING Dijital Pegasus Classic Kart ING Light Kart"
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_2__c1",
+    "doc_id": "ucret_tarifeleri_2025",
+    "unit_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_2",
+    "unit_type": "table_row",
+    "doc_type": "fee_schedule",
+    "sheet_name": "Ücret Tarifeleri",
+    "row_number": 2,
+    "text": "Hizmet Türü: Hesap İşletim Ücreti (Aylık). Standart Ücret (TL): 25.",
+    "scope": [
+      "fees_disclosure"
+    ],
+    "metadata": {
+      "sheet": "Ücret Tarifeleri",
+      "row": 2,
+      "num_columns": 2,
+      "headers": [
+        "Hizmet Türü",
+        "Standart Ücret (TL)"
+      ],
+      "source": "excel_attachment"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_2",
+    "text_for_embedding": "Hizmet Türü: Hesap İşletim Ücreti (Aylık). Standart Ücret (TL): 25."
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_3__c1",
+    "doc_id": "ucret_tarifeleri_2025",
+    "unit_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_3",
+    "unit_type": "table_row",
+    "doc_type": "fee_schedule",
+    "sheet_name": "Ücret Tarifeleri",
+    "row_number": 3,
+    "text": "Hizmet Türü: Kendi Bankamız ATM Nakit Çekim. Standart Ücret (TL): 5.",
+    "scope": [
+      "fees_disclosure"
+    ],
+    "metadata": {
+      "sheet": "Ücret Tarifeleri",
+      "row": 3,
+      "num_columns": 2,
+      "headers": [
+        "Hizmet Türü",
+        "Standart Ücret (TL)"
+      ],
+      "source": "excel_attachment"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_3",
+    "text_for_embedding": "Hizmet Türü: Kendi Bankamız ATM Nakit Çekim. Standart Ücret (TL): 5."
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_4__c1",
+    "doc_id": "ucret_tarifeleri_2025",
+    "unit_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_4",
+    "unit_type": "table_row",
+    "doc_type": "fee_schedule",
+    "sheet_name": "Ücret Tarifeleri",
+    "row_number": 4,
+    "text": "Hizmet Türü: Başka Banka ATM Nakit Çekim. Standart Ücret (TL): 15.",
+    "scope": [
+      "fees_disclosure"
+    ],
+    "metadata": {
+      "sheet": "Ücret Tarifeleri",
+      "row": 4,
+      "num_columns": 2,
+      "headers": [
+        "Hizmet Türü",
+        "Standart Ücret (TL)"
+      ],
+      "source": "excel_attachment"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_4",
+    "text_for_embedding": "Hizmet Türü: Başka Banka ATM Nakit Çekim. Standart Ücret (TL): 15."
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_5__c1",
+    "doc_id": "ucret_tarifeleri_2025",
+    "unit_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_5",
+    "unit_type": "table_row",
+    "doc_type": "fee_schedule",
+    "sheet_name": "Ücret Tarifeleri",
+    "row_number": 5,
+    "text": "Hizmet Türü: Mobil Bankacılık EFT (1000-50K TL). Standart Ücret (TL): 5.",
+    "scope": [
+      "fees_disclosure"
+    ],
+    "metadata": {
+      "sheet": "Ücret Tarifeleri",
+      "row": 5,
+      "num_columns": 2,
+      "headers": [
+        "Hizmet Türü",
+        "Standart Ücret (TL)"
+      ],
+      "source": "excel_attachment"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_5",
+    "text_for_embedding": "Hizmet Türü: Mobil Bankacılık EFT (1000-50K TL). Standart Ücret (TL): 5."
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_6__c1",
+    "doc_id": "ucret_tarifeleri_2025",
+    "unit_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_6",
+    "unit_type": "table_row",
+    "doc_type": "fee_schedule",
+    "sheet_name": "Ücret Tarifeleri",
+    "row_number": 6,
+    "text": "Hizmet Türü: Şube EFT İşlemi (1000-50K TL). Standart Ücret (TL): 15.",
+    "scope": [
+      "fees_disclosure"
+    ],
+    "metadata": {
+      "sheet": "Ücret Tarifeleri",
+      "row": 6,
+      "num_columns": 2,
+      "headers": [
+        "Hizmet Türü",
+        "Standart Ücret (TL)"
+      ],
+      "source": "excel_attachment"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_6",
+    "text_for_embedding": "Hizmet Türü: Şube EFT İşlemi (1000-50K TL). Standart Ücret (TL): 15."
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_7__c1",
+    "doc_id": "ucret_tarifeleri_2025",
+    "unit_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_7",
+    "unit_type": "table_row",
+    "doc_type": "fee_schedule",
+    "sheet_name": "Ücret Tarifeleri",
+    "row_number": 7,
+    "text": "Hizmet Türü: Hesap Açılış Ücreti. Standart Ücret (TL): 50.",
+    "scope": [
+      "account_management",
+      "fees_disclosure"
+    ],
+    "metadata": {
+      "sheet": "Ücret Tarifeleri",
+      "row": 7,
+      "num_columns": 2,
+      "headers": [
+        "Hizmet Türü",
+        "Standart Ücret (TL)"
+      ],
+      "source": "excel_attachment"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_7",
+    "text_for_embedding": "Hizmet Türü: Hesap Açılış Ücreti. Standart Ücret (TL): 50."
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_8__c1",
+    "doc_id": "ucret_tarifeleri_2025",
+    "unit_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_8",
+    "unit_type": "table_row",
+    "doc_type": "fee_schedule",
+    "sheet_name": "Ücret Tarifeleri",
+    "row_number": 8,
+    "text": "Hizmet Türü: Hesap Bakım Ücreti (Aylık). Standart Ücret (TL): 15.",
+    "scope": [
+      "fees_disclosure"
+    ],
+    "metadata": {
+      "sheet": "Ücret Tarifeleri",
+      "row": 8,
+      "num_columns": 2,
+      "headers": [
+        "Hizmet Türü",
+        "Standart Ücret (TL)"
+      ],
+      "source": "excel_attachment"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_8",
+    "text_for_embedding": "Hizmet Türü: Hesap Bakım Ücreti (Aylık). Standart Ücret (TL): 15."
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_9__c1",
+    "doc_id": "ucret_tarifeleri_2025",
+    "unit_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_9",
+    "unit_type": "table_row",
+    "doc_type": "fee_schedule",
+    "sheet_name": "Ücret Tarifeleri",
+    "row_number": 9,
+    "text": "Hizmet Türü: SMS Bilgilendirme (Zorunlu - Onaysız). Standart Ücret (TL): 10.",
+    "scope": [
+      "fees_disclosure"
+    ],
+    "metadata": {
+      "sheet": "Ücret Tarifeleri",
+      "row": 9,
+      "num_columns": 2,
+      "headers": [
+        "Hizmet Türü",
+        "Standart Ücret (TL)"
+      ],
+      "source": "excel_attachment"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_9",
+    "text_for_embedding": "Hizmet Türü: SMS Bilgilendirme (Zorunlu - Onaysız). Standart Ücret (TL): 10."
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_10__c1",
+    "doc_id": "ucret_tarifeleri_2025",
+    "unit_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_10",
+    "unit_type": "table_row",
+    "doc_type": "fee_schedule",
+    "sheet_name": "Ücret Tarifeleri",
+    "row_number": 10,
+    "text": "Hizmet Türü: E-posta Bilgilendirme (Zorunlu - Onaysız). Standart Ücret (TL): 5.",
+    "scope": [
+      "fees_disclosure"
+    ],
+    "metadata": {
+      "sheet": "Ücret Tarifeleri",
+      "row": 10,
+      "num_columns": 2,
+      "headers": [
+        "Hizmet Türü",
+        "Standart Ücret (TL)"
+      ],
+      "source": "excel_attachment"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_10",
+    "text_for_embedding": "Hizmet Türü: E-posta Bilgilendirme (Zorunlu - Onaysız). Standart Ücret (TL): 5."
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_11__c1",
+    "doc_id": "ucret_tarifeleri_2025",
+    "unit_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_11",
+    "unit_type": "table_row",
+    "doc_type": "fee_schedule",
+    "sheet_name": "Ücret Tarifeleri",
+    "row_number": 11,
+    "text": "Hizmet Türü: Müşteri Onayı Olmadan SMS Bildirimi. Standart Ücret (TL): 8.",
+    "scope": [
+      "fees_disclosure"
+    ],
+    "metadata": {
+      "sheet": "Ücret Tarifeleri",
+      "row": 11,
+      "num_columns": 2,
+      "headers": [
+        "Hizmet Türü",
+        "Standart Ücret (TL)"
+      ],
+      "source": "excel_attachment"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_11",
+    "text_for_embedding": "Hizmet Türü: Müşteri Onayı Olmadan SMS Bildirimi. Standart Ücret (TL): 8."
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_12__c1",
+    "doc_id": "ucret_tarifeleri_2025",
+    "unit_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_12",
+    "unit_type": "table_row",
+    "doc_type": "fee_schedule",
+    "sheet_name": "Ücret Tarifeleri",
+    "row_number": 12,
+    "text": "Hizmet Türü: Kendi Hesaba Para Yatırma (Şube). Standart Ücret (TL): 3.",
+    "scope": [
+      "fees_disclosure"
+    ],
+    "metadata": {
+      "sheet": "Ücret Tarifeleri",
+      "row": 12,
+      "num_columns": 2,
+      "headers": [
+        "Hizmet Türü",
+        "Standart Ücret (TL)"
+      ],
+      "source": "excel_attachment"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_12",
+    "text_for_embedding": "Hizmet Türü: Kendi Hesaba Para Yatırma (Şube). Standart Ücret (TL): 3."
+  },
+  {
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_13__c1",
+    "doc_id": "ucret_tarifeleri_2025",
+    "unit_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_13",
+    "unit_type": "table_row",
+    "doc_type": "fee_schedule",
+    "sheet_name": "Ücret Tarifeleri",
+    "row_number": 13,
+    "text": "Hizmet Türü: Sözleşme İlk Yıl İçinde Tekrar Basımı. Standart Ücret (TL): 25.",
+    "scope": [
+      "fees_disclosure"
+    ],
+    "metadata": {
+      "sheet": "Ücret Tarifeleri",
+      "row": 13,
+      "num_columns": 2,
+      "headers": [
+        "Hizmet Türü",
+        "Standart Ücret (TL)"
+      ],
+      "source": "excel_attachment"
+    },
+    "chunk_kind": "child",
+    "parent_chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_13",
+    "text_for_embedding": "Hizmet Türü: Sözleşme İlk Yıl İçinde Tekrar Basımı. Standart Ücret (TL): 25."
+  }
+]

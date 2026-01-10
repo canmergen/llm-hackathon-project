@@ -41,7 +41,7 @@ env/
 # Project Specific
 .chroma/
 logs/
-data/banka_dokumanlari/
+# data/banka_dokumanlari/ (Uncommented to include Hackathon public data)
 # We keep teblig/ as it is public legislation, but ignore raw large files if any. 
 # For this hackathon, usually better to ignore data/ entirely if it's large, but structure is needed.
 # Let's ignore content of data but keep gitkeep if needed, or just ignore specific subfolders.
