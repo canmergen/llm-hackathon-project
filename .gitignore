@@ -39,8 +39,8 @@ env/
 .streamlit/secrets.toml
 
 # Project Specific
-.chroma/
-logs/
+# .chroma/ (Un-ignored per user request)
+# logs/ (Un-ignored per user request)
 # data/banka_dokumanlari/ (Uncommented to include Hackathon public data)
 # We keep teblig/ as it is public legislation, but ignore raw large files if any. 
 # For this hackathon, usually better to ignore data/ entirely if it's large, but structure is needed.
