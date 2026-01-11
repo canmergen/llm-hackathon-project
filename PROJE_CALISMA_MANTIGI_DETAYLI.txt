@@ -1,0 +1,81 @@
+# Banka Mevzuat Uyum Sistemi - Çalışma Mantığı ve Teknik Açıklama
+
+Bu doküman, sistemin nasıl çalıştığını, kullanılan teknolojileri ve "neden" kullanıldıklarını hiç bilmeyen birine anlatır gibi sade ve detaylı bir şekilde açıklar.
+
+---
+
+## 1. Temel Kavramlar: Ne Yapıyoruz?
+
+**Amaç:** Bir bankanın müşteri sözleşmeleri (örneğin Kredi Kartı Sözleşmesi) ile devletin belirlediği kurallar (Tebliğ/Mevzuat) arasındaki uyumu denetlemek.
+**Sorun:** Sözleşmeler çok uzun (200+ sayfa) ve kurallar çok karmaşık (Tebliğ). İnsanlar yavaş okur ve gözden kaçırır.
+**Çözüm:** Bu dokümanları bilgisayara okutup, yapay zekaya denetletmek.
+
+---
+
+## 2. Adım Adım Çalışma Süreci (Pipeline)
+
+Sistemin "Başlat" düğmesine bastığınızda arka planda şu işlemler sırasıyla gerçekleşir:
+
+### A. Veri Hazırlığı ve "Chunking" (Parçalama)
+Bilgisayarlar (ve Yapay Zeka modelleri), 200 sayfalık bir kitabı tek seferde hafızasında tutamaz. Tıpkı bir insanın kitabı sayfa sayfa veya paragraf paragraf okuması gerektiği gibi, biz de dokümanları küçük parçalara böleriz.
+
+*   **Chunking Nedir?** Uzun bir metni, anlam bütünlüğünü bozmadan küçük parçalara (örneğin her biri bir sözleşme maddesi olacak şekilde) bölme işlemidir.
+*   **Neden Yaptık?**
+    1.  **Odaklanma:** Yapay zeka sadece ilgili maddeye odaklansın, dikkati dağılmasın.
+    2.  **Arama Başarısı:** "Kart aidatı" diye arattığımızda, 200 sayfalık dosya yerine sadece aidatla ilgili paragrafı bulmak isteriz.
+
+### B. İndeksleme: ChromaDB ve BM25
+Parçaladığımız bu küçük metinleri (Chunk), daha sonra hızlıca bulabilmek için özel bir kütüphaneye (veritabanına) kaydederiz. Burada iki farklı teknoloji kullanıyoruz:
+
+1.  **ChromaDB (Vektör Veritabanı):**
+    *   **Nedir?** Kelimelerin "anlamını" sayılara (vektörlere) çevirir.
+    *   **Örnek:** Siz "ek masraf" diye ararsınız, sistem bunun "ilave ücret" veya "komisyon" ile benzer anlama geldiğini bilir ve onları bulur. Kelime aynı olmasa bile *anlam* aynıysa bulur.
+    
+2.  **BM25 (Anahtar Kelime İndeksi):**
+    *   **Nedir?** Klasik "Google Araması" gibi çalışır. Kelimelerin birebir kendisini arar.
+    *   **Örnek:** "Madde 12/A" diye ararsak, vektör veritabanı bunu "Madde 12/B" ile karıştırabilir (sayılar birbirine benzerdir). Ancak BM25, tam olarak "12/A" yazan yeri bulur.
+
+### C. Hibrit Arama (Hybrid Search) ve RRF
+Banka sözleşmesindeki bir maddeyi denetlemek için, o maddeyle ilgili Mevzuat (Tebliğ) kuralını bulmamız gerekir.
+
+*   **Soru:** Banka sözleşmesindeki "Yıllık üyelik bedeli 500 TL" maddesi için hangi yasaya bakmalıyım?
+*   **İşlem:** Sistem bu maddeyi hem ChromaDB'de (anlam) hem BM25'te (kelime) aratır.
+*   **Birleştirme (RRF - Reciprocal Rank Fusion):** İki farklı arama sonucunu harmanlar. Hem anlam olarak en yakın, hem de kelime olarak en uyuşan sonuçları üst sıraya taşır. Böylece doğru yasayı bulma ihtimalimiz maksimuma çıkar.
+
+### D. Karar Motoru (Decision Engine): Önce Kural, Sonra Zeka
+Doğru yasayı bulduk. Şimdi "Banka maddesi bu yasaya uygun mu?" sorusunu cevaplamalıyız.
+
+Bu aşamada üç katmanlı bir kontrol mekanizması çalışır:
+
+1.  **Katman: Kural Motoru (Rule Engine) & Heuristics**
+    *   Burası "Matematiksel ve Kesin" kontrollerin yapıldığı yerdir. Yapay zeka (LLM) buraya karışmaz, kod çalışır.
+    *   **Örnek:** Yasa "EFT ücreti en fazla 2 TL olabilir" diyor. Banka sözleşmesinde "EFT: 5 TL" yazıyor.
+    *   Kod hemen `5 > 2` işlemini yapar. Bu bir ihlaldir.
+    *   **Filtreleme Mantığı:** Eğer kod bir hata bulursa, bunu bir "UYARI ETİKETİ" (Warning Label) olarak hazırlar ve Yapay Zeka'ya sunar. Yani filtreleyip işi bitirmez, Yapay Zeka'ya "Bak burada matematiksel bir hata var, bunu gözden kaçırma!" diye kopya verir.
+    
+2.  **Katman: Büyük Dil Modeli (LLM - Gemma)**
+    *   Yapay zeka (bizim projemizde Google Gemma 3), elindeki tüm verileri toplar:
+        *   Banka Maddesi
+        *   Bulunan İlgili Yasa (Mevzuat)
+        *   Kural Motorundan Gelen Uyarılar (Varsa)
+    *   **Reasoning (Akıl Yürütme):** Tıpkı bir avukat gibi düşünür. "Yasa bunu diyor, banka bunu demiş, ayrıca matematiksel olarak da şu hatalı... O zaman sonuç: UYUMSUZ (NOT_OK)" kararını verir.
+
+3.  **Katman: Son Kontrol (Overrule/Override)**
+    *   Yapay zeka bazen çok sinsi ifadeleri kaçırabilir (örneğin "imzalamanızla sigortayı kabul etmiş sayılırsınız" gibi karmaşık cümleler).
+    *   Eğer LLM "Uyumlu" dese bile, bizim son kontrol kodlarımız (Regex) bu tip yasaklı kalıpları ("zorunlu sigorta", "otomatik onay") yakalarsa, Yapay Zeka'nın kararını ezip (Override) nihai sonucu "UYUMSUZ" olarak değiştirir.
+
+### E. Raporlama ve Chatbot
+Tüm maddeler tek tek bu süreçten geçtikten sonra:
+
+1.  **Dashboard:** Sonuçlar renkli grafiklerle ekrana yansıtılır. Kırmızı (Risk), Yeşil (Uyumlu).
+2.  **Otomatik Özet:** Sistem sonuçları analiz eder ve yöneticiye "Toplam 5 risk var, en kritik olanı EFT ücreti" şeklinde bir özet yazar. Bu özet Yapay Zeka (LLM) tarafından değil, önceden hazırlanmış akıllı şablonlar (Template) ile, çıkan istatistiklere göre anlık üretilir.
+3.  **Chatbot:** Tüm analiz bittikten sonra, eğer aklınıza takılan bir şey olursa Chatbot'a sorabilirsiniz. Chatbot, hem orijinal yasayı hem de bizim analiz sonuçlarımızı bilir. "Neden EFT maddesine riskli dedin?" diye sorarsanız, size dayanağını (Madde 12/3 ve hesapladığı tutar farkı) açıklar.
+
+---
+
+### Özet: Neden 3 Farklı Teknoloji (Vektör, Kural, LLM) Kullanıyoruz?
+*   Tek başına **LLM** kullansaydık matematik hatası yapabilirdi (LLM'ler sayı saymakta bazen zorlanır).
+*   Tek başına **Kural (Rule)** kullansaydık, "Müşteri mağdur edilemez" gibi yoruma açık cümleleri anlayamazdı.
+*   Tek başına **Vektör Arama** kullansaydık, sayıları (Madde 12 ile 13'ü) karıştırabilirdi.
+
+Hepsini birleştirerek (Hybrid Pipeline), **hem matematiksel kesinliği, hem hukuksal yorumlama yeteneğini hem de doğru yasaya ulaşma hızını** tek bir potada erittik.
