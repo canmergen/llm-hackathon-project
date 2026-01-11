@@ -48,14 +48,23 @@ Sistem, klasik RAG yaklaşımlarının ötesine geçerek iki farklı indeksleme 
 *   **AI Yargıç (Gemma 3:27B):** Karmaşık maddeleri bir hukukçu gibi yorumlar ve mevzuatla karşılaştırır.
 
 ### 3. Yönetici Özeti ve Finansal Analiz
-Yöneticiler için büyük resmi gören analizler sunar:
-*   **Yönetici Özeti:** Tek bir doğal dil paragrafı ile tüm durumu özetler. (Örn: *"Toplam 2.5M TL risk tespit edildi, %96 başarı sağlandı."*)
+
+#### 📊 İnteraktif Dashboard
+Tüm analiz sonuçlarının canlı olarak izlendiği kontrol merkezidir.
+
+![Streamlit Dashboard](docs/streamlit_dashboard.png)
+
+*   **Merkezi Denetim:** Yüklenen tüm dokümanların uyum skorlarını ve risk durumlarını tek ekranda gösterir.
+*   **Detaylı İnceleme:** Hatalı maddelerin üzerine tıklayarak yapay zeka analizini, ilgili mevzuat maddesini ve düzeltme önerisini görüntüleyebilirsiniz.
+
+#### 📋 Yönetici Özeti Raporu
+Üst yönetim için hazırlanan, finansal ve operasyonel özet raporudur.
+
+![Yönetici Özeti Raporu](docs/yonetici_ozeti.png)
+
+*   **Yönetici Özeti (NLP):** Tek bir doğal dil paragrafı ile tüm durumu özetler. (Örn: *"Toplam 2.5M TL risk tespit edildi, %96 başarı sağlandı."*)
 *   **Finansal Etki:** Potansiyel ceza riski, önlenen zarar ve ROI (Yatırım Getirisi) hesaplar.
 *   **Risk Yoğunluğu:** Hataların hangi belgede yoğunlaştığını gösterir.
-    
-    ![Yönetici Özeti Raporu](docs/yonetici_ozeti.png)
-    
-    ![Streamlit Dashboard](docs/streamlit_dashboard.png)
 
 ---
 
