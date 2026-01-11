@@ -22,10 +22,10 @@ class ProPDF(FPDF):
         self.add_font('ArialCustom', 'I', FONT_ITALIC, uni=True)
     
     def header(self):
-        self.set_font('ArialCustom', '', 9)
+        self.set_font('ArialCustom', 'B', 10) # Bold for the main portal name
         self.set_text_color(100, 100, 100)
-        # Clean text-only header - CORRECTED TITLE
-        self.cell(0, 10, 'Banka Mevzuat Uyum Sistemi - Çalışma Mantığı ve Teknik Açıklama', 0, 0, 'R')
+        # Main Portal Name as Header
+        self.cell(0, 10, 'Banka Dokümanları Uyum ve Denetim Rapor Portalı', 0, 0, 'L')
         self.ln(15)
 
     def footer(self):
