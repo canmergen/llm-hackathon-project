@@ -17,6 +17,7 @@ Bu doküman, sistemin nasıl çalıştığını, kullanılan teknolojileri ve "n
 Sistemin "Başlat" düğmesine bastığınızda arka planda şu işlemler sırasıyla gerçekleşir:
 
 ### A. Veri Hazırlığı ve "Chunking" (Parçalama)
+*(İlgili Dosya: `src/banka_dokumanlari_preparation_pdf.py` ve `src/teblig_data_preparation.py`)*
 Bilgisayarlar (ve Yapay Zeka modelleri), 200 sayfalık bir kitabı tek seferde hafızasında tutamaz. Tıpkı bir insanın kitabı sayfa sayfa veya paragraf paragraf okuması gerektiği gibi, biz de dokümanları küçük parçalara böleriz.
 
 *   **Chunking Nedir?** Uzun bir metni, anlam bütünlüğünü bozmadan küçük parçalara (örneğin her biri bir sözleşme maddesi olacak şekilde) bölme işlemidir.
@@ -25,6 +26,7 @@ Bilgisayarlar (ve Yapay Zeka modelleri), 200 sayfalık bir kitabı tek seferde h
     2.  **Arama Başarısı:** "Kart aidatı" diye arattığımızda, 200 sayfalık dosya yerine sadece aidatla ilgili paragrafı bulmak isteriz.
 
 ### B. İndeksleme: ChromaDB ve BM25
+*(İlgili Dosya: `src/chroma_tool.py` - Ingest Modülü)*
 Parçaladığımız bu küçük metinleri (Chunk), daha sonra hızlıca bulabilmek için özel bir kütüphaneye (veritabanına) kaydederiz. Burada iki farklı teknoloji kullanıyoruz:
 
 1.  **ChromaDB (Vektör Veritabanı):**
@@ -44,6 +46,7 @@ Parçaladığımız bu küçük metinleri (Chunk), daha sonra hızlıca bulabilm
 > 2.  **Hibrit Gücü:** BM25'in "eklerden dolayı kaçırdığı" kelimeleri, zaten anlamdan yakalayan **Vektör Arama (ChromaDB)** tamamlamaktadır. Yani ağır bir Türkçe kütüphanesi kullanmadan, Hibrit Mimari sayesinde aynı başarıyı çok daha hızlı elde ettik.
 
 ### C. Hibrit Arama (Hybrid Search) ve RRF
+*(İlgili Dosya: `src/chroma_tool.py` - Query Modülü)*
 Banka sözleşmesindeki bir maddeyi denetlemek için, o maddeyle ilgili Mevzuat (Tebliğ) kuralını bulmamız gerekir.
 
 *   **Soru:** Banka sözleşmesindeki "Yıllık üyelik bedeli 500 TL" maddesi için hangi yasaya bakmalıyım?
@@ -51,6 +54,7 @@ Banka sözleşmesindeki bir maddeyi denetlemek için, o maddeyle ilgili Mevzuat 
 *   **Birleştirme (RRF - Reciprocal Rank Fusion):** İki farklı arama sonucunu harmanlar. Hem anlam olarak en yakın, hem de kelime olarak en uyuşan sonuçları üst sıraya taşır. Böylece doğru yasayı bulma ihtimalimiz maksimuma çıkar.
 
 ### D. Karar Motoru (Decision Engine): Önce Kural, Sonra Zeka
+*(İlgili Dosya: `src/llm_compliance_check.py`)*
 Doğru yasayı bulduk (Hibrit Arama tamamlandı). Şimdi "Banka maddesi bu yasaya uygun mu?" sorusunu cevaplamalıyız.
 
 Bu motor, **her zaman ve kesinlikle sırasıyla** çalışan 3 adımdan oluşur:
@@ -77,15 +81,8 @@ Bu motor, **her zaman ve kesinlikle sırasıyla** çalışan 3 adımdan oluşur:
 
 **Özet Sıralama:** Hibrit Arama -> Kural Uyarısı -> LLM Kararı -> Son Kontrol (Override). Bu sıra asla değişmez.
 
-> **Görsel Şema İçin Öneri (Diagram Flow):**
-> Eğer bu akışı çiziyorsanız, kutucukları şu sırayla bağlamalısınız:
-> 1.  `[Hibrit Arama (Chroma + BM25)]` --> ok --> `[RRF Birleştirme (Context)]`
-> 2.  `[RRF Sonucu]` --> ok --> `[Kural Motoru (Regex)]`
-> 3.  `[Kural Motoru]` --> (Çıktı: Uyarılar) --> `[LLM (Gemma)]`
-> 4.  `[LLM]` --> (Çıktı: Ham Karar) --> `[Son Kontrol (Override)]`
-> 5.  `[Son Kontrol]` --> `[Nihai Karar (JSON)]`
-
 ### E. Raporlama ve Chatbot
+*(İlgili Dosya: `src/streamlit_compliance_viewer.py` ve `src/report_generator_pdf.py`)*
 Tüm maddeler tek tek bu süreçten geçtikten sonra:
 
 1.  **Dashboard:** Sonuçlar renkli grafiklerle ekrana yansıtılır. Kırmızı (Risk), Yeşil (Uyumlu).
