@@ -108,7 +108,7 @@ Tüm analiz sonuçlarının, performans metriklerinin ve risk dağılımlarını
 
 Proje, ham verinin işlenmesinden son kullanıcı raporuna kadar kesintisiz bir akış (pipeline) sunar.
 
-![End-to-End Pipeline Design](docs/pipeline_design.png)
+![End-to-End Pipeline Design](docs/pipeline_design_v2.png)
 
 > **Mimari İnceleme:** Sistemin detaylı mimari çizimini incelemek için [**pipeline_architecture.excalidraw**](./pipeline_architecture.excalidraw) dosyasına bakabilirsiniz.
 
