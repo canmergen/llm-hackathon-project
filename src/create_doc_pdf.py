@@ -61,19 +61,27 @@ class ProPDF(FPDF):
              self.set_font('ArialCustom', 'B', 10)
              self.write(5, prefix + " ")
         
-        # Parsing **bold** 
-        parts = re.split(r'(\*\*.*?\*\*)', text)
+        # Parsing **bold** and *italic*
+        # Regex to split by **...** OR *...*
+        # We match ** first to ensure we capture bold correctly before italic
+        parts = re.split(r'(\*\*.*?\*\*|\*.*?\*)', text)
         
         for part in parts:
-            if part.startswith('**') and part.endswith('**'):
+            if part.startswith('**') and part.endswith('**') and len(part) >= 4:
                 # Bold content
                 content = part[2:-2]
                 self.set_font('ArialCustom', 'B', 10)
                 self.write(5, content)
+            elif part.startswith('*') and part.endswith('*') and len(part) >= 2:
+                # Italic content
+                content = part[1:-1]
+                self.set_font('ArialCustom', 'I', 10) # Using Italic font
+                self.write(5, content)
             else:
                 # Normal content
-                self.set_font('ArialCustom', '', 10)
-                self.write(5, part)
+                if part: # Skip empty strings
+                    self.set_font('ArialCustom', '', 10)
+                    self.write(5, part)
         
         self.ln(6)
 
