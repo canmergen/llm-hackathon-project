@@ -104,6 +104,36 @@ ollama pull gemma3:27b
 python main.py
 ```
 
+```
+
+---
+
+## 🚀 Kullanım
+
+Sistemi iki farklı şekilde kullanabilirsiniz:
+
+### 1. Arayüz (Dashboard) ile Kullanım (Önerilen)
+Sonuçları görselleştirmek ve raporlamak için Streamlit arayüzünü başlatın:
+*   **Mac Kullanıcıları:** `Streamlit_Dashboard.command` dosyasına çift tıklayın.
+*   **Terminal:** `streamlit run src/streamlit_compliance_viewer.py` komutunu çalıştırın.
+
+### 2. Analiz Pipeline'ını Çalıştırma
+Yeni dokümanları analiz etmek için terminal üzerinden ana pipeline'ı tetikleyin:
+```bash
+python main.py
+```
+
+---
+
+## 🚧 Gelecek Planları (Roadmap)
+
+Hackathon süresi kısıtlı olsa da, projenin vizyonu çok daha geniştir. Gelecek geliştirmeler:
+
+*   **🔍 OCR Desteği:** Taranmış (resim formatındaki) eski sözleşmelerin Tesseract/AWS Textract ile dijitalleştirilmesi.
+*   **🤖 Agentic RAG:** Sadece tek bir analiz değil, "Savcı" ve "Avukat" rolündeki iki farklı AI ajanının madde üzerinde tartışarak (Multi-Agent Debate) karara varması.
+*   **feedback_loop RLHF:** Hukukçuların vereceği "Onay/Red" geri bildirimleriyle modelin (Fine-tuning) eğitilmesi.
+*   **🔌 Entegrasyon:** Tespit edilen risklerin otomatik olarak JIRA veya ServiceNow üzerinde "Uyumsuzluk Kaydı" açması.
+
 ---
 
 ## Proje Yapısı
