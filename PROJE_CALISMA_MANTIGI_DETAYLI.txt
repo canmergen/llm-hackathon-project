@@ -79,10 +79,11 @@ Bu motor, **her zaman ve kesinlikle sırasıyla** çalışan 3 adımdan oluşur:
 
 > **Görsel Şema İçin Öneri (Diagram Flow):**
 > Eğer bu akışı çiziyorsanız, kutucukları şu sırayla bağlamalısınız:
-> 1.  `[Hibrit Arama Sonuçları]` --> ok --> `[Kural Motoru (Regex)]`
-> 2.  `[Kural Motoru]` --> (Çıktı: Uyarılar) --> `[LLM (Gemma)]`
-> 3.  `[LLM]` --> (Çıktı: Ham Karar) --> `[Son Kontrol (Override)]`
-> 4.  `[Son Kontrol]` --> `[Nihai Karar (JSON)]`
+> 1.  `[Hibrit Arama (Chroma + BM25)]` --> ok --> `[RRF Birleştirme (Context)]`
+> 2.  `[RRF Sonucu]` --> ok --> `[Kural Motoru (Regex)]`
+> 3.  `[Kural Motoru]` --> (Çıktı: Uyarılar) --> `[LLM (Gemma)]`
+> 4.  `[LLM]` --> (Çıktı: Ham Karar) --> `[Son Kontrol (Override)]`
+> 5.  `[Son Kontrol]` --> `[Nihai Karar (JSON)]`
 
 ### E. Raporlama ve Chatbot
 Tüm maddeler tek tek bu süreçten geçtikten sonra:
