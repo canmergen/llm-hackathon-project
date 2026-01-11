@@ -106,7 +106,7 @@ Tüm analiz sonuçlarının, performans metriklerinin ve risk dağılımlarını
 
 ![Yönetici Özeti Raporu](docs/yonetici_ozeti.png)
 
-*   **Doğal Dil Özeti (NLP):** Karmaşık veri setlerini analiz ederek, denetim sonucunu bir yöneticinin anlayacağı sadelikte ve doğal bir dille özetleyen metin bloğudur.
+*   **Otomatik Yönetici Özeti:** Karmaşık veri setlerini analiz ederek, denetim sonucunu bir yöneticinin anlayacağı sadelikte özetleyen metin bloğudur.
 *   **Stratejik Karar Destek:** Hukuk ve Uyum ekiplerinin hangi alanlara öncelik vermesi gerektiğini belirten, veriye dayalı içgörüler sunar.
 
 ---
