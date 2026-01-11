@@ -96,6 +96,11 @@ Gerçek denetim verileri ile yapılan test sonuçları:
 | **Model Keskinliği (Precision)** | **%65.0** | Verdiğimiz alarmların ne kadarı doğru? |
 | **Genel Doğruluk (Accuracy)** | **%95.1** | Sistemin genel başarım oranı. |
 
+**Neden Bu Sonuçlar?**
+*   **%100 Recall Başarısı:** Bankacılık mevzuatında "gözden kaçan risk" kabul edilemez. Bu nedenle sistem, şüpheli durumlarda "Risk Var" diyerek insan denetimine sunacak şekilde (muhafazakar) optimize edilmiştir. Hiçbir gerçek ihlal kaçırılmamıştır.
+*   **Precision Dengesi:** Modelin güvenliği ön planda tutması sebebiyle, bazı gri alanlar da risk olarak işaretlenmiştir. Bu "yanlış alarmlar" (False Positives), denetçinin potansiyel riskleri gözden kaçırmasını engellemek için bilinçli bir güvenlik katmanıdır.
+*   **Yüksek Doğruluk:** Hibrit arama (Vektör + Anahtar Kelime) ve RRF algoritması sayesinde, sistem mevzuat dışı binlerce maddeyi doğru şekilde "Temiz" olarak ayıklamış ve genel başarıyı %95 seviyesinde tutmuştur.
+
 ---
 
 ## Kurulum
