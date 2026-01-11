@@ -56,8 +56,11 @@ Doğru yasayı bulduk (Hibrit Arama tamamlandı). Şimdi "Banka maddesi bu yasay
 Bu motor, **her zaman ve kesinlikle sırasıyla** çalışan 3 adımdan oluşur:
 
 1.  **Adım: Kural Motoru (Rule Engine) - [Hesaplama & Uyarı]**
-    *   İlk önce "Matematiksel ve Kesin" kodlar çalışır.
-    *   **Örnek:** Yasa "EFT max 2 TL" derken Banka "5 TL" demişse, kod bunu anında yakalar (5 > 2).
+    *   **Yapı:** Sadece basit Regex (Kelime Arama) değildir. **Regex + Python Mantığı** birlikte çalışır.
+    *   **Nasıl Çalışır?**
+        1.  **Veri Çıkarma (Regex):** Metin içindeki sayıları ("5 TL"), oranları ("%10") ve anahtar kelimeleri ("Onaysız") Regex ile çekip çıkarır.
+        2.  **Mantıksal Kıyas (Python):** Çıkarılan bu sayıları matematiksel olarak karşılaştırır (`if banka_ucreti > yasa_limiti`).
+    *   **Örnek:** Yasa "EFT max 2 TL" derken Banka "5 TL" demişse, Regex "2" ve "5" sayılarını bulur, Python kodu "5 > 2" işlemini yapıp hatayı yakalar.
     *   **Kritik Nokta:** Kural motoru burada işlemi bitirmez. Tespit ettiği hatayı bir "UYARI ETİKETİ" (Warning Label) haline getirir ve bir sonraki aşamaya (LLM'e) paslar.
     
 2.  **Adım: Büyük Dil Modeli (LLM - Gemma) - [Akıl Yürütme & Karar]**
