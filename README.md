@@ -106,20 +106,16 @@ python main.py
 
 ```
 
----
-
 ## Kullanım Kılavuzu
 
 Sistemi çalıştırmak için aşağıdaki yöntemleri izleyebilirsiniz:
 
 ### 1. Arayüz (Dashboard) ile Kullanım
-Görsel raporlama ekranını başlatmak için terminal veya komut satırında şu komutu çalıştırın (Windows, Mac ve Linux uyumludur):
+Görsel raporlama ekranını başlatmak için terminal veya komut satırında şu komutu çalıştırın (Windows, Mac ve Linux uyumludur). Mac kullanıcıları alternatif olarak `Streamlit_Dashboard.command` dosyasına çift tıklayarak da başlatabilir.
 
 ```bash
 streamlit run src/streamlit_compliance_viewer.py
 ```
-
-*Not: Mac kullanıcıları alternatif olarak `Streamlit_Dashboard.command` dosyasına çift tıklayarak da başlatabilir.*
 
 ### 2. Analiz Pipeline'ını Çalıştırma
 Yeni eklenen dokümanları analiz etmek ve veritabanını güncellemek için:
