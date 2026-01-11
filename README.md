@@ -27,6 +27,41 @@ Bankaların **Müşteri Sözleşmeleri** ve **Ücret Tarifeleri**'nin mevzuata u
 
 ---
 
+## Proje Yapısı
+
+```
+LLM_Hackathon/
+├── main.py                         # Pipeline Ana Giriş Noktası (Orchestrator)
+├── Streamlit_Dashboard_Mac.command     # Dashboard Başlatıcı (Mac Shortcut)
+├── Streamlit_Dashboard_Windows.bat # Dashboard Başlatıcı (Windows)
+├── Streamlit_Dashboard_Linux.sh    # Dashboard Başlatıcı (Linux)
+├── requirements.txt                # Bağımlılıklar
+├── README.md                       # Proje Dokümantasyonu
+├── pipeline_architecture.excalidraw# Mimari Çizimi
+├── src/                            # Kaynak Kodlar
+│   ├── llm_compliance_check.py     # Üretken AI (Gemma) & Kural Motoru
+│   ├── retrieval_utils.py          # Hibrit Arama (RAG + BM25 + RRF) Motoru
+│   ├── streamlit_compliance_viewer.py # Web Arayüzü (Dashboard)
+│   ├── report_generator_pdf.py     # PDF Raporlama Servisi
+│   ├── chroma_tool.py              # Vektör Veritabanı Yönetimi
+│   ├── evaluate_model.py           # Başarım Ölçümü & Metrik Hesaplama
+│   └── generate_readme.py          # Dinamik Dokümantasyon Üretici
+├── data/                           # Veri Katmanı
+│   ├── banka_dokumanlari/          # Analiz Edilecek Dokümanlar (PDF/Excel)
+│   ├── teblig/                     # Mevzuat (Tebliğ) Metinleri
+│   └── ground_truth.json           # Doğrulama (Verification) Verisi
+├── docs/                           # Raporlar ve Görseller
+│   ├── pipeline_design.png         # Akış Diyagramı
+│   ├── yonetici_ozeti.png          # Özet Rapor Görseli
+│   └── uyum_denetim_raporu.xlsx    # Yöneticiler için Excel Çıktısı
+└── logs/                           # Sistem Çıktıları
+    ├── compliance_results/         # İşlenmiş JSON Sonuçları
+    ├── evaluation_results.json     # Güncel Performans Metrikleri
+    └── *.log                       # İşlem Kayıtları
+```
+
+---
+
 ## Temel Özellikler
 
 ### 1. Dual Indexing & Hibrit Arama (RAG v2.0)
@@ -159,40 +194,6 @@ Projenin kapsamını genişletmek ve endüstriyel standartlara taşımak için p
 
 ---
 
-## Proje Yapısı
-
-```
-LLM_Hackathon/
-├── main.py                         # Pipeline Ana Giriş Noktası (Orchestrator)
-├── Streamlit_Dashboard_Mac.command     # Dashboard Başlatıcı (Mac Shortcut)
-├── Streamlit_Dashboard_Windows.bat # Dashboard Başlatıcı (Windows)
-├── Streamlit_Dashboard_Linux.sh    # Dashboard Başlatıcı (Linux)
-├── requirements.txt                # Bağımlılıklar
-├── README.md                       # Proje Dokümantasyonu
-├── pipeline_architecture.excalidraw# Mimari Çizimi
-├── src/                            # Kaynak Kodlar
-│   ├── llm_compliance_check.py     # Üretken AI (Gemma) & Kural Motoru
-│   ├── retrieval_utils.py          # Hibrit Arama (RAG + BM25 + RRF) Motoru
-│   ├── streamlit_compliance_viewer.py # Web Arayüzü (Dashboard)
-│   ├── report_generator_pdf.py     # PDF Raporlama Servisi
-│   ├── chroma_tool.py              # Vektör Veritabanı Yönetimi
-│   ├── evaluate_model.py           # Başarım Ölçümü & Metrik Hesaplama
-│   └── generate_readme.py          # Dinamik Dokümantasyon Üretici
-├── data/                           # Veri Katmanı
-│   ├── banka_dokumanlari/          # Analiz Edilecek Dokümanlar (PDF/Excel)
-│   ├── teblig/                     # Mevzuat (Tebliğ) Metinleri
-│   └── ground_truth.json           # Doğrulama (Verification) Verisi
-├── docs/                           # Raporlar ve Görseller
-│   ├── pipeline_design.png         # Akış Diyagramı
-│   ├── yonetici_ozeti.png          # Özet Rapor Görseli
-│   └── uyum_denetim_raporu.xlsx    # Yöneticiler için Excel Çıktısı
-└── logs/                           # Sistem Çıktıları
-    ├── compliance_results/         # İşlenmiş JSON Sonuçları
-    ├── evaluation_results.json     # Güncel Performans Metrikleri
-    └── *.log                       # İşlem Kayıtları
-```
-
----
 
 **Geliştirici:** Can Mergen  
 **Etkinlik:** LLM Hackathon 2025
