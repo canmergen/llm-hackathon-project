@@ -150,11 +150,16 @@ python main.py
 
 ## Kullanım Kılavuzu
 
-Sistemi çalıştırmak için aşağıdaki yöntemleri izleyebilirsiniz:
+Sistemi çalıştırmak için işletim sisteminize uygun yöntemi seçebilirsiniz:
 
-### 1. Arayüz (Dashboard) ile Kullanım
-Görsel raporlama ekranını başlatmak için terminal veya komut satırında şu komutu çalıştırın (Windows, Mac ve Linux uyumludur). Mac kullanıcıları alternatif olarak `Streamlit_Dashboard.command` dosyasına çift tıklayarak da başlatabilir.
+### 1. Arayüz (Dashboard) ile Kullanım (Kolay Kurulum)
+Aşağıdaki dosyalara çift tıklayarak dashboard'u başlatabilirsiniz:
 
+*   **Windows:** `Streamlit_Dashboard_Windows.bat`
+*   **Mac:** `Streamlit_Dashboard.command`
+*   **Linux:** `Streamlit_Dashboard_Linux.sh`
+
+Alternatif olarak terminalden çalıştırmak isterseniz:
 ```bash
 streamlit run src/streamlit_compliance_viewer.py
 ```
@@ -187,6 +192,8 @@ Projenin kapsamını genişletmek ve endüstriyel standartlara taşımak için p
 LLM_Hackathon/
 ├── main.py                         # Pipeline Ana Giriş Noktası (Orchestrator)
 ├── Streamlit_Dashboard.command     # Dashboard Başlatıcı (Mac Shortcut)
+├── Streamlit_Dashboard_Windows.bat # Dashboard Başlatıcı (Windows)
+├── Streamlit_Dashboard_Linux.sh    # Dashboard Başlatıcı (Linux)
 ├── requirements.txt                # Bağımlılıklar
 ├── README.md                       # Proje Dokümantasyonu
 ├── pipeline_architecture.excalidraw# Mimari Çizimi
