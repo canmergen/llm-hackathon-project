@@ -35,6 +35,14 @@ Parçaladığımız bu küçük metinleri (Chunk), daha sonra hızlıca bulabilm
     *   **Nedir?** Klasik "Google Araması" gibi çalışır. Kelimelerin birebir kendisini arar.
     *   **Örnek:** "Madde 12/A" diye ararsak, vektör veritabanı bunu "Madde 12/B" ile karıştırabilir (sayılar birbirine benzerdir). Ancak BM25, tam olarak "12/A" yazan yeri bulur.
 
+> **Teknik Detay: Türkçe için BM25 Stratejimiz (Neden Zemberek Kullanmadık?)**
+> Türkçe, sondan eklemeli bir dildir (örn: *Banka > Bankalar > Bankaların*). Klasik arama motorlarında "Banka" diye aratınca "Bankaların" kelimesini bulmak için *Stemming/Lemmatization* (Kelime köküne inme - Zemberek vb.) yapılması önerilir.
+>
+> Ancak biz bu projede **Basit Tokenizasyon** (sadece küçük harfe çevirme) kullandık.
+> **Neden?** 
+> 1.  **Hız (Latency):** Kök bulma işlemi her sorguda sistemi yavaşlatır. Hackathon'da hız kritiktir.
+> 2.  **Hibrit Gücü:** BM25'in "eklerden dolayı kaçırdığı" kelimeleri, zaten anlamdan yakalayan **Vektör Arama (ChromaDB)** tamamlamaktadır. Yani ağır bir Türkçe kütüphanesi kullanmadan, Hibrit Mimari sayesinde aynı başarıyı çok daha hızlı elde ettik.
+
 ### C. Hibrit Arama (Hybrid Search) ve RRF
 Banka sözleşmesindeki bir maddeyi denetlemek için, o maddeyle ilgili Mevzuat (Tebliğ) kuralını bulmamız gerekir.
 
