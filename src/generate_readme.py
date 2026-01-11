@@ -49,6 +49,8 @@ def main():
 ![LLM](https://img.shields.io/badge/LLM-Gemma%203%20(27b)-purple?style=flat&logo=ollama)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=flat)
 
+> ⚠️ **Veri Gizliliği Notu:** Bu projede kullanılan tüm veri setleri, Hackathon kapsamında sağlanan kamuya açık (public) dokümanlar ve sentetik (dummy) verilerden oluşmaktadır. Çalışma, herhangi bir gerçek müşteri verisi veya gizli kurumsal veri içermemektedir.
+
 ---
 
 ## Proje Vizyonu
@@ -62,7 +64,7 @@ Bankaların **Müşteri Sözleşmeleri** ve **Ücret Tarifeleri**'nin mevzuata u
 **Çözüm:**
 **Uyum Denetim Portalı**, bu süreci otonom hale getirir.
 *   **Hız:** 200 sayfalık sözleşmeyi dakikalar içinde tarar.
-*   **Güven:** **{recall}** risk yakalama oranı (Recall) ile çalışır.
+*   **Güven:** **{{recall}}** risk yakalama oranı (Recall) ile çalışır.
 *   **ROI (Yatırım Getirisi):** Finansal etki ve yatırım getirisi analizleri sunar.
 
 ---
@@ -101,48 +103,7 @@ Yöneticiler için büyük resmi gören analizler sunar:
 
 Proje, ham verinin işlenmesinden son kullanıcı raporuna kadar kesintisiz bir akış (pipeline) sunar.
 
-```mermaid
-flowchart TD
-    subgraph Data_Ingestion ["2. Mevzuat Bilgi Bankası<br/>"]
-        teblig["Mevzuat (Tebliğ)"] --> teb_chunk("Madde Parçalama<br/>(Chunking)")
-        teb_chunk --> vector{{"ChromaDB<br/>(Vektör İndeks)"}}
-        teb_chunk --> kw{{"BM25<br/>(Anahtar Kelime)"}}
-    end
-
-    subgraph Analysis_Flow ["1. Doküman Analiz Akışı"]
-        doc["Banka Dokümanları<br/>(PDF/Word/Excel)"] --> chunk("Madde Parçalama<br/>(Chunking)")
-        chunk --> input["Sorgu Maddesi"]
-    end
-
-    subgraph Compliance_Engine ["3. Uyum Denetim Motoru"]
-        input --> hybrid("Hibrit Arama<br/>(Retrieval)")
-        
-        vector --> hybrid
-        kw --> hybrid
-
-        hybrid --> context["Context Window"]
-        context --> rule{{"Kural Motoru?"}}
-        rule -- "Evet" --> fast["Hızlı Karar<br/>(Regex)"]
-        rule -- "Hayır" --> llm["LLM<br/>(Gemma 3:27B)"]
-        
-        llm --> reason["Mantıksal Çıkarım"]
-        reason --> decision["Karar: OK / NOT_OK / NA"]
-    end
-
-    subgraph Reporting ["4. Raporlama"]
-        decision --> json["JSON Logları"]
-        json --> metric["Metrikler"]
-        metric --> dashboard["Streamlit Dashboard"]
-        metric --> pdf["PDF Raporu"]
-    end
-
-    subgraph Live_Assistant ["5. Canlı Uyum Asistanı<br/>(RAG Loop)"]
-        json -.-> insights{{"Insights Index<br/>(Vektör)"}}
-        userq["Kullanıcı Sorusu"] --> bot("Chatbot (LLM)")
-        insights --> bot
-        bot --> answer["Yanıtlama"]
-    end
-```
+![End-to-End Pipeline Design](docs/pipeline_design.png)
 
 > **Mimari İnceleme:** Sistemin detaylı mimari çizimini incelemek için [**pipeline_architecture.excalidraw**](./pipeline_architecture.excalidraw) dosyasına bakabilirsiniz.
 
@@ -161,9 +122,9 @@ Gerçek denetim verileri ile yapılan test sonuçları:
 
 | Metrik | Değer | Anlamı |
 |---|---|---|
-| **Risk Yakalama (Recall)** | **{recall}** | Hatalı maddelerin kaçını yakaladık? (En kritik metrik) |
-| **Model Keskinliği (Precision)** | **{precision}** | Verdiğimiz alarmların ne kadarı doğru? |
-| **Genel Doğruluk (Accuracy)** | **{acc}** | Sistemin genel başarım oranı. |
+| **Risk Yakalama (Recall)** | **{{recall}}** | Hatalı maddelerin kaçını yakaladık? (En kritik metrik) |
+| **Model Keskinliği (Precision)** | **{{precision}}** | Verdiğimiz alarmların ne kadarı doğru? |
+| **Genel Doğruluk (Accuracy)** | **{{acc}}** | Sistemin genel başarım oranı. |
 
 ---
 
@@ -194,7 +155,8 @@ LLM_Hackathon/
 │   ├── llm_compliance_check.py   # AI Analiz Motoru
 │   ├── streamlit_compliance_viewer.py # Dashboard (UI)
 │   ├── retrieval_utils.py        # RAG Motoru
-│   └── report_generator_pdf.py   # Raporlama Modülü
+│   ├── report_generator_pdf.py   # Raporlama Modülü
+│   └── generate_readme.py        # Dinamik README Üretici
 ├── data/
 │   ├── banka_dokumanlari/        # İncelenen Sözleşmeler
 │   └── teblig/                   # Mevzuat Veritabanı
@@ -210,7 +172,7 @@ LLM_Hackathon/
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)
     
-    print(f"✅ README.md generated successfully with metrics: Acc={acc}, Recall={recall}")
+    print(f"✅ README.md generated successfully with metrics: Acc={{acc}}, Recall={{recall}}")
 
 if __name__ == "__main__":
     main()
