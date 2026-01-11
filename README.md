@@ -130,8 +130,8 @@ Gerçek denetim verileri ile yapılan test sonuçları:
 | Metrik | Değer | Anlamı |
 |---|---|---|
 | **Risk Yakalama (Recall)** | **%100.0** | Hatalı maddelerin kaçını yakaladık? (En kritik metrik) |
-| **Model Keskinliği (Precision)** | **%65.0** | Verdiğimiz alarmların ne kadarı doğru? |
-| **Genel Doğruluk (Accuracy)** | **%95.1** | Sistemin genel başarım oranı. |
+| **Model Keskinliği (Precision)** | **%68.4** | Verdiğimiz alarmların ne kadarı doğru? |
+| **Genel Doğruluk (Accuracy)** | **%95.8** | Sistemin genel başarım oranı. |
 
 **Neden Bu Sonuçlar?**
 *   **%100 Recall Başarısı:** Bankacılık mevzuatında "gözden kaçan risk" kabul edilemez. Bu nedenle sistem, şüpheli durumlarda "Risk Var" diyerek insan denetimine sunacak şekilde (muhafazakar) optimize edilmiştir. Hiçbir gerçek ihlal kaçırılmamıştır.
