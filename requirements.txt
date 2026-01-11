@@ -8,3 +8,6 @@ streamlit
 pandas
 psutil
 fpdf
+rank_bm25
+numpy
+xlsxwriter
