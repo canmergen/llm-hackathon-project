@@ -77,6 +77,13 @@ Bu motor, **her zaman ve kesinlikle sırasıyla** çalışan 3 adımdan oluşur:
 
 **Özet Sıralama:** Hibrit Arama -> Kural Uyarısı -> LLM Kararı -> Son Kontrol (Override). Bu sıra asla değişmez.
 
+> **Görsel Şema İçin Öneri (Diagram Flow):**
+> Eğer bu akışı çiziyorsanız, kutucukları şu sırayla bağlamalısınız:
+> 1.  `[Hibrit Arama Sonuçları]` --> ok --> `[Kural Motoru (Regex)]`
+> 2.  `[Kural Motoru]` --> (Çıktı: Uyarılar) --> `[LLM (Gemma)]`
+> 3.  `[LLM]` --> (Çıktı: Ham Karar) --> `[Son Kontrol (Override)]`
+> 4.  `[Son Kontrol]` --> `[Nihai Karar (JSON)]`
+
 ### E. Raporlama ve Chatbot
 Tüm maddeler tek tek bu süreçten geçtikten sonra:
 
