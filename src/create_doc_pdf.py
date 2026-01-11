@@ -51,47 +51,88 @@ class ProPDF(FPDF):
         self.multi_cell(0, 6, title)
         self.ln(2)
         
+    def _render_rich_text(self, text):
+        """Helper to render text with **bold** and *italic* support."""
+        # Regex to split by **...** OR *...*
+        parts = re.split(r'(\*\*.*?\*\*|\*.*?\*)', text)
+        
+        for part in parts:
+            if part.startswith('**') and part.endswith('**') and len(part) >= 4:
+                # Bold
+                content = part[2:-2]
+                self.set_font('ArialCustom', 'B', 10)
+                self.write(5, content)
+            elif part.startswith('*') and part.endswith('*') and len(part) >= 2:
+                # Italic
+                content = part[1:-1]
+                self.set_font('ArialCustom', 'I', 10)
+                self.write(5, content)
+            else:
+                # Normal
+                if part:
+                    # Inherit current style (could be italic for quotes, but we want standard logic here)
+                    # We assume base font is set before calling this, but we need to switch variants.
+                    # To be safe, we switch to Regular, but for Quotes we might want 'I'.
+                    # Let's check current font style? FPDF doesn't make it super easy to "pop" stack.
+                    # We will force Regular for body text parts.
+                    self.set_font('ArialCustom', '', 10)
+                    self.write(5, part)
+
     def write_markdown_line(self, text, prefix=""):
-        # Reset to body font default for this line
+        # Reset to body font default
         self.set_text_color(0)
+        self.set_font('ArialCustom', '', 10)
         
         # If list item indent
         if prefix:
              self.set_x(15) 
              self.set_font('ArialCustom', 'B', 10)
              self.write(5, prefix + " ")
+             # Revert to normal for body
+             self.set_font('ArialCustom', '', 10)
         
-        # Parsing **bold** and *italic*
-        # Regex to split by **...** OR *...*
-        # We match ** first to ensure we capture bold correctly before italic
-        parts = re.split(r'(\*\*.*?\*\*|\*.*?\*)', text)
-        
-        for part in parts:
-            if part.startswith('**') and part.endswith('**') and len(part) >= 4:
-                # Bold content
-                content = part[2:-2]
-                self.set_font('ArialCustom', 'B', 10)
-                self.write(5, content)
-            elif part.startswith('*') and part.endswith('*') and len(part) >= 2:
-                # Italic content
-                content = part[1:-1]
-                self.set_font('ArialCustom', 'I', 10) # Using Italic font
-                self.write(5, content)
-            else:
-                # Normal content
-                if part: # Skip empty strings
-                    self.set_font('ArialCustom', '', 10)
-                    self.write(5, part)
-        
+        self._render_rich_text(text)
         self.ln(6)
 
     def quote_block(self, text):
-        self.set_fill_color(*LIGHT_GREY)
-        self.set_font('ArialCustom', '', 9) # Arial is safer for quoting in Turkish than Courier
-        self.set_text_color(60, 60, 60)
-        # Use multi_cell for block
-        self.multi_cell(0, 5, text, 0, 'L', True)
-        self.ln(2)
+        # Professional Quote Style: Indent + Dark Grey text + Vertical Line
+        original_margin = self.l_margin
+        
+        # Draw vertical gray line
+        self.set_draw_color(200, 200, 200)
+        self.set_line_width(1)
+        
+        x = self.get_x()
+        y_start = self.get_y()
+        
+        # Process lines
+        lines = text.split('\n')
+        
+        # Indent text
+        indent = 10
+        self.set_left_margin(original_margin + indent)
+        self.set_text_color(80, 80, 80) # Dark Grey
+        
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+            
+            # Use rich text rendering
+            # We want the base to be slightly italic or just normal? 
+            # Let's keep normal for readability, but grey.
+            self._render_rich_text(line)
+            self.ln(5)
+            
+        # Draw line after we know height? No, we need start and end Y.
+        y_end = self.get_y()
+        self.line(original_margin + 2, y_start, original_margin + 2, y_end - 1)
+        
+        # Reset
+        self.set_left_margin(original_margin)
+        self.set_text_color(0)
+        self.set_draw_color(0)
+        self.ln(3)
 
 def create_pdf(source_file, output_file):
     pdf = ProPDF()
