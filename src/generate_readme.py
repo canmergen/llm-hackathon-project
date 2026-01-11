@@ -91,22 +91,23 @@ Sistem, klasik RAG yaklaşımlarının ötesine geçerek iki farklı indeksleme 
 
 ### 3. Yönetici Özeti ve Finansal Analiz
 
-#### 📊 İnteraktif Dashboard
-Tüm analiz sonuçlarının canlı olarak izlendiği kontrol merkezidir.
+#### İnteraktif Dashboard
+Tüm analiz sonuçlarının, performans metriklerinin ve risk dağılımlarının tek bir merkezden canlı olarak izlendiği kontrol panelidir.
 
 ![Streamlit Dashboard](docs/streamlit_dashboard.png)
 
-*   **Merkezi Denetim:** Yüklenen tüm dokümanların uyum skorlarını ve risk durumlarını tek ekranda gösterir.
-*   **Detaylı İnceleme:** Hatalı maddelerin üzerine tıklayarak yapay zeka analizini, ilgili mevzuat maddesini ve düzeltme önerisini görüntüleyebilirsiniz.
+*   **Risk ve Performans Göstergeleri:** Yapay zeka modelinin doğruluk oranlarını (Accuracy), risk yakalama başarısını (Recall) ve operasyonel verimliliği anlık grafiklerle sunar.
+*   **Finansal Etki Kartları:** Tespit edilen uyumsuzlukların potansiyel mali ceza karşılıklarını, önlenen zararı ve sistemin sağladığı yatırım getirisini (ROI) hesaplar.
+*   **Detaylı Risk Dökümü:** "Müdahale Gerektiren Riskler" tablosunda, her bir sözleşme maddesi için tespit edilen ihlal türü, açıklama ve alınması gereken aksiyon görüntülenir.
+*   **Segmentasyon Analizi:** Uyumsuzlukların hangi doküman tiplerinde (Örn: Ücret Tarifesi, Kredi Sözleşmesi) veya hangi şubelerde yoğunlaştığını gösteren ısı haritaları içerir.
 
-#### 📋 Yönetici Özeti Raporu
-Üst yönetim için hazırlanan, finansal ve operasyonel özet raporudur.
+#### Yönetici Özeti Raporu
+Üst yönetim ve denetim komiteleri için hazırlanan, teknik detaylardan arındırılmış karar destek raporudur.
 
 ![Yönetici Özeti Raporu](docs/yonetici_ozeti.png)
 
-*   **Yönetici Özeti (NLP):** Tek bir doğal dil paragrafı ile tüm durumu özetler. (Örn: *"Toplam 2.5M TL risk tespit edildi, %96 başarı sağlandı."*)
-*   **Finansal Etki:** Potansiyel ceza riski, önlenen zarar ve ROI (Yatırım Getirisi) hesaplar.
-*   **Risk Yoğunluğu:** Hataların hangi belgede yoğunlaştığını gösterir.
+*   **Doğal Dil Özeti (NLP):** Karmaşık veri setlerini analiz ederek, durumu bir yöneticinin anlayacağı sadelikte ("Toplam 2.5M TL risk tespit edildi, %96 başarı sağlandı") özetleyen metin bloğudur.
+*   **Stratejik Karar Destek:** Hukuk ve Uyum ekiplerinin hangi alanlara öncelik vermesi gerektiğini belirten, veriye dayalı içgörüler sunar.
 
 ---
 
