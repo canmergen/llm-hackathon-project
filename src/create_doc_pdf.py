@@ -22,17 +22,20 @@ class ProPDF(FPDF):
         self.add_font('ArialCustom', 'I', FONT_ITALIC, uni=True)
     
     def header(self):
-        self.set_font('ArialCustom', 'B', 10) # Bold for the main portal name
-        self.set_text_color(100, 100, 100)
-        # Main Portal Name as Header
-        self.cell(0, 10, 'Banka Dokümanları Uyum ve Denetim Rapor Portalı', 0, 0, 'L')
-        self.ln(15)
+        # Clean header, just space
+        self.ln(10)
 
     def footer(self):
         self.set_y(-15)
         self.set_font('ArialCustom', 'I', 8)
         self.set_text_color(128)
         self.cell(0, 10, f'Sayfa {self.page_no()}', 0, 0, 'C')
+
+    def add_main_title(self, title):
+        self.set_font('ArialCustom', 'B', 24)
+        self.set_text_color(*THEME_ORANGE)
+        self.multi_cell(0, 10, title, 0, 'L')
+        self.ln(10)
 
     def chapter_title(self, title):
         self.ln(5)
@@ -86,6 +89,9 @@ def create_pdf(source_file, output_file):
     pdf = ProPDF()
     pdf.set_auto_page_break(auto=True, margin=25)
     pdf.add_page()
+    
+    # Add Main Title explicitly
+    pdf.add_main_title("Banka Dokümanları Uyum ve Denetim Rapor Portalı")
     
     with open(source_file, 'r', encoding='utf-8') as f:
         lines = f.readlines()
