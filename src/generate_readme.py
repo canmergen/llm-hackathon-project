@@ -95,6 +95,8 @@ Yöneticiler için büyük resmi gören analizler sunar:
 *   **Finansal Etki:** Potansiyel ceza riski, önlenen zarar ve ROI (Yatırım Getirisi) hesaplar.
 *   **Risk Yoğunluğu:** Hataların hangi belgede yoğunlaştığını gösterir.
     
+    ![Yönetici Özeti Raporu](docs/yonetici_ozeti.png)
+    
     ![Streamlit Dashboard](docs/streamlit_dashboard.png)
 
 ---
