@@ -95,15 +95,8 @@ class ProPDF(FPDF):
         self.ln(6)
 
     def quote_block(self, text):
-        # Professional Quote Style: Indent + Dark Grey text + Vertical Line
+        # Professional Quote Style: Indent + Dark Grey text (No Line)
         original_margin = self.l_margin
-        
-        # Draw vertical gray line
-        self.set_draw_color(200, 200, 200)
-        self.set_line_width(1)
-        
-        x = self.get_x()
-        y_start = self.get_y()
         
         # Process lines
         lines = text.split('\n')
@@ -119,15 +112,9 @@ class ProPDF(FPDF):
                 continue
             
             # Use rich text rendering
-            # We want the base to be slightly italic or just normal? 
-            # Let's keep normal for readability, but grey.
             self._render_rich_text(line)
             self.ln(5)
             
-        # Draw line after we know height? No, we need start and end Y.
-        y_end = self.get_y()
-        self.line(original_margin + 2, y_start, original_margin + 2, y_end - 1)
-        
         # Reset
         self.set_left_margin(original_margin)
         self.set_text_color(0)
