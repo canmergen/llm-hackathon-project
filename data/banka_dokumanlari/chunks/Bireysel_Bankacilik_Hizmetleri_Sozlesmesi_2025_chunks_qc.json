@@ -1,0 +1,59 @@
+{
+  "counts": {
+    "chunks": 22,
+    "unit_types": {
+      "section": 4,
+      "numbered_item": 10,
+      "subsection": 7,
+      "paragraph": 1
+    }
+  },
+  "duplicate_chunk_ids": [],
+  "empty_text": [],
+  "text_length_stats": {
+    "min": 106,
+    "max": 14157,
+    "top_10_longest": [
+      [
+        "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22",
+        14157
+      ],
+      [
+        "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21",
+        7186
+      ],
+      [
+        "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_19",
+        2252
+      ],
+      [
+        "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_16",
+        922
+      ],
+      [
+        "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_9",
+        452
+      ],
+      [
+        "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_2",
+        427
+      ],
+      [
+        "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_13",
+        401
+      ],
+      [
+        "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_20",
+        398
+      ],
+      [
+        "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_3",
+        385
+      ],
+      [
+        "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_17",
+        364
+      ]
+    ]
+  }
+}

@@ -10796,83 +10796,23 @@
   },
   {
     "status": "NOT_OK",
-    "reason": "Banka 25 TL hesap işletim ücreti alıyor. Tebliğ'de bu ücret için bir limit belirtilmemiş olsa da, Ek-1 listesinde yer almıyor. Bu durumda, Tebliğ'in genel yasaklama hükmüne göre, bu ücretin alınması yasaktır.",
-    "citation": "MADDE 6 - FIKRA 1",
+    "reason": "Banka 25 TL hesap işletim ücreti alıyor. Ek-1 listesinde hesap işletim ücreti belirtilmemiş ve bu ücretin alınması yasaktır. Tebliğ'de açıkça yasaklanmış bir ücret alınmaktadır.",
+    "citation": "EK-1",
     "corrected_text": "Hesap işletim ücreti alınmamalıdır.",
     "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_2__c1",
     "chunk_text": "Hizmet Türü: Hesap İşletim Ücreti (Aylık). Standart Ücret (TL): 25.",
     "top_matches": [
       {
-        "text": "MADDE 6 – FIKRA 1: Kuruluşlar tarafından ücretlendirilebilecek olan ürün veya hizmetler Ek-1’de sınıflandırılmıştır. Bu sınıflandırmanın, işlemlerin finansal niteliklerine göre ayrımı Merkez Bankasının uygun görüşü alınarak Birlikler tarafından yapılır. Bu Tebliğ ve ekinde yer alanların dışında herhangi bir ürün veya hizmet için ücret alınamaz ancak, üçüncü kişilere ödenen tutarlar finansal tüketiciye aynen yansıtılabilir.",
-        "metadata": {
-          "bolum_no": 2,
-          "fikra_no": 1,
-          "chunk_kind": "child",
-          "madde_no": 6,
-          "doc_id": "tcmb_teblig",
-          "parent_chunk_id": "MADDE_6_1",
-          "unit_id": "MADDE_6_1",
-          "scope": "fees_disclosure"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 6 – FIKRA 2: Bu sınıflandırmada yer almayan, yeni bir ürün veya hizmet grubunun belirlenmesi veya yeni bir ücret kaleminin oluşturulabilmesi için ilgili kuruluş tarafından Merkez Bankasından izin alınması zorunludur. Merkez Bankası gerekli gördüğü hallerde Ek-1’deki listeyi değiştirmeye yetkilidir. Ek-1’deki listenin Merkez Bankası tarafından değiştirilmesi durumunda, kuruluşlar değişikliğin yapıldığı tarihi takip eden ayın sonuna kadar yeni sınıflandırmaya intibak etmekle yükümlüdür.",
-        "metadata": {
-          "parent_chunk_id": "MADDE_6_2",
-          "fikra_no": 2,
-          "unit_id": "MADDE_6_2",
-          "chunk_kind": "child",
-          "scope": "fees_disclosure",
-          "doc_id": "tcmb_teblig",
-          "bolum_no": 2,
-          "madde_no": 6
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 11 – FIKRA 6: Kesintisiz olarak, en az yüzseksen gün süreyle hareket görmeyen kredi kartları hareketsiz kart kabul edilir ve bu kartlara hareketsiz kaldığı müddetçe yıllık üyelik ücreti yansıtılamaz. Kuruluşlar, finansal tüketiciye yazılı olarak veya kalıcı veri saklayıcısı aracılığıyla veya kaydı tutulan telefon ile önceden bilgi vermek suretiyle bu nitelikteki kredi kartlarını kapatma hakkına sahiptir.",
-        "metadata": {
-          "parent_chunk_id": "MADDE_11_6",
-          "unit_id": "MADDE_11_6",
-          "scope": "credit_card,fees_disclosure",
-          "bolum_no": 3,
-          "fikra_no": 6,
-          "chunk_kind": "child",
-          "doc_id": "tcmb_teblig",
-          "madde_no": 11
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 9 – FIKRA 6: Merkez Bankası bilgilendirmelerde veya onay alınmasında kullanılan yöntemlerin etkin olmadığı kanaatine varırsa, her bir ürün veya hizmet bazında belirlenecek yöntemlerin kullanılmasını zorunlu tutabilir.",
-        "metadata": {
-          "doc_id": "tcmb_teblig",
-          "madde_no": 9,
-          "chunk_kind": "child",
-          "parent_chunk_id": "MADDE_9_6",
-          "bolum_no": 2,
-          "scope": "fees_disclosure",
-          "fikra_no": 6,
-          "unit_id": "MADDE_9_6"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
         "text": "MADDE 9 – FIKRA 1: Finansal tüketicilerden alınacak faiz, kâr payı, ücret ve diğer kesintilere ilişkin güncel bilgiler açık, anlaşılır ve kolay erişilebilir bir şekilde kuruluşların internet sitelerinde karşılaştırmaya uygun bir biçimde yer alır. Bu bilgilerde değişiklik olması hâlinde internet sitesi eşzamanlı olarak güncellenir. Kuruluşlar, kredi ürünlerinin kullanılması hâlinde ortaya çıkacak faiz, kâr payı oranı ve ücret bilgilerini detaylı bir şekilde gösteren hesaplama araçlarını internet sitelerinde sunmakla yükümlüdür.",
         "metadata": {
+          "madde_no": 9,
           "scope": "fees_disclosure",
           "chunk_kind": "child",
-          "bolum_no": 2,
-          "fikra_no": 1,
+          "doc_id": "tcmb_teblig",
           "parent_chunk_id": "MADDE_9_1",
-          "madde_no": 9,
+          "bolum_no": 2,
           "unit_id": "MADDE_9_1",
-          "doc_id": "tcmb_teblig"
+          "fikra_no": 1
         },
         "similarity": 0.99,
         "is_hybrid": true
@@ -10880,13 +10820,13 @@
       {
         "text": "MADDE 11 – FIKRA 1: Kart çıkaran kuruluşlar, yıllık üyelik ücreti ve benzeri ad altında ücret tahsil etmedikleri bir kredi kartı türü sunmak zorundadır. Finansal tüketiciler tarafından yapılan ücretsiz kredi kartı başvurularının kuruluşlarca reddedilmesi hâlinde, bu başvuruya istinaden yıllık üyelik ücreti olan kredi kartı verilemez. Kart çıkaran kuruluşlar yıllık üyelik ücreti bulunmayan kredi kartı limiti belirlerken, yıllık üyelik ücreti bulunan kredi kartı değerlendirme kriterlerini aynen uygulamakla yükümlüdür. Finansal tüketicilerin yıllık üyelik ücreti bulunan kredi kartını limiti aynı kalmak kaydıyla yıllık üyelik ücreti bulunmayan kredi kartı ile değiştirme talepleri, kart çıkaran kuruluşlar tarafından yerine getirilmek zorundadır.",
         "metadata": {
-          "bolum_no": 3,
           "chunk_kind": "child",
           "parent_chunk_id": "MADDE_11_1",
-          "unit_id": "MADDE_11_1",
-          "doc_id": "tcmb_teblig",
-          "scope": "credit_card,fees_disclosure",
           "fikra_no": 1,
+          "unit_id": "MADDE_11_1",
+          "scope": "credit_card,fees_disclosure",
+          "bolum_no": 3,
+          "doc_id": "tcmb_teblig",
           "madde_no": 11
         },
         "similarity": 0.99,
@@ -10895,26 +10835,26 @@
       {
         "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
         "metadata": {
-          "fikra_no": "Tam Liste",
           "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
           "madde_no": "Ek-1",
-          "parent_chunk_id": "EK-1",
           "bolum_no": 99,
           "chunk_kind": "child",
+          "unit_id": "EK-1",
+          "fikra_no": "Tam Liste",
           "doc_id": "tcmb_teblig",
-          "unit_id": "EK-1"
+          "parent_chunk_id": "EK-1"
         },
         "similarity": 0.95,
         "is_hybrid": false,
         "forced_context": true
       }
     ],
-    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka 25 TL hesap işletim ücreti alıyor. Tebliğ'de bu ücret için bir limit belirtilmemiş olsa da, Ek-1 listesinde yer almıyor. Bu durumda, Tebliğ'in genel yasaklama hükmüne göre, bu ücretin alınması yasaktır.\",\n  \"citation\": \"MADDE 6 - FIKRA 1\",\n  \"corrected_text\": \"Hesap işletim ücreti alınmamalıdır.\"\n}\n```",
+    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka 25 TL hesap işletim ücreti alıyor. Ek-1 listesinde hesap işletim ücreti belirtilmemiş ve bu ücretin alınması yasaktır. Tebliğ'de açıkça yasaklanmış bir ücret alınmaktadır.\",\n  \"citation\": \"EK-1\",\n  \"corrected_text\": \"Hesap işletim ücreti alınmamalıdır.\"\n}\n```",
     "detection_method": "llm_chain_of_thought"
   },
   {
     "status": "NOT_OK",
-    "reason": "Banka kendi ATM'sinden para çekme işleminden 5.0 TL ücret alıyor. Tebliğ'e göre kendi ATM'lerinden para çekme işlemlerinden ücret alınamaz. Bu durum Tebliğ'in açıkça yasakladığı bir durumu ihlal etmektedir.",
+    "reason": "Banka kendi ATM'sinden para çekme işleminden 5 TL ücret alıyor. Tebliğ'e göre kendi ATM'lerinden para çekme işlemlerinden ücret alınamaz. Bu durum Tebliğ'in açıkça yasakladığı bir durumu içeriyor.",
     "citation": "MADDE 14 - FIKRA 1",
     "corrected_text": "Kendi ATM'mizden yapılan para çekme işlemlerinden ücret alınmamaktadır.",
     "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_3__c1",
@@ -10923,14 +10863,14 @@
       {
         "text": "MADDE 6 – FIKRA 2: Bu sınıflandırmada yer almayan, yeni bir ürün veya hizmet grubunun belirlenmesi veya yeni bir ücret kaleminin oluşturulabilmesi için ilgili kuruluş tarafından Merkez Bankasından izin alınması zorunludur. Merkez Bankası gerekli gördüğü hallerde Ek-1’deki listeyi değiştirmeye yetkilidir. Ek-1’deki listenin Merkez Bankası tarafından değiştirilmesi durumunda, kuruluşlar değişikliğin yapıldığı tarihi takip eden ayın sonuna kadar yeni sınıflandırmaya intibak etmekle yükümlüdür.",
         "metadata": {
-          "doc_id": "tcmb_teblig",
-          "scope": "fees_disclosure",
-          "parent_chunk_id": "MADDE_6_2",
-          "bolum_no": 2,
           "chunk_kind": "child",
-          "madde_no": 6,
+          "doc_id": "tcmb_teblig",
           "unit_id": "MADDE_6_2",
-          "fikra_no": 2
+          "fikra_no": 2,
+          "bolum_no": 2,
+          "scope": "fees_disclosure",
+          "madde_no": 6,
+          "parent_chunk_id": "MADDE_6_2"
         },
         "similarity": 0.99,
         "is_hybrid": true
@@ -10938,14 +10878,14 @@
       {
         "text": "MADDE 6 – FIKRA 1: Kuruluşlar tarafından ücretlendirilebilecek olan ürün veya hizmetler Ek-1’de sınıflandırılmıştır. Bu sınıflandırmanın, işlemlerin finansal niteliklerine göre ayrımı Merkez Bankasının uygun görüşü alınarak Birlikler tarafından yapılır. Bu Tebliğ ve ekinde yer alanların dışında herhangi bir ürün veya hizmet için ücret alınamaz ancak, üçüncü kişilere ödenen tutarlar finansal tüketiciye aynen yansıtılabilir.",
         "metadata": {
+          "scope": "fees_disclosure",
+          "fikra_no": 1,
           "madde_no": 6,
           "unit_id": "MADDE_6_1",
           "parent_chunk_id": "MADDE_6_1",
+          "chunk_kind": "child",
           "bolum_no": 2,
-          "doc_id": "tcmb_teblig",
-          "scope": "fees_disclosure",
-          "fikra_no": 1,
-          "chunk_kind": "child"
+          "doc_id": "tcmb_teblig"
         },
         "similarity": 0.99,
         "is_hybrid": true
@@ -10953,14 +10893,14 @@
       {
         "text": "MADDE 9 – FIKRA 6: Merkez Bankası bilgilendirmelerde veya onay alınmasında kullanılan yöntemlerin etkin olmadığı kanaatine varırsa, her bir ürün veya hizmet bazında belirlenecek yöntemlerin kullanılmasını zorunlu tutabilir.",
         "metadata": {
-          "fikra_no": 6,
-          "parent_chunk_id": "MADDE_9_6",
-          "bolum_no": 2,
           "scope": "fees_disclosure",
           "doc_id": "tcmb_teblig",
+          "fikra_no": 6,
           "chunk_kind": "child",
           "madde_no": 9,
-          "unit_id": "MADDE_9_6"
+          "unit_id": "MADDE_9_6",
+          "parent_chunk_id": "MADDE_9_6",
+          "bolum_no": 2
         },
         "similarity": 0.99,
         "is_hybrid": true
@@ -10968,40 +10908,40 @@
       {
         "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
         "metadata": {
-          "fikra_no": "Tam Liste",
           "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
           "madde_no": "Ek-1",
-          "parent_chunk_id": "EK-1",
           "bolum_no": 99,
           "chunk_kind": "child",
+          "unit_id": "EK-1",
+          "fikra_no": "Tam Liste",
           "doc_id": "tcmb_teblig",
-          "unit_id": "EK-1"
+          "parent_chunk_id": "EK-1"
         },
         "similarity": 0.95,
         "is_hybrid": false,
         "forced_context": true
       }
     ],
-    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka kendi ATM'sinden para çekme işleminden 5.0 TL ücret alıyor. Tebliğ'e göre kendi ATM'lerinden para çekme işlemlerinden ücret alınamaz. Bu durum Tebliğ'in açıkça yasakladığı bir durumu ihlal etmektedir.\",\n  \"citation\": \"MADDE 14 - FIKRA 1\",\n  \"corrected_text\": \"Kendi ATM'mizden yapılan para çekme işlemlerinden ücret alınmamaktadır.\"\n}\n```",
+    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka kendi ATM'sinden para çekme işleminden 5 TL ücret alıyor. Tebliğ'e göre kendi ATM'lerinden para çekme işlemlerinden ücret alınamaz. Bu durum Tebliğ'in açıkça yasakladığı bir durumu içeriyor.\",\n  \"citation\": \"MADDE 14 - FIKRA 1\",\n  \"corrected_text\": \"Kendi ATM'mizden yapılan para çekme işlemlerinden ücret alınmamaktadır.\"\n}\n```",
     "detection_method": "llm_chain_of_thought"
   },
   {
-    "status": "NOT_OK",
-    "reason": "Banka 15 TL ücret alıyor. Ek-1 listesinde 'Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti' yer alıyor. Ancak, bu maddeye ilişkin Tebliğ'de sayısal bir limit belirtilmemiştir. Bu nedenle, Ek-1'de yer almasına rağmen, sayısal bir limit olmaması nedeniyle ihlal durumu söz konusudur.",
-    "citation": "EK-1",
-    "corrected_text": "Başka Banka ATM'sinden yapılan işlem ücreti, ilgili mevzuatta belirtilen azami tutarı aşamaz.",
+    "status": "NA",
+    "reason": "Banka maddesi 'Başka Banka ATM Nakit Çekim' ücretinden bahsediyor. Ek-1 listesinde 'Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti' yer alıyor. Bu, ücretin izin verildiği anlamına gelir. Ancak, Tebliğ'de bu işlem için bir sayısal limit belirtilmemiştir. Bu nedenle, ihlal olup olmadığını belirlemek mümkün değildir. Bu durumda NA vermek en doğru yaklaşımdır.",
+    "citation": "",
+    "corrected_text": "",
     "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_4__c1",
     "chunk_text": "Hizmet Türü: Başka Banka ATM Nakit Çekim. Standart Ücret (TL): 15.",
     "top_matches": [
       {
         "text": "MADDE 6 – FIKRA 2: Bu sınıflandırmada yer almayan, yeni bir ürün veya hizmet grubunun belirlenmesi veya yeni bir ücret kaleminin oluşturulabilmesi için ilgili kuruluş tarafından Merkez Bankasından izin alınması zorunludur. Merkez Bankası gerekli gördüğü hallerde Ek-1’deki listeyi değiştirmeye yetkilidir. Ek-1’deki listenin Merkez Bankası tarafından değiştirilmesi durumunda, kuruluşlar değişikliğin yapıldığı tarihi takip eden ayın sonuna kadar yeni sınıflandırmaya intibak etmekle yükümlüdür.",
         "metadata": {
-          "scope": "fees_disclosure",
+          "bolum_no": 2,
           "unit_id": "MADDE_6_2",
           "parent_chunk_id": "MADDE_6_2",
-          "fikra_no": 2,
           "doc_id": "tcmb_teblig",
-          "bolum_no": 2,
+          "fikra_no": 2,
+          "scope": "fees_disclosure",
           "madde_no": 6,
           "chunk_kind": "child"
         },
@@ -11011,14 +10951,14 @@
       {
         "text": "MADDE 6 – FIKRA 1: Kuruluşlar tarafından ücretlendirilebilecek olan ürün veya hizmetler Ek-1’de sınıflandırılmıştır. Bu sınıflandırmanın, işlemlerin finansal niteliklerine göre ayrımı Merkez Bankasının uygun görüşü alınarak Birlikler tarafından yapılır. Bu Tebliğ ve ekinde yer alanların dışında herhangi bir ürün veya hizmet için ücret alınamaz ancak, üçüncü kişilere ödenen tutarlar finansal tüketiciye aynen yansıtılabilir.",
         "metadata": {
-          "madde_no": 6,
-          "fikra_no": 1,
-          "bolum_no": 2,
           "unit_id": "MADDE_6_1",
           "chunk_kind": "child",
-          "parent_chunk_id": "MADDE_6_1",
+          "scope": "fees_disclosure",
           "doc_id": "tcmb_teblig",
-          "scope": "fees_disclosure"
+          "parent_chunk_id": "MADDE_6_1",
+          "madde_no": 6,
+          "fikra_no": 1,
+          "bolum_no": 2
         },
         "similarity": 0.99,
         "is_hybrid": true
@@ -11026,12 +10966,12 @@
       {
         "text": "MADDE 9 – FIKRA 6: Merkez Bankası bilgilendirmelerde veya onay alınmasında kullanılan yöntemlerin etkin olmadığı kanaatine varırsa, her bir ürün veya hizmet bazında belirlenecek yöntemlerin kullanılmasını zorunlu tutabilir.",
         "metadata": {
-          "fikra_no": 6,
-          "scope": "fees_disclosure",
-          "bolum_no": 2,
-          "doc_id": "tcmb_teblig",
           "parent_chunk_id": "MADDE_9_6",
           "madde_no": 9,
+          "doc_id": "tcmb_teblig",
+          "bolum_no": 2,
+          "fikra_no": 6,
+          "scope": "fees_disclosure",
           "unit_id": "MADDE_9_6",
           "chunk_kind": "child"
         },
@@ -11039,38 +10979,23 @@
         "is_hybrid": true
       },
       {
-        "text": "MADDE 11 – FIKRA 3: Banka kartları ile sanal kredi kartlarından yıllık üyelik ücreti alınamaz.",
-        "metadata": {
-          "scope": "credit_card,fees_disclosure",
-          "doc_id": "tcmb_teblig",
-          "unit_id": "MADDE_11_3",
-          "madde_no": 11,
-          "bolum_no": 3,
-          "parent_chunk_id": "MADDE_11_3",
-          "chunk_kind": "child",
-          "fikra_no": 3
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
         "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
         "metadata": {
-          "fikra_no": "Tam Liste",
           "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
           "madde_no": "Ek-1",
-          "parent_chunk_id": "EK-1",
           "bolum_no": 99,
           "chunk_kind": "child",
+          "unit_id": "EK-1",
+          "fikra_no": "Tam Liste",
           "doc_id": "tcmb_teblig",
-          "unit_id": "EK-1"
+          "parent_chunk_id": "EK-1"
         },
         "similarity": 0.95,
         "is_hybrid": false,
         "forced_context": true
       }
     ],
-    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka 15 TL ücret alıyor. Ek-1 listesinde 'Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti' yer alıyor. Ancak, bu maddeye ilişkin Tebliğ'de sayısal bir limit belirtilmemiştir. Bu nedenle, Ek-1'de yer almasına rağmen, sayısal bir limit olmaması nedeniyle ihlal durumu söz konusudur.\",\n  \"citation\": \"EK-1\",\n  \"corrected_text\": \"Başka Banka ATM'sinden yapılan işlem ücreti, ilgili mevzuatta belirtilen azami tutarı aşamaz.\"\n}\n```",
+    "regenerated_response": "```json\n{\n  \"status\": \"NA\",\n  \"reason\": \"Banka maddesi 'Başka Banka ATM Nakit Çekim' ücretinden bahsediyor. Ek-1 listesinde 'Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti' yer alıyor. Bu, ücretin izin verildiği anlamına gelir. Ancak, Tebliğ'de bu işlem için bir sayısal limit belirtilmemiştir. Bu nedenle, ihlal olup olmadığını belirlemek mümkün değildir. Bu durumda NA vermek en doğru yaklaşımdır.\",\n  \"citation\": \"\",\n  \"corrected_text\": \"\"\n}\n```",
     "detection_method": "llm_chain_of_thought"
   },
   {
@@ -11084,13 +11009,13 @@
       {
         "text": "MADDE 6 – FIKRA 2: Bu sınıflandırmada yer almayan, yeni bir ürün veya hizmet grubunun belirlenmesi veya yeni bir ücret kaleminin oluşturulabilmesi için ilgili kuruluş tarafından Merkez Bankasından izin alınması zorunludur. Merkez Bankası gerekli gördüğü hallerde Ek-1’deki listeyi değiştirmeye yetkilidir. Ek-1’deki listenin Merkez Bankası tarafından değiştirilmesi durumunda, kuruluşlar değişikliğin yapıldığı tarihi takip eden ayın sonuna kadar yeni sınıflandırmaya intibak etmekle yükümlüdür.",
         "metadata": {
-          "scope": "fees_disclosure",
+          "parent_chunk_id": "MADDE_6_2",
+          "chunk_kind": "child",
           "unit_id": "MADDE_6_2",
           "fikra_no": 2,
-          "chunk_kind": "child",
-          "parent_chunk_id": "MADDE_6_2",
-          "doc_id": "tcmb_teblig",
           "bolum_no": 2,
+          "scope": "fees_disclosure",
+          "doc_id": "tcmb_teblig",
           "madde_no": 6
         },
         "similarity": 0.99,
@@ -11099,44 +11024,14 @@
       {
         "text": "MADDE 6 – FIKRA 1: Kuruluşlar tarafından ücretlendirilebilecek olan ürün veya hizmetler Ek-1’de sınıflandırılmıştır. Bu sınıflandırmanın, işlemlerin finansal niteliklerine göre ayrımı Merkez Bankasının uygun görüşü alınarak Birlikler tarafından yapılır. Bu Tebliğ ve ekinde yer alanların dışında herhangi bir ürün veya hizmet için ücret alınamaz ancak, üçüncü kişilere ödenen tutarlar finansal tüketiciye aynen yansıtılabilir.",
         "metadata": {
-          "scope": "fees_disclosure",
           "doc_id": "tcmb_teblig",
-          "unit_id": "MADDE_6_1",
-          "madde_no": 6,
           "fikra_no": 1,
-          "bolum_no": 2,
+          "scope": "fees_disclosure",
           "parent_chunk_id": "MADDE_6_1",
-          "chunk_kind": "child"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 9 – FIKRA 6: Merkez Bankası bilgilendirmelerde veya onay alınmasında kullanılan yöntemlerin etkin olmadığı kanaatine varırsa, her bir ürün veya hizmet bazında belirlenecek yöntemlerin kullanılmasını zorunlu tutabilir.",
-        "metadata": {
-          "fikra_no": 6,
-          "scope": "fees_disclosure",
-          "chunk_kind": "child",
-          "madde_no": 9,
           "bolum_no": 2,
-          "parent_chunk_id": "MADDE_9_6",
-          "doc_id": "tcmb_teblig",
-          "unit_id": "MADDE_9_6"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 9 – FIKRA 1: Finansal tüketicilerden alınacak faiz, kâr payı, ücret ve diğer kesintilere ilişkin güncel bilgiler açık, anlaşılır ve kolay erişilebilir bir şekilde kuruluşların internet sitelerinde karşılaştırmaya uygun bir biçimde yer alır. Bu bilgilerde değişiklik olması hâlinde internet sitesi eşzamanlı olarak güncellenir. Kuruluşlar, kredi ürünlerinin kullanılması hâlinde ortaya çıkacak faiz, kâr payı oranı ve ücret bilgilerini detaylı bir şekilde gösteren hesaplama araçlarını internet sitelerinde sunmakla yükümlüdür.",
-        "metadata": {
-          "bolum_no": 2,
-          "scope": "fees_disclosure",
-          "doc_id": "tcmb_teblig",
-          "parent_chunk_id": "MADDE_9_1",
-          "madde_no": 9,
-          "fikra_no": 1,
           "chunk_kind": "child",
-          "unit_id": "MADDE_9_1"
+          "madde_no": 6,
+          "unit_id": "MADDE_6_1"
         },
         "similarity": 0.99,
         "is_hybrid": true
@@ -11144,14 +11039,14 @@
       {
         "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
         "metadata": {
-          "fikra_no": "Tam Liste",
           "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
           "madde_no": "Ek-1",
-          "parent_chunk_id": "EK-1",
           "bolum_no": 99,
           "chunk_kind": "child",
+          "unit_id": "EK-1",
+          "fikra_no": "Tam Liste",
           "doc_id": "tcmb_teblig",
-          "unit_id": "EK-1"
+          "parent_chunk_id": "EK-1"
         },
         "similarity": 0.95,
         "is_hybrid": false,
@@ -11163,376 +11058,22 @@
   },
   {
     "status": "NOT_OK",
-    "reason": "Banka 15.0 TL EFT ücreti alıyor, ancak Tebliğ'e göre 1000-50000 TL arası EFT ücreti 10.0 TL'yi geçemez. 5.0 TL fazla ücret alınmıştır.",
+    "reason": "Banka 15.0 TL şube EFT ücreti alıyor, ancak Tebliğ'e göre 10.0 TL'yi geçemiyor. 5.0 TL fazla ücret alınıyor.",
     "citation": "MADDE 12 - FIKRA 3",
     "corrected_text": "Şube EFT ücreti 10.0 TL olarak güncellenmiştir.",
     "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_6__c1",
     "chunk_text": "Hizmet Türü: Şube EFT İşlemi (1000-50K TL). Standart Ücret (TL): 15.",
     "top_matches": [
       {
-        "text": "MADDE 6 – FIKRA 2: Bu sınıflandırmada yer almayan, yeni bir ürün veya hizmet grubunun belirlenmesi veya yeni bir ücret kaleminin oluşturulabilmesi için ilgili kuruluş tarafından Merkez Bankasından izin alınması zorunludur. Merkez Bankası gerekli gördüğü hallerde Ek-1’deki listeyi değiştirmeye yetkilidir. Ek-1’deki listenin Merkez Bankası tarafından değiştirilmesi durumunda, kuruluşlar değişikliğin yapıldığı tarihi takip eden ayın sonuna kadar yeni sınıflandırmaya intibak etmekle yükümlüdür.",
-        "metadata": {
-          "parent_chunk_id": "MADDE_6_2",
-          "unit_id": "MADDE_6_2",
-          "doc_id": "tcmb_teblig",
-          "scope": "fees_disclosure",
-          "bolum_no": 2,
-          "fikra_no": 2,
-          "chunk_kind": "child",
-          "madde_no": 6
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 6 – FIKRA 1: Kuruluşlar tarafından ücretlendirilebilecek olan ürün veya hizmetler Ek-1’de sınıflandırılmıştır. Bu sınıflandırmanın, işlemlerin finansal niteliklerine göre ayrımı Merkez Bankasının uygun görüşü alınarak Birlikler tarafından yapılır. Bu Tebliğ ve ekinde yer alanların dışında herhangi bir ürün veya hizmet için ücret alınamaz ancak, üçüncü kişilere ödenen tutarlar finansal tüketiciye aynen yansıtılabilir.",
-        "metadata": {
-          "unit_id": "MADDE_6_1",
-          "doc_id": "tcmb_teblig",
-          "madde_no": 6,
-          "parent_chunk_id": "MADDE_6_1",
-          "fikra_no": 1,
-          "chunk_kind": "child",
-          "scope": "fees_disclosure",
-          "bolum_no": 2
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
         "text": "MADDE 11 – FIKRA 6: Kesintisiz olarak, en az yüzseksen gün süreyle hareket görmeyen kredi kartları hareketsiz kart kabul edilir ve bu kartlara hareketsiz kaldığı müddetçe yıllık üyelik ücreti yansıtılamaz. Kuruluşlar, finansal tüketiciye yazılı olarak veya kalıcı veri saklayıcısı aracılığıyla veya kaydı tutulan telefon ile önceden bilgi vermek suretiyle bu nitelikteki kredi kartlarını kapatma hakkına sahiptir.",
         "metadata": {
-          "fikra_no": 6,
-          "unit_id": "MADDE_11_6",
-          "chunk_kind": "child",
-          "doc_id": "tcmb_teblig",
+          "bolum_no": 3,
           "scope": "credit_card,fees_disclosure",
+          "chunk_kind": "child",
           "madde_no": 11,
-          "bolum_no": 3,
-          "parent_chunk_id": "MADDE_11_6"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 9 – FIKRA 1: Finansal tüketicilerden alınacak faiz, kâr payı, ücret ve diğer kesintilere ilişkin güncel bilgiler açık, anlaşılır ve kolay erişilebilir bir şekilde kuruluşların internet sitelerinde karşılaştırmaya uygun bir biçimde yer alır. Bu bilgilerde değişiklik olması hâlinde internet sitesi eşzamanlı olarak güncellenir. Kuruluşlar, kredi ürünlerinin kullanılması hâlinde ortaya çıkacak faiz, kâr payı oranı ve ücret bilgilerini detaylı bir şekilde gösteren hesaplama araçlarını internet sitelerinde sunmakla yükümlüdür.",
-        "metadata": {
-          "chunk_kind": "child",
-          "unit_id": "MADDE_9_1",
-          "madde_no": 9,
-          "doc_id": "tcmb_teblig",
-          "parent_chunk_id": "MADDE_9_1",
-          "bolum_no": 2,
-          "fikra_no": 1,
-          "scope": "fees_disclosure"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
-        "metadata": {
-          "fikra_no": "Tam Liste",
-          "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
-          "madde_no": "Ek-1",
-          "parent_chunk_id": "EK-1",
-          "bolum_no": 99,
-          "chunk_kind": "child",
-          "doc_id": "tcmb_teblig",
-          "unit_id": "EK-1"
-        },
-        "similarity": 0.95,
-        "is_hybrid": false,
-        "forced_context": true
-      }
-    ],
-    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka 15.0 TL EFT ücreti alıyor, ancak Tebliğ'e göre 1000-50000 TL arası EFT ücreti 10.0 TL'yi geçemez. 5.0 TL fazla ücret alınmıştır.\",\n  \"citation\": \"MADDE 12 - FIKRA 3\",\n  \"corrected_text\": \"Şube EFT ücreti 10.0 TL olarak güncellenmiştir.\"\n}\n```",
-    "detection_method": "llm_chain_of_thought"
-  },
-  {
-    "status": "NOT_OK",
-    "reason": "Banka 50 TL hesap açılış ücreti alıyor. Tebliğ'e göre mevduat ve katılım fonu hesaplarının açılış işlemlerinde ücret alınamaz. Bu, açık bir ücret yasaklamasıdır.",
-    "citation": "MADDE 13 - FIKRA 1",
-    "corrected_text": "Hesap açılışında herhangi bir ücret alınmayacaktır.",
-    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_7__c1",
-    "chunk_text": "Hizmet Türü: Hesap Açılış Ücreti. Standart Ücret (TL): 50.",
-    "top_matches": [
-      {
-        "text": "MADDE 6 – FIKRA 2: Bu sınıflandırmada yer almayan, yeni bir ürün veya hizmet grubunun belirlenmesi veya yeni bir ücret kaleminin oluşturulabilmesi için ilgili kuruluş tarafından Merkez Bankasından izin alınması zorunludur. Merkez Bankası gerekli gördüğü hallerde Ek-1’deki listeyi değiştirmeye yetkilidir. Ek-1’deki listenin Merkez Bankası tarafından değiştirilmesi durumunda, kuruluşlar değişikliğin yapıldığı tarihi takip eden ayın sonuna kadar yeni sınıflandırmaya intibak etmekle yükümlüdür.",
-        "metadata": {
-          "parent_chunk_id": "MADDE_6_2",
-          "scope": "fees_disclosure",
-          "unit_id": "MADDE_6_2",
-          "chunk_kind": "child",
-          "madde_no": 6,
-          "doc_id": "tcmb_teblig",
-          "fikra_no": 2,
-          "bolum_no": 2
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 6 – FIKRA 1: Kuruluşlar tarafından ücretlendirilebilecek olan ürün veya hizmetler Ek-1’de sınıflandırılmıştır. Bu sınıflandırmanın, işlemlerin finansal niteliklerine göre ayrımı Merkez Bankasının uygun görüşü alınarak Birlikler tarafından yapılır. Bu Tebliğ ve ekinde yer alanların dışında herhangi bir ürün veya hizmet için ücret alınamaz ancak, üçüncü kişilere ödenen tutarlar finansal tüketiciye aynen yansıtılabilir.",
-        "metadata": {
-          "unit_id": "MADDE_6_1",
-          "bolum_no": 2,
-          "scope": "fees_disclosure",
-          "doc_id": "tcmb_teblig",
-          "parent_chunk_id": "MADDE_6_1",
-          "fikra_no": 1,
-          "chunk_kind": "child",
-          "madde_no": 6
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 9 – FIKRA 6: Merkez Bankası bilgilendirmelerde veya onay alınmasında kullanılan yöntemlerin etkin olmadığı kanaatine varırsa, her bir ürün veya hizmet bazında belirlenecek yöntemlerin kullanılmasını zorunlu tutabilir.",
-        "metadata": {
-          "bolum_no": 2,
-          "scope": "fees_disclosure",
-          "doc_id": "tcmb_teblig",
-          "madde_no": 9,
-          "parent_chunk_id": "MADDE_9_6",
-          "fikra_no": 6,
-          "chunk_kind": "child",
-          "unit_id": "MADDE_9_6"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 12 – FIKRA 3: EFT işlemlerinden alınacak ücret işlem tutarının 1.000 TL ve altında olması hâlinde mobil bankacılık uygulamaları ve internet bankacılığı aracılığıyla yapılan işlemler ile düzenli ödemelerde 1 TL’yi, ATM’den yapılan işlemlerde 4 TL’yi, diğer kanallar ile yapılan işlemlerde ise 5 TL’yi geçemez. İşlem tutarının 1.000 TL ile 50.000 TL arasında olması hâlinde bu sınırlar sırasıyla 2 TL, 8 TL ve 10 TL olarak, işlem tutarının 50.000 TL üzerinde olması durumunda ise 25 TL, 50 TL ve 100 TL olarak uygulanır. Havale işlemlerinde ise uygulanacak azami ücretler EFT işlemleri için belirtilen ayrımlara tabi olarak ilgili ücretlerin yarısı oranında uygulanır. Kuruluşlarca gerçekleştirilen uluslararası fon transferi ve mesajlaşma işlemlerinin ücretleri ise finansal tüketici ile kuruluş arasında düzenlenen sözleşme ile belirlenir.",
-        "metadata": {
-          "scope": "account_management",
-          "fikra_no": 3,
-          "madde_no": 12,
-          "unit_id": "MADDE_12_3",
-          "bolum_no": 3,
-          "doc_id": "tcmb_teblig",
-          "parent_chunk_id": "MADDE_12_3",
-          "chunk_kind": "child"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 12 – FIKRA 2: Gelen veya giden elektronik fon transfer sistemi işlemlerinde, finansal tüketicinin hatası nedeniyle para iadesi gereken durumlarda, Merkez Bankasına ödenen masraflar dışında finansal tüketiciden herhangi bir ücret alınamaz. Havalenin iadesi, reddi, devri ya da havale işlemine dair bilgi değişikliği işlemlerinden bir kamu kurum ve kuruluşuna veya üçüncü kişilere ödenen ücretler dışında ücret alınamaz.",
-        "metadata": {
-          "unit_id": "MADDE_12_2",
-          "fikra_no": 2,
-          "bolum_no": 3,
-          "chunk_kind": "child",
-          "scope": "account_management",
-          "madde_no": 12,
-          "parent_chunk_id": "MADDE_12_2",
-          "doc_id": "tcmb_teblig"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 13 – FIKRA 1: Finansal tüketicilerin açtıkları mevduat ve katılım fonu hesaplarının açılış işlemlerinde katlanılan operasyonel süreçler ve hesapların işletimi, hesapların işletime hazır bulundurulması, saklama hizmeti verilmesi ve bilgi işlem sistemi yatırımları kapsamında ücret alınamaz.",
-        "metadata": {
-          "fikra_no": 1,
-          "bolum_no": 3,
-          "scope": "account_management",
-          "madde_no": 13,
-          "doc_id": "tcmb_teblig",
-          "unit_id": "MADDE_13_1",
-          "chunk_kind": "child",
-          "parent_chunk_id": "MADDE_13_1"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 9 – FIKRA 1: Finansal tüketicilerden alınacak faiz, kâr payı, ücret ve diğer kesintilere ilişkin güncel bilgiler açık, anlaşılır ve kolay erişilebilir bir şekilde kuruluşların internet sitelerinde karşılaştırmaya uygun bir biçimde yer alır. Bu bilgilerde değişiklik olması hâlinde internet sitesi eşzamanlı olarak güncellenir. Kuruluşlar, kredi ürünlerinin kullanılması hâlinde ortaya çıkacak faiz, kâr payı oranı ve ücret bilgilerini detaylı bir şekilde gösteren hesaplama araçlarını internet sitelerinde sunmakla yükümlüdür.",
-        "metadata": {
-          "fikra_no": 1,
-          "chunk_kind": "child",
-          "scope": "fees_disclosure",
-          "parent_chunk_id": "MADDE_9_1",
-          "doc_id": "tcmb_teblig",
-          "unit_id": "MADDE_9_1",
-          "madde_no": 9,
-          "bolum_no": 2
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
-        "metadata": {
-          "fikra_no": "Tam Liste",
-          "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
-          "madde_no": "Ek-1",
-          "parent_chunk_id": "EK-1",
-          "bolum_no": 99,
-          "chunk_kind": "child",
-          "doc_id": "tcmb_teblig",
-          "unit_id": "EK-1"
-        },
-        "similarity": 0.95,
-        "is_hybrid": false,
-        "forced_context": true
-      }
-    ],
-    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka 50 TL hesap açılış ücreti alıyor. Tebliğ'e göre mevduat ve katılım fonu hesaplarının açılış işlemlerinde ücret alınamaz. Bu, açık bir ücret yasaklamasıdır.\",\n  \"citation\": \"MADDE 13 - FIKRA 1\",\n  \"corrected_text\": \"Hesap açılışında herhangi bir ücret alınmayacaktır.\"\n}\n```",
-    "detection_method": "llm_chain_of_thought"
-  },
-  {
-    "status": "NOT_OK",
-    "reason": "Banka 15 TL hesap bakım ücreti alıyor. Tebliğ'e göre mevduat ve katılım fonu hesaplarından hesap işletim ücreti alınamaz. Bu durum, Tebliğ'deki yasağa aykırıdır.",
-    "citation": "MADDE 13",
-    "corrected_text": "Hesap bakım ücreti alınmamalıdır.",
-    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_8__c1",
-    "chunk_text": "Hizmet Türü: Hesap Bakım Ücreti (Aylık). Standart Ücret (TL): 15.",
-    "top_matches": [
-      {
-        "text": "MADDE 6 – FIKRA 1: Kuruluşlar tarafından ücretlendirilebilecek olan ürün veya hizmetler Ek-1’de sınıflandırılmıştır. Bu sınıflandırmanın, işlemlerin finansal niteliklerine göre ayrımı Merkez Bankasının uygun görüşü alınarak Birlikler tarafından yapılır. Bu Tebliğ ve ekinde yer alanların dışında herhangi bir ürün veya hizmet için ücret alınamaz ancak, üçüncü kişilere ödenen tutarlar finansal tüketiciye aynen yansıtılabilir.",
-        "metadata": {
-          "fikra_no": 1,
-          "madde_no": 6,
-          "parent_chunk_id": "MADDE_6_1",
-          "bolum_no": 2,
-          "doc_id": "tcmb_teblig",
-          "scope": "fees_disclosure",
-          "chunk_kind": "child",
-          "unit_id": "MADDE_6_1"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 6 – FIKRA 2: Bu sınıflandırmada yer almayan, yeni bir ürün veya hizmet grubunun belirlenmesi veya yeni bir ücret kaleminin oluşturulabilmesi için ilgili kuruluş tarafından Merkez Bankasından izin alınması zorunludur. Merkez Bankası gerekli gördüğü hallerde Ek-1’deki listeyi değiştirmeye yetkilidir. Ek-1’deki listenin Merkez Bankası tarafından değiştirilmesi durumunda, kuruluşlar değişikliğin yapıldığı tarihi takip eden ayın sonuna kadar yeni sınıflandırmaya intibak etmekle yükümlüdür.",
-        "metadata": {
-          "unit_id": "MADDE_6_2",
-          "doc_id": "tcmb_teblig",
-          "chunk_kind": "child",
-          "fikra_no": 2,
-          "bolum_no": 2,
-          "parent_chunk_id": "MADDE_6_2",
-          "madde_no": 6,
-          "scope": "fees_disclosure"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 11 – FIKRA 6: Kesintisiz olarak, en az yüzseksen gün süreyle hareket görmeyen kredi kartları hareketsiz kart kabul edilir ve bu kartlara hareketsiz kaldığı müddetçe yıllık üyelik ücreti yansıtılamaz. Kuruluşlar, finansal tüketiciye yazılı olarak veya kalıcı veri saklayıcısı aracılığıyla veya kaydı tutulan telefon ile önceden bilgi vermek suretiyle bu nitelikteki kredi kartlarını kapatma hakkına sahiptir.",
-        "metadata": {
           "parent_chunk_id": "MADDE_11_6",
-          "bolum_no": 3,
-          "madde_no": 11,
-          "unit_id": "MADDE_11_6",
           "doc_id": "tcmb_teblig",
-          "chunk_kind": "child",
           "fikra_no": 6,
-          "scope": "credit_card,fees_disclosure"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 9 – FIKRA 6: Merkez Bankası bilgilendirmelerde veya onay alınmasında kullanılan yöntemlerin etkin olmadığı kanaatine varırsa, her bir ürün veya hizmet bazında belirlenecek yöntemlerin kullanılmasını zorunlu tutabilir.",
-        "metadata": {
-          "bolum_no": 2,
-          "scope": "fees_disclosure",
-          "parent_chunk_id": "MADDE_9_6",
-          "doc_id": "tcmb_teblig",
-          "chunk_kind": "child",
-          "unit_id": "MADDE_9_6",
-          "madde_no": 9,
-          "fikra_no": 6
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 11 – FIKRA 1: Kart çıkaran kuruluşlar, yıllık üyelik ücreti ve benzeri ad altında ücret tahsil etmedikleri bir kredi kartı türü sunmak zorundadır. Finansal tüketiciler tarafından yapılan ücretsiz kredi kartı başvurularının kuruluşlarca reddedilmesi hâlinde, bu başvuruya istinaden yıllık üyelik ücreti olan kredi kartı verilemez. Kart çıkaran kuruluşlar yıllık üyelik ücreti bulunmayan kredi kartı limiti belirlerken, yıllık üyelik ücreti bulunan kredi kartı değerlendirme kriterlerini aynen uygulamakla yükümlüdür. Finansal tüketicilerin yıllık üyelik ücreti bulunan kredi kartını limiti aynı kalmak kaydıyla yıllık üyelik ücreti bulunmayan kredi kartı ile değiştirme talepleri, kart çıkaran kuruluşlar tarafından yerine getirilmek zorundadır.",
-        "metadata": {
-          "bolum_no": 3,
-          "chunk_kind": "child",
-          "parent_chunk_id": "MADDE_11_1",
-          "unit_id": "MADDE_11_1",
-          "doc_id": "tcmb_teblig",
-          "scope": "credit_card,fees_disclosure",
-          "fikra_no": 1,
-          "madde_no": 11
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
-        "metadata": {
-          "fikra_no": "Tam Liste",
-          "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
-          "madde_no": "Ek-1",
-          "parent_chunk_id": "EK-1",
-          "bolum_no": 99,
-          "chunk_kind": "child",
-          "doc_id": "tcmb_teblig",
-          "unit_id": "EK-1"
-        },
-        "similarity": 0.95,
-        "is_hybrid": false,
-        "forced_context": true
-      }
-    ],
-    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka 15 TL hesap bakım ücreti alıyor. Tebliğ'e göre mevduat ve katılım fonu hesaplarından hesap işletim ücreti alınamaz. Bu durum, Tebliğ'deki yasağa aykırıdır.\",\n  \"citation\": \"MADDE 13\",\n  \"corrected_text\": \"Hesap bakım ücreti alınmamalıdır.\"\n}\n```",
-    "detection_method": "llm_chain_of_thought"
-  },
-  {
-    "status": "NOT_OK",
-    "reason": "Banka SMS bilgilendirme hizmeti için 10 TL ücret alıyor. Tebliğ'de bu hizmetin ücretsiz olması gerektiğine dair bir hüküm bulunmamakla birlikte, SMS bilgilendirme hizmeti zorunlu olduğu için ücret alınması yasaktır. Ek-1 listesinde de bu ücret kalemi yer almamaktadır.",
-    "citation": "MADDE N/A Fıkra N/A",
-    "corrected_text": "SMS bilgilendirme hizmeti ücretsizdir.",
-    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_9__c1",
-    "chunk_text": "Hizmet Türü: SMS Bilgilendirme (Zorunlu - Onaysız). Standart Ücret (TL): 10.",
-    "top_matches": [
-      {
-        "text": "MADDE 9 – FIKRA 5: Bu Tebliğin yürürlük tarihinden sonra düzenlenecek yazılı sözleşme ve bilgilendirme form içeriklerinin bir örneğine kuruluşların internet sitelerinde ücretsiz erişim imkânı sağlanır.",
-        "metadata": {
-          "parent_chunk_id": "MADDE_9_5",
-          "chunk_kind": "child",
-          "fikra_no": 5,
-          "madde_no": 9,
-          "doc_id": "tcmb_teblig",
-          "scope": "fees_disclosure",
-          "unit_id": "MADDE_9_5",
-          "bolum_no": 2
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 6 – FIKRA 2: Bu sınıflandırmada yer almayan, yeni bir ürün veya hizmet grubunun belirlenmesi veya yeni bir ücret kaleminin oluşturulabilmesi için ilgili kuruluş tarafından Merkez Bankasından izin alınması zorunludur. Merkez Bankası gerekli gördüğü hallerde Ek-1’deki listeyi değiştirmeye yetkilidir. Ek-1’deki listenin Merkez Bankası tarafından değiştirilmesi durumunda, kuruluşlar değişikliğin yapıldığı tarihi takip eden ayın sonuna kadar yeni sınıflandırmaya intibak etmekle yükümlüdür.",
-        "metadata": {
-          "doc_id": "tcmb_teblig",
-          "bolum_no": 2,
-          "madde_no": 6,
-          "parent_chunk_id": "MADDE_6_2",
-          "chunk_kind": "child",
-          "fikra_no": 2,
-          "scope": "fees_disclosure",
-          "unit_id": "MADDE_6_2"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 11 – FIKRA 6: Kesintisiz olarak, en az yüzseksen gün süreyle hareket görmeyen kredi kartları hareketsiz kart kabul edilir ve bu kartlara hareketsiz kaldığı müddetçe yıllık üyelik ücreti yansıtılamaz. Kuruluşlar, finansal tüketiciye yazılı olarak veya kalıcı veri saklayıcısı aracılığıyla veya kaydı tutulan telefon ile önceden bilgi vermek suretiyle bu nitelikteki kredi kartlarını kapatma hakkına sahiptir.",
-        "metadata": {
-          "fikra_no": 6,
-          "bolum_no": 3,
-          "parent_chunk_id": "MADDE_11_6",
-          "chunk_kind": "child",
-          "doc_id": "tcmb_teblig",
-          "madde_no": 11,
-          "scope": "credit_card,fees_disclosure",
           "unit_id": "MADDE_11_6"
         },
         "similarity": 0.99,
@@ -11541,13 +11082,13 @@
       {
         "text": "MADDE 9 – FIKRA 1: Finansal tüketicilerden alınacak faiz, kâr payı, ücret ve diğer kesintilere ilişkin güncel bilgiler açık, anlaşılır ve kolay erişilebilir bir şekilde kuruluşların internet sitelerinde karşılaştırmaya uygun bir biçimde yer alır. Bu bilgilerde değişiklik olması hâlinde internet sitesi eşzamanlı olarak güncellenir. Kuruluşlar, kredi ürünlerinin kullanılması hâlinde ortaya çıkacak faiz, kâr payı oranı ve ücret bilgilerini detaylı bir şekilde gösteren hesaplama araçlarını internet sitelerinde sunmakla yükümlüdür.",
         "metadata": {
-          "unit_id": "MADDE_9_1",
-          "bolum_no": 2,
-          "chunk_kind": "child",
-          "doc_id": "tcmb_teblig",
           "parent_chunk_id": "MADDE_9_1",
+          "doc_id": "tcmb_teblig",
+          "bolum_no": 2,
           "scope": "fees_disclosure",
+          "unit_id": "MADDE_9_1",
           "madde_no": 9,
+          "chunk_kind": "child",
           "fikra_no": 1
         },
         "similarity": 0.99,
@@ -11556,27 +11097,246 @@
       {
         "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
         "metadata": {
-          "fikra_no": "Tam Liste",
           "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
           "madde_no": "Ek-1",
-          "parent_chunk_id": "EK-1",
           "bolum_no": 99,
           "chunk_kind": "child",
+          "unit_id": "EK-1",
+          "fikra_no": "Tam Liste",
           "doc_id": "tcmb_teblig",
-          "unit_id": "EK-1"
+          "parent_chunk_id": "EK-1"
         },
         "similarity": 0.95,
         "is_hybrid": false,
         "forced_context": true
       }
     ],
-    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka SMS bilgilendirme hizmeti için 10 TL ücret alıyor. Tebliğ'de bu hizmetin ücretsiz olması gerektiğine dair bir hüküm bulunmamakla birlikte, SMS bilgilendirme hizmeti zorunlu olduğu için ücret alınması yasaktır. Ek-1 listesinde de bu ücret kalemi yer almamaktadır.\",\n  \"citation\": \"MADDE N/A Fıkra N/A\",\n  \"corrected_text\": \"SMS bilgilendirme hizmeti ücretsizdir.\"\n}\n```",
+    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka 15.0 TL şube EFT ücreti alıyor, ancak Tebliğ'e göre 10.0 TL'yi geçemiyor. 5.0 TL fazla ücret alınıyor.\",\n  \"citation\": \"MADDE 12 - FIKRA 3\",\n  \"corrected_text\": \"Şube EFT ücreti 10.0 TL olarak güncellenmiştir.\"\n}\n```",
     "detection_method": "llm_chain_of_thought"
   },
   {
     "status": "NOT_OK",
-    "reason": "Banka 5.0 TL ücret alıyor, Tebliğde bu hizmetin ücretsiz olması gerektiği belirtiliyor. Ücretsiz olması gereken bir işlem için ücret alınması Tebliğ'e aykırıdır.",
-    "citation": "MADDE N/A Fıkra N/A",
+    "reason": "Banka 50.0 TL hesap açılış ücreti alıyor. Tebliğ'in 13. maddesinin 1. fıkrası, mevduat ve katılım fonu hesaplarının açılış işlemlerinde ücret alınamayacağını belirtiyor. Bu durum, Tebliğ'e aykırıdır.",
+    "citation": "MADDE 13 - FIKRA 1",
+    "corrected_text": "Hesap açılış işlemlerinde herhangi bir ücret alınmayacaktır.",
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_7__c1",
+    "chunk_text": "Hizmet Türü: Hesap Açılış Ücreti. Standart Ücret (TL): 50.",
+    "top_matches": [
+      {
+        "text": "MADDE 6 – FIKRA 2: Bu sınıflandırmada yer almayan, yeni bir ürün veya hizmet grubunun belirlenmesi veya yeni bir ücret kaleminin oluşturulabilmesi için ilgili kuruluş tarafından Merkez Bankasından izin alınması zorunludur. Merkez Bankası gerekli gördüğü hallerde Ek-1’deki listeyi değiştirmeye yetkilidir. Ek-1’deki listenin Merkez Bankası tarafından değiştirilmesi durumunda, kuruluşlar değişikliğin yapıldığı tarihi takip eden ayın sonuna kadar yeni sınıflandırmaya intibak etmekle yükümlüdür.",
+        "metadata": {
+          "bolum_no": 2,
+          "parent_chunk_id": "MADDE_6_2",
+          "scope": "fees_disclosure",
+          "unit_id": "MADDE_6_2",
+          "doc_id": "tcmb_teblig",
+          "fikra_no": 2,
+          "madde_no": 6,
+          "chunk_kind": "child"
+        },
+        "similarity": 0.99,
+        "is_hybrid": true
+      },
+      {
+        "text": "MADDE 12 – FIKRA 3: EFT işlemlerinden alınacak ücret işlem tutarının 1.000 TL ve altında olması hâlinde mobil bankacılık uygulamaları ve internet bankacılığı aracılığıyla yapılan işlemler ile düzenli ödemelerde 1 TL’yi, ATM’den yapılan işlemlerde 4 TL’yi, diğer kanallar ile yapılan işlemlerde ise 5 TL’yi geçemez. İşlem tutarının 1.000 TL ile 50.000 TL arasında olması hâlinde bu sınırlar sırasıyla 2 TL, 8 TL ve 10 TL olarak, işlem tutarının 50.000 TL üzerinde olması durumunda ise 25 TL, 50 TL ve 100 TL olarak uygulanır. Havale işlemlerinde ise uygulanacak azami ücretler EFT işlemleri için belirtilen ayrımlara tabi olarak ilgili ücretlerin yarısı oranında uygulanır. Kuruluşlarca gerçekleştirilen uluslararası fon transferi ve mesajlaşma işlemlerinin ücretleri ise finansal tüketici ile kuruluş arasında düzenlenen sözleşme ile belirlenir.",
+        "metadata": {
+          "bolum_no": 3,
+          "fikra_no": 3,
+          "doc_id": "tcmb_teblig",
+          "scope": "account_management",
+          "chunk_kind": "child",
+          "madde_no": 12,
+          "parent_chunk_id": "MADDE_12_3",
+          "unit_id": "MADDE_12_3"
+        },
+        "similarity": 0.99,
+        "is_hybrid": true
+      },
+      {
+        "text": "MADDE 12 – FIKRA 2: Gelen veya giden elektronik fon transfer sistemi işlemlerinde, finansal tüketicinin hatası nedeniyle para iadesi gereken durumlarda, Merkez Bankasına ödenen masraflar dışında finansal tüketiciden herhangi bir ücret alınamaz. Havalenin iadesi, reddi, devri ya da havale işlemine dair bilgi değişikliği işlemlerinden bir kamu kurum ve kuruluşuna veya üçüncü kişilere ödenen ücretler dışında ücret alınamaz.",
+        "metadata": {
+          "madde_no": 12,
+          "unit_id": "MADDE_12_2",
+          "bolum_no": 3,
+          "chunk_kind": "child",
+          "scope": "account_management",
+          "fikra_no": 2,
+          "doc_id": "tcmb_teblig",
+          "parent_chunk_id": "MADDE_12_2"
+        },
+        "similarity": 0.99,
+        "is_hybrid": true
+      },
+      {
+        "text": "MADDE 13 – FIKRA 1: Finansal tüketicilerin açtıkları mevduat ve katılım fonu hesaplarının açılış işlemlerinde katlanılan operasyonel süreçler ve hesapların işletimi, hesapların işletime hazır bulundurulması, saklama hizmeti verilmesi ve bilgi işlem sistemi yatırımları kapsamında ücret alınamaz.",
+        "metadata": {
+          "parent_chunk_id": "MADDE_13_1",
+          "fikra_no": 1,
+          "unit_id": "MADDE_13_1",
+          "doc_id": "tcmb_teblig",
+          "chunk_kind": "child",
+          "madde_no": 13,
+          "bolum_no": 3,
+          "scope": "account_management"
+        },
+        "similarity": 0.99,
+        "is_hybrid": true
+      },
+      {
+        "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
+        "metadata": {
+          "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
+          "madde_no": "Ek-1",
+          "bolum_no": 99,
+          "chunk_kind": "child",
+          "unit_id": "EK-1",
+          "fikra_no": "Tam Liste",
+          "doc_id": "tcmb_teblig",
+          "parent_chunk_id": "EK-1"
+        },
+        "similarity": 0.95,
+        "is_hybrid": false,
+        "forced_context": true
+      }
+    ],
+    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka 50.0 TL hesap açılış ücreti alıyor. Tebliğ'in 13. maddesinin 1. fıkrası, mevduat ve katılım fonu hesaplarının açılış işlemlerinde ücret alınamayacağını belirtiyor. Bu durum, Tebliğ'e aykırıdır.\",\n  \"citation\": \"MADDE 13 - FIKRA 1\",\n  \"corrected_text\": \"Hesap açılış işlemlerinde herhangi bir ücret alınmayacaktır.\"\n}\n```",
+    "detection_method": "llm_chain_of_thought"
+  },
+  {
+    "status": "NOT_OK",
+    "reason": "Banka 15 TL hesap bakım ücreti alıyor. Tebliğ'e göre mevduat hesaplarından hesap işletim ücreti alınamaz. Bu durum, Tebliğ'in açıkça yasakladığı bir ücretlendirme uygulamasıdır.",
+    "citation": "MADDE 13 - FIKRA 1",
+    "corrected_text": "Hesap bakım ücreti alınmamalıdır.",
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_8__c1",
+    "chunk_text": "Hizmet Türü: Hesap Bakım Ücreti (Aylık). Standart Ücret (TL): 15.",
+    "top_matches": [
+      {
+        "text": "MADDE 11 – FIKRA 1: Kart çıkaran kuruluşlar, yıllık üyelik ücreti ve benzeri ad altında ücret tahsil etmedikleri bir kredi kartı türü sunmak zorundadır. Finansal tüketiciler tarafından yapılan ücretsiz kredi kartı başvurularının kuruluşlarca reddedilmesi hâlinde, bu başvuruya istinaden yıllık üyelik ücreti olan kredi kartı verilemez. Kart çıkaran kuruluşlar yıllık üyelik ücreti bulunmayan kredi kartı limiti belirlerken, yıllık üyelik ücreti bulunan kredi kartı değerlendirme kriterlerini aynen uygulamakla yükümlüdür. Finansal tüketicilerin yıllık üyelik ücreti bulunan kredi kartını limiti aynı kalmak kaydıyla yıllık üyelik ücreti bulunmayan kredi kartı ile değiştirme talepleri, kart çıkaran kuruluşlar tarafından yerine getirilmek zorundadır.",
+        "metadata": {
+          "chunk_kind": "child",
+          "parent_chunk_id": "MADDE_11_1",
+          "fikra_no": 1,
+          "unit_id": "MADDE_11_1",
+          "scope": "credit_card,fees_disclosure",
+          "bolum_no": 3,
+          "doc_id": "tcmb_teblig",
+          "madde_no": 11
+        },
+        "similarity": 0.99,
+        "is_hybrid": true
+      },
+      {
+        "text": "MADDE 9 – FIKRA 1: Finansal tüketicilerden alınacak faiz, kâr payı, ücret ve diğer kesintilere ilişkin güncel bilgiler açık, anlaşılır ve kolay erişilebilir bir şekilde kuruluşların internet sitelerinde karşılaştırmaya uygun bir biçimde yer alır. Bu bilgilerde değişiklik olması hâlinde internet sitesi eşzamanlı olarak güncellenir. Kuruluşlar, kredi ürünlerinin kullanılması hâlinde ortaya çıkacak faiz, kâr payı oranı ve ücret bilgilerini detaylı bir şekilde gösteren hesaplama araçlarını internet sitelerinde sunmakla yükümlüdür.",
+        "metadata": {
+          "fikra_no": 1,
+          "unit_id": "MADDE_9_1",
+          "parent_chunk_id": "MADDE_9_1",
+          "madde_no": 9,
+          "doc_id": "tcmb_teblig",
+          "scope": "fees_disclosure",
+          "bolum_no": 2,
+          "chunk_kind": "child"
+        },
+        "similarity": 0.99,
+        "is_hybrid": true
+      },
+      {
+        "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
+        "metadata": {
+          "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
+          "madde_no": "Ek-1",
+          "bolum_no": 99,
+          "chunk_kind": "child",
+          "unit_id": "EK-1",
+          "fikra_no": "Tam Liste",
+          "doc_id": "tcmb_teblig",
+          "parent_chunk_id": "EK-1"
+        },
+        "similarity": 0.95,
+        "is_hybrid": false,
+        "forced_context": true
+      }
+    ],
+    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka 15 TL hesap bakım ücreti alıyor. Tebliğ'e göre mevduat hesaplarından hesap işletim ücreti alınamaz. Bu durum, Tebliğ'in açıkça yasakladığı bir ücretlendirme uygulamasıdır.\",\n  \"citation\": \"MADDE 13 - FIKRA 1\",\n  \"corrected_text\": \"Hesap bakım ücreti alınmamalıdır.\"\n}\n```",
+    "detection_method": "llm_chain_of_thought"
+  },
+  {
+    "status": "NOT_OK",
+    "reason": "Banka SMS bilgilendirme hizmeti için 10 TL ücret alıyor. Tebliğ'de bu hizmetin ücretsiz olması gerekmektedir. Ek-1 listesinde SMS bilgilendirme ücreti yer almamaktadır. Bu nedenle ücret alınması yasaktır.",
+    "citation": "EK-1",
+    "corrected_text": "SMS bilgilendirme hizmeti ücretsizdir.",
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_9__c1",
+    "chunk_text": "Hizmet Türü: SMS Bilgilendirme (Zorunlu - Onaysız). Standart Ücret (TL): 10.",
+    "top_matches": [
+      {
+        "text": "MADDE 9 – FIKRA 5: Bu Tebliğin yürürlük tarihinden sonra düzenlenecek yazılı sözleşme ve bilgilendirme form içeriklerinin bir örneğine kuruluşların internet sitelerinde ücretsiz erişim imkânı sağlanır.",
+        "metadata": {
+          "parent_chunk_id": "MADDE_9_5",
+          "scope": "fees_disclosure",
+          "doc_id": "tcmb_teblig",
+          "bolum_no": 2,
+          "chunk_kind": "child",
+          "unit_id": "MADDE_9_5",
+          "madde_no": 9,
+          "fikra_no": 5
+        },
+        "similarity": 0.99,
+        "is_hybrid": true
+      },
+      {
+        "text": "MADDE 11 – FIKRA 6: Kesintisiz olarak, en az yüzseksen gün süreyle hareket görmeyen kredi kartları hareketsiz kart kabul edilir ve bu kartlara hareketsiz kaldığı müddetçe yıllık üyelik ücreti yansıtılamaz. Kuruluşlar, finansal tüketiciye yazılı olarak veya kalıcı veri saklayıcısı aracılığıyla veya kaydı tutulan telefon ile önceden bilgi vermek suretiyle bu nitelikteki kredi kartlarını kapatma hakkına sahiptir.",
+        "metadata": {
+          "unit_id": "MADDE_11_6",
+          "scope": "credit_card,fees_disclosure",
+          "chunk_kind": "child",
+          "madde_no": 11,
+          "bolum_no": 3,
+          "parent_chunk_id": "MADDE_11_6",
+          "doc_id": "tcmb_teblig",
+          "fikra_no": 6
+        },
+        "similarity": 0.99,
+        "is_hybrid": true
+      },
+      {
+        "text": "MADDE 9 – FIKRA 1: Finansal tüketicilerden alınacak faiz, kâr payı, ücret ve diğer kesintilere ilişkin güncel bilgiler açık, anlaşılır ve kolay erişilebilir bir şekilde kuruluşların internet sitelerinde karşılaştırmaya uygun bir biçimde yer alır. Bu bilgilerde değişiklik olması hâlinde internet sitesi eşzamanlı olarak güncellenir. Kuruluşlar, kredi ürünlerinin kullanılması hâlinde ortaya çıkacak faiz, kâr payı oranı ve ücret bilgilerini detaylı bir şekilde gösteren hesaplama araçlarını internet sitelerinde sunmakla yükümlüdür.",
+        "metadata": {
+          "parent_chunk_id": "MADDE_9_1",
+          "unit_id": "MADDE_9_1",
+          "scope": "fees_disclosure",
+          "fikra_no": 1,
+          "chunk_kind": "child",
+          "bolum_no": 2,
+          "madde_no": 9,
+          "doc_id": "tcmb_teblig"
+        },
+        "similarity": 0.99,
+        "is_hybrid": true
+      },
+      {
+        "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
+        "metadata": {
+          "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
+          "madde_no": "Ek-1",
+          "bolum_no": 99,
+          "chunk_kind": "child",
+          "unit_id": "EK-1",
+          "fikra_no": "Tam Liste",
+          "doc_id": "tcmb_teblig",
+          "parent_chunk_id": "EK-1"
+        },
+        "similarity": 0.95,
+        "is_hybrid": false,
+        "forced_context": true
+      }
+    ],
+    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka SMS bilgilendirme hizmeti için 10 TL ücret alıyor. Tebliğ'de bu hizmetin ücretsiz olması gerekmektedir. Ek-1 listesinde SMS bilgilendirme ücreti yer almamaktadır. Bu nedenle ücret alınması yasaktır.\",\n  \"citation\": \"EK-1\",\n  \"corrected_text\": \"SMS bilgilendirme hizmeti ücretsizdir.\"\n}\n```",
+    "detection_method": "llm_chain_of_thought"
+  },
+  {
+    "status": "NOT_OK",
+    "reason": "Banka, E-posta bilgilendirme hizmeti için 5.0 TL ücret alıyor. Tebliğ'de bu hizmetin ücretsiz olması gerektiği belirtilmiyor ancak Ek-1 listesinde izin verilen ücret kalemleri arasında yer almıyor. Bu nedenle, ücretsiz olması gereken bir hizmet için ücret alınması Tebliğ'e aykırıdır.",
+    "citation": "EK-1",
     "corrected_text": "E-posta bilgilendirme hizmeti ücretsizdir.",
     "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_10__c1",
     "chunk_text": "Hizmet Türü: E-posta Bilgilendirme (Zorunlu - Onaysız). Standart Ücret (TL): 5.",
@@ -11584,27 +11344,12 @@
       {
         "text": "MADDE 9 – FIKRA 5: Bu Tebliğin yürürlük tarihinden sonra düzenlenecek yazılı sözleşme ve bilgilendirme form içeriklerinin bir örneğine kuruluşların internet sitelerinde ücretsiz erişim imkânı sağlanır.",
         "metadata": {
-          "madde_no": 9,
-          "chunk_kind": "child",
-          "bolum_no": 2,
           "doc_id": "tcmb_teblig",
-          "scope": "fees_disclosure",
+          "fikra_no": 5,
+          "madde_no": 9,
           "parent_chunk_id": "MADDE_9_5",
           "unit_id": "MADDE_9_5",
-          "fikra_no": 5
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 6 – FIKRA 1: Kuruluşlar tarafından ücretlendirilebilecek olan ürün veya hizmetler Ek-1’de sınıflandırılmıştır. Bu sınıflandırmanın, işlemlerin finansal niteliklerine göre ayrımı Merkez Bankasının uygun görüşü alınarak Birlikler tarafından yapılır. Bu Tebliğ ve ekinde yer alanların dışında herhangi bir ürün veya hizmet için ücret alınamaz ancak, üçüncü kişilere ödenen tutarlar finansal tüketiciye aynen yansıtılabilir.",
-        "metadata": {
           "bolum_no": 2,
-          "madde_no": 6,
-          "unit_id": "MADDE_6_1",
-          "doc_id": "tcmb_teblig",
-          "parent_chunk_id": "MADDE_6_1",
-          "fikra_no": 1,
           "chunk_kind": "child",
           "scope": "fees_disclosure"
         },
@@ -11614,14 +11359,14 @@
       {
         "text": "MADDE 11 – FIKRA 6: Kesintisiz olarak, en az yüzseksen gün süreyle hareket görmeyen kredi kartları hareketsiz kart kabul edilir ve bu kartlara hareketsiz kaldığı müddetçe yıllık üyelik ücreti yansıtılamaz. Kuruluşlar, finansal tüketiciye yazılı olarak veya kalıcı veri saklayıcısı aracılığıyla veya kaydı tutulan telefon ile önceden bilgi vermek suretiyle bu nitelikteki kredi kartlarını kapatma hakkına sahiptir.",
         "metadata": {
-          "madde_no": 11,
+          "doc_id": "tcmb_teblig",
           "chunk_kind": "child",
+          "scope": "credit_card,fees_disclosure",
           "unit_id": "MADDE_11_6",
           "fikra_no": 6,
-          "scope": "credit_card,fees_disclosure",
-          "bolum_no": 3,
+          "madde_no": 11,
           "parent_chunk_id": "MADDE_11_6",
-          "doc_id": "tcmb_teblig"
+          "bolum_no": 3
         },
         "similarity": 0.99,
         "is_hybrid": true
@@ -11629,14 +11374,14 @@
       {
         "text": "MADDE 9 – FIKRA 1: Finansal tüketicilerden alınacak faiz, kâr payı, ücret ve diğer kesintilere ilişkin güncel bilgiler açık, anlaşılır ve kolay erişilebilir bir şekilde kuruluşların internet sitelerinde karşılaştırmaya uygun bir biçimde yer alır. Bu bilgilerde değişiklik olması hâlinde internet sitesi eşzamanlı olarak güncellenir. Kuruluşlar, kredi ürünlerinin kullanılması hâlinde ortaya çıkacak faiz, kâr payı oranı ve ücret bilgilerini detaylı bir şekilde gösteren hesaplama araçlarını internet sitelerinde sunmakla yükümlüdür.",
         "metadata": {
+          "parent_chunk_id": "MADDE_9_1",
           "chunk_kind": "child",
           "doc_id": "tcmb_teblig",
-          "parent_chunk_id": "MADDE_9_1",
           "madde_no": 9,
-          "unit_id": "MADDE_9_1",
-          "scope": "fees_disclosure",
           "fikra_no": 1,
-          "bolum_no": 2
+          "unit_id": "MADDE_9_1",
+          "bolum_no": 2,
+          "scope": "fees_disclosure"
         },
         "similarity": 0.99,
         "is_hybrid": true
@@ -11644,57 +11389,42 @@
       {
         "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
         "metadata": {
-          "fikra_no": "Tam Liste",
           "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
           "madde_no": "Ek-1",
-          "parent_chunk_id": "EK-1",
           "bolum_no": 99,
           "chunk_kind": "child",
+          "unit_id": "EK-1",
+          "fikra_no": "Tam Liste",
           "doc_id": "tcmb_teblig",
-          "unit_id": "EK-1"
+          "parent_chunk_id": "EK-1"
         },
         "similarity": 0.95,
         "is_hybrid": false,
         "forced_context": true
       }
     ],
-    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka 5.0 TL ücret alıyor, Tebliğde bu hizmetin ücretsiz olması gerektiği belirtiliyor. Ücretsiz olması gereken bir işlem için ücret alınması Tebliğ'e aykırıdır.\",\n  \"citation\": \"MADDE N/A Fıkra N/A\",\n  \"corrected_text\": \"E-posta bilgilendirme hizmeti ücretsizdir.\"\n}\n```",
+    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka, E-posta bilgilendirme hizmeti için 5.0 TL ücret alıyor. Tebliğ'de bu hizmetin ücretsiz olması gerektiği belirtilmiyor ancak Ek-1 listesinde izin verilen ücret kalemleri arasında yer almıyor. Bu nedenle, ücretsiz olması gereken bir hizmet için ücret alınması Tebliğ'e aykırıdır.\",\n  \"citation\": \"EK-1\",\n  \"corrected_text\": \"E-posta bilgilendirme hizmeti ücretsizdir.\"\n}\n```",
     "detection_method": "llm_chain_of_thought"
   },
   {
     "status": "NOT_OK",
-    "reason": "Banka, SMS bildirimi için 8.0 TL ücret alıyor. Tebliğ'de bu hizmet için ücret alınamayacağına dair bir hüküm bulunmamakla birlikte, Ek-1 listesinde de yer almıyor. Bu durum, Tebliğ'de belirtilen izin verilmeyen ücretlerin alınması yasağına aykırıdır.",
-    "citation": "MADDE 6 – FIKRA 1",
-    "corrected_text": "Müşteri onayı olmadan SMS bildirimi hizmeti için ücret alınamaz.",
+    "reason": "Banka, müşteri onayı olmadan SMS bildirimi için ücret alıyor. Tebliğ, müşteri onayı gerektiren işlemler için açıkça izin vermiyor ve bu durum müşteri haklarının ihlali anlamına gelir. Bu, müşteri onayı olmadan ücret alınması yasağına aykırıdır.",
+    "citation": "MADDE N/A Fıkra N/A",
+    "corrected_text": "Müşteri onayı alınmadan SMS bildirimi gönderilemez. Müşteri onayı alındıktan sonra belirtilen ücret tahsil edilebilir.",
     "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_11__c1",
     "chunk_text": "Hizmet Türü: Müşteri Onayı Olmadan SMS Bildirimi. Standart Ücret (TL): 8.",
     "top_matches": [
       {
         "text": "MADDE 6 – FIKRA 2: Bu sınıflandırmada yer almayan, yeni bir ürün veya hizmet grubunun belirlenmesi veya yeni bir ücret kaleminin oluşturulabilmesi için ilgili kuruluş tarafından Merkez Bankasından izin alınması zorunludur. Merkez Bankası gerekli gördüğü hallerde Ek-1’deki listeyi değiştirmeye yetkilidir. Ek-1’deki listenin Merkez Bankası tarafından değiştirilmesi durumunda, kuruluşlar değişikliğin yapıldığı tarihi takip eden ayın sonuna kadar yeni sınıflandırmaya intibak etmekle yükümlüdür.",
         "metadata": {
+          "unit_id": "MADDE_6_2",
+          "chunk_kind": "child",
           "parent_chunk_id": "MADDE_6_2",
           "bolum_no": 2,
-          "scope": "fees_disclosure",
-          "doc_id": "tcmb_teblig",
-          "chunk_kind": "child",
           "fikra_no": 2,
-          "madde_no": 6,
-          "unit_id": "MADDE_6_2"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 6 – FIKRA 1: Kuruluşlar tarafından ücretlendirilebilecek olan ürün veya hizmetler Ek-1’de sınıflandırılmıştır. Bu sınıflandırmanın, işlemlerin finansal niteliklerine göre ayrımı Merkez Bankasının uygun görüşü alınarak Birlikler tarafından yapılır. Bu Tebliğ ve ekinde yer alanların dışında herhangi bir ürün veya hizmet için ücret alınamaz ancak, üçüncü kişilere ödenen tutarlar finansal tüketiciye aynen yansıtılabilir.",
-        "metadata": {
-          "bolum_no": 2,
-          "doc_id": "tcmb_teblig",
-          "fikra_no": 1,
           "scope": "fees_disclosure",
-          "madde_no": 6,
-          "parent_chunk_id": "MADDE_6_1",
-          "chunk_kind": "child",
-          "unit_id": "MADDE_6_1"
+          "doc_id": "tcmb_teblig",
+          "madde_no": 6
         },
         "similarity": 0.99,
         "is_hybrid": true
@@ -11702,29 +11432,14 @@
       {
         "text": "MADDE 11 – FIKRA 6: Kesintisiz olarak, en az yüzseksen gün süreyle hareket görmeyen kredi kartları hareketsiz kart kabul edilir ve bu kartlara hareketsiz kaldığı müddetçe yıllık üyelik ücreti yansıtılamaz. Kuruluşlar, finansal tüketiciye yazılı olarak veya kalıcı veri saklayıcısı aracılığıyla veya kaydı tutulan telefon ile önceden bilgi vermek suretiyle bu nitelikteki kredi kartlarını kapatma hakkına sahiptir.",
         "metadata": {
-          "scope": "credit_card,fees_disclosure",
           "unit_id": "MADDE_11_6",
-          "chunk_kind": "child",
           "madde_no": 11,
-          "bolum_no": 3,
+          "chunk_kind": "child",
           "parent_chunk_id": "MADDE_11_6",
           "doc_id": "tcmb_teblig",
-          "fikra_no": 6
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 9 – FIKRA 1: Finansal tüketicilerden alınacak faiz, kâr payı, ücret ve diğer kesintilere ilişkin güncel bilgiler açık, anlaşılır ve kolay erişilebilir bir şekilde kuruluşların internet sitelerinde karşılaştırmaya uygun bir biçimde yer alır. Bu bilgilerde değişiklik olması hâlinde internet sitesi eşzamanlı olarak güncellenir. Kuruluşlar, kredi ürünlerinin kullanılması hâlinde ortaya çıkacak faiz, kâr payı oranı ve ücret bilgilerini detaylı bir şekilde gösteren hesaplama araçlarını internet sitelerinde sunmakla yükümlüdür.",
-        "metadata": {
-          "madde_no": 9,
-          "fikra_no": 1,
-          "unit_id": "MADDE_9_1",
-          "doc_id": "tcmb_teblig",
-          "scope": "fees_disclosure",
-          "chunk_kind": "child",
-          "bolum_no": 2,
-          "parent_chunk_id": "MADDE_9_1"
+          "bolum_no": 3,
+          "fikra_no": 6,
+          "scope": "credit_card,fees_disclosure"
         },
         "similarity": 0.99,
         "is_hybrid": true
@@ -11732,160 +11447,85 @@
       {
         "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
         "metadata": {
-          "fikra_no": "Tam Liste",
           "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
           "madde_no": "Ek-1",
-          "parent_chunk_id": "EK-1",
           "bolum_no": 99,
           "chunk_kind": "child",
+          "unit_id": "EK-1",
+          "fikra_no": "Tam Liste",
           "doc_id": "tcmb_teblig",
-          "unit_id": "EK-1"
+          "parent_chunk_id": "EK-1"
         },
         "similarity": 0.95,
         "is_hybrid": false,
         "forced_context": true
       }
     ],
-    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka, SMS bildirimi için 8.0 TL ücret alıyor. Tebliğ'de bu hizmet için ücret alınamayacağına dair bir hüküm bulunmamakla birlikte, Ek-1 listesinde de yer almıyor. Bu durum, Tebliğ'de belirtilen izin verilmeyen ücretlerin alınması yasağına aykırıdır.\",\n  \"citation\": \"MADDE 6 – FIKRA 1\",\n  \"corrected_text\": \"Müşteri onayı olmadan SMS bildirimi hizmeti için ücret alınamaz.\"\n}\n```",
+    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka, müşteri onayı olmadan SMS bildirimi için ücret alıyor. Tebliğ, müşteri onayı gerektiren işlemler için açıkça izin vermiyor ve bu durum müşteri haklarının ihlali anlamına gelir. Bu, müşteri onayı olmadan ücret alınması yasağına aykırıdır.\",\n  \"citation\": \"MADDE N/A Fıkra N/A\",\n  \"corrected_text\": \"Müşteri onayı alınmadan SMS bildirimi gönderilemez. Müşteri onayı alındıktan sonra belirtilen ücret tahsil edilebilir.\"\n}\n```",
     "detection_method": "llm_chain_of_thought"
   },
   {
     "status": "NOT_OK",
-    "reason": "Banka kendi hesabına para yatırma işleminden 3 TL ücret alıyor. Tebliğ'e göre kendi hesabına para yatırma işlemlerinden ücret alınamaz. Bu durum Tebliğ'in ilgili maddesini ihlal etmektedir.",
+    "reason": "Banka kendi hesabına para yatırma işleminden 3 TL ücret alıyor. Tebliğ'e göre kendi hesabına para yatırma işlemlerinden ücret alınamaz. Bu durum, Tebliğ'in açıkça yasakladığı bir durumu ihlal etmektedir.",
     "citation": "MADDE 14 - FIKRA 1",
-    "corrected_text": "Kendi hesabına para yatırma işlemlerinden ücret alınamaz.",
+    "corrected_text": "Kendi hesabına para yatırma işlemleri ücretsizdir.",
     "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_12__c1",
     "chunk_text": "Hizmet Türü: Kendi Hesaba Para Yatırma (Şube). Standart Ücret (TL): 3.",
     "top_matches": [
       {
-        "text": "MADDE 9 – FIKRA 6: Merkez Bankası bilgilendirmelerde veya onay alınmasında kullanılan yöntemlerin etkin olmadığı kanaatine varırsa, her bir ürün veya hizmet bazında belirlenecek yöntemlerin kullanılmasını zorunlu tutabilir.",
-        "metadata": {
-          "doc_id": "tcmb_teblig",
-          "unit_id": "MADDE_9_6",
-          "scope": "fees_disclosure",
-          "fikra_no": 6,
-          "bolum_no": 2,
-          "parent_chunk_id": "MADDE_9_6",
-          "madde_no": 9,
-          "chunk_kind": "child"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 6 – FIKRA 1: Kuruluşlar tarafından ücretlendirilebilecek olan ürün veya hizmetler Ek-1’de sınıflandırılmıştır. Bu sınıflandırmanın, işlemlerin finansal niteliklerine göre ayrımı Merkez Bankasının uygun görüşü alınarak Birlikler tarafından yapılır. Bu Tebliğ ve ekinde yer alanların dışında herhangi bir ürün veya hizmet için ücret alınamaz ancak, üçüncü kişilere ödenen tutarlar finansal tüketiciye aynen yansıtılabilir.",
-        "metadata": {
-          "bolum_no": 2,
-          "unit_id": "MADDE_6_1",
-          "scope": "fees_disclosure",
-          "chunk_kind": "child",
-          "doc_id": "tcmb_teblig",
-          "parent_chunk_id": "MADDE_6_1",
-          "madde_no": 6,
-          "fikra_no": 1
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 6 – FIKRA 2: Bu sınıflandırmada yer almayan, yeni bir ürün veya hizmet grubunun belirlenmesi veya yeni bir ücret kaleminin oluşturulabilmesi için ilgili kuruluş tarafından Merkez Bankasından izin alınması zorunludur. Merkez Bankası gerekli gördüğü hallerde Ek-1’deki listeyi değiştirmeye yetkilidir. Ek-1’deki listenin Merkez Bankası tarafından değiştirilmesi durumunda, kuruluşlar değişikliğin yapıldığı tarihi takip eden ayın sonuna kadar yeni sınıflandırmaya intibak etmekle yükümlüdür.",
-        "metadata": {
-          "bolum_no": 2,
-          "scope": "fees_disclosure",
-          "parent_chunk_id": "MADDE_6_2",
-          "chunk_kind": "child",
-          "fikra_no": 2,
-          "madde_no": 6,
-          "unit_id": "MADDE_6_2",
-          "doc_id": "tcmb_teblig"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
         "text": "MADDE 9 – FIKRA 1: Finansal tüketicilerden alınacak faiz, kâr payı, ücret ve diğer kesintilere ilişkin güncel bilgiler açık, anlaşılır ve kolay erişilebilir bir şekilde kuruluşların internet sitelerinde karşılaştırmaya uygun bir biçimde yer alır. Bu bilgilerde değişiklik olması hâlinde internet sitesi eşzamanlı olarak güncellenir. Kuruluşlar, kredi ürünlerinin kullanılması hâlinde ortaya çıkacak faiz, kâr payı oranı ve ücret bilgilerini detaylı bir şekilde gösteren hesaplama araçlarını internet sitelerinde sunmakla yükümlüdür.",
         "metadata": {
-          "madde_no": 9,
-          "doc_id": "tcmb_teblig",
           "unit_id": "MADDE_9_1",
-          "bolum_no": 2,
-          "fikra_no": 1,
-          "scope": "fees_disclosure",
+          "madde_no": 9,
           "parent_chunk_id": "MADDE_9_1",
-          "chunk_kind": "child"
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
-        "metadata": {
-          "fikra_no": "Tam Liste",
-          "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
-          "madde_no": "Ek-1",
-          "parent_chunk_id": "EK-1",
-          "bolum_no": 99,
-          "chunk_kind": "child",
+          "fikra_no": 1,
           "doc_id": "tcmb_teblig",
-          "unit_id": "EK-1"
-        },
-        "similarity": 0.95,
-        "is_hybrid": false,
-        "forced_context": true
-      }
-    ],
-    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka kendi hesabına para yatırma işleminden 3 TL ücret alıyor. Tebliğ'e göre kendi hesabına para yatırma işlemlerinden ücret alınamaz. Bu durum Tebliğ'in ilgili maddesini ihlal etmektedir.\",\n  \"citation\": \"MADDE 14 - FIKRA 1\",\n  \"corrected_text\": \"Kendi hesabına para yatırma işlemlerinden ücret alınamaz.\"\n}\n```",
-    "detection_method": "llm_chain_of_thought"
-  },
-  {
-    "status": "NOT_OK",
-    "reason": "Banka 25.0 TL ücret alıyor, ancak Tebliğ'de bu hizmet için herhangi bir ücret alınmaması gerektiği belirtilmektedir. Bu durum, Tebliğ'in yasaklama hükmünü ihlal etmektedir.",
-    "citation": "MADDE N/A Fıkra N/A",
-    "corrected_text": "Hizmet Türü: Sözleşme İlk Yıl İçinde Tekrar Basımı. Ücret: 0 TL",
-    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_13__c1",
-    "chunk_text": "Hizmet Türü: Sözleşme İlk Yıl İçinde Tekrar Basımı. Standart Ücret (TL): 25.",
-    "top_matches": [
-      {
-        "text": "MADDE 9 – FIKRA 6: Merkez Bankası bilgilendirmelerde veya onay alınmasında kullanılan yöntemlerin etkin olmadığı kanaatine varırsa, her bir ürün veya hizmet bazında belirlenecek yöntemlerin kullanılmasını zorunlu tutabilir.",
-        "metadata": {
-          "madde_no": 9,
-          "scope": "fees_disclosure",
           "bolum_no": 2,
           "chunk_kind": "child",
-          "unit_id": "MADDE_9_6",
-          "doc_id": "tcmb_teblig",
-          "parent_chunk_id": "MADDE_9_6",
-          "fikra_no": 6
-        },
-        "similarity": 0.99,
-        "is_hybrid": true
-      },
-      {
-        "text": "MADDE 9 – FIKRA 3: Gerçekleştirilen işlemlere ilişkin olarak işlem anında verilecek işlem fişi, sözleşme ve bilgilendirmeye ilişkin diğer evrak ayrıca ücretlendirilemez.",
-        "metadata": {
-          "fikra_no": 3,
-          "bolum_no": 2,
-          "madde_no": 9,
-          "unit_id": "MADDE_9_3",
-          "doc_id": "tcmb_teblig",
-          "chunk_kind": "child",
-          "parent_chunk_id": "MADDE_9_3",
           "scope": "fees_disclosure"
         },
         "similarity": 0.99,
         "is_hybrid": true
       },
       {
-        "text": "MADDE 9 – FIKRA 4: Finansal tüketicilerin sözleşme, işlem fişi ve benzeri dokümanların bir örneğini talep etmeleri hâlinde, kuruluşlarca ilgili dokümanın düzenlenme tarihinden sonraki ilk yıl için herhangi bir ücret alınamaz. İlgili dokümanın düzenlenme tarihinden itibaren bir yılın üzerinde sürenin geçmesi hâlinde, finansal tüketiciye bilgi verilmek suretiyle, yapılan işlemle orantılı olacak şekilde makul bir ücret alınabilir.",
+        "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
         "metadata": {
-          "fikra_no": 4,
-          "parent_chunk_id": "MADDE_9_4",
-          "bolum_no": 2,
-          "scope": "fees_disclosure",
+          "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
+          "madde_no": "Ek-1",
+          "bolum_no": 99,
           "chunk_kind": "child",
-          "unit_id": "MADDE_9_4",
+          "unit_id": "EK-1",
+          "fikra_no": "Tam Liste",
           "doc_id": "tcmb_teblig",
-          "madde_no": 9
+          "parent_chunk_id": "EK-1"
+        },
+        "similarity": 0.95,
+        "is_hybrid": false,
+        "forced_context": true
+      }
+    ],
+    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka kendi hesabına para yatırma işleminden 3 TL ücret alıyor. Tebliğ'e göre kendi hesabına para yatırma işlemlerinden ücret alınamaz. Bu durum, Tebliğ'in açıkça yasakladığı bir durumu ihlal etmektedir.\",\n  \"citation\": \"MADDE 14 - FIKRA 1\",\n  \"corrected_text\": \"Kendi hesabına para yatırma işlemleri ücretsizdir.\"\n}\n```",
+    "detection_method": "llm_chain_of_thought"
+  },
+  {
+    "status": "NOT_OK",
+    "reason": "Banka, sözleşme ilk yıl içinde tekrar basımı için 25 TL ücret alıyor. Tebliğ'e göre sözleşmenin bir örneği ilk yıl ücretsiz verilmesi zorunludur. Bu durum, Tebliğ'in [MADDE 9 - FIKRA 4] hükmünü ihlal etmektedir.",
+    "citation": "MADDE 9 - FIKRA 4",
+    "corrected_text": "Sözleşme örneği ilk yıl ücretsizdir.",
+    "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_13__c1",
+    "chunk_text": "Hizmet Türü: Sözleşme İlk Yıl İçinde Tekrar Basımı. Standart Ücret (TL): 25.",
+    "top_matches": [
+      {
+        "text": "MADDE 9 – FIKRA 3: Gerçekleştirilen işlemlere ilişkin olarak işlem anında verilecek işlem fişi, sözleşme ve bilgilendirmeye ilişkin diğer evrak ayrıca ücretlendirilemez.",
+        "metadata": {
+          "doc_id": "tcmb_teblig",
+          "unit_id": "MADDE_9_3",
+          "parent_chunk_id": "MADDE_9_3",
+          "madde_no": 9,
+          "fikra_no": 3,
+          "bolum_no": 2,
+          "chunk_kind": "child",
+          "scope": "fees_disclosure"
         },
         "similarity": 0.99,
         "is_hybrid": true
@@ -11893,21 +11533,21 @@
       {
         "text": "EK-1 Ürün veya Hizmet Sınıflandırmaları listesi. İzin verilen ücret kalemleri: Tahsis Ücreti, Ekspertiz, Rehin Tesis, Para Çekme, EFT, Havale, SWIFT, FAST, Kredi Kartı Yıllık Üyelik, Nakit Avans, Kiralık Kasa, Başka Kuruluş ATM'sinden Yapılan İşlem Ücreti.",
         "metadata": {
-          "fikra_no": "Tam Liste",
           "scope": "Bireysel Krediler,Mevduat,Para Transferleri,Kredi Kartları,Diğer",
           "madde_no": "Ek-1",
-          "parent_chunk_id": "EK-1",
           "bolum_no": 99,
           "chunk_kind": "child",
+          "unit_id": "EK-1",
+          "fikra_no": "Tam Liste",
           "doc_id": "tcmb_teblig",
-          "unit_id": "EK-1"
+          "parent_chunk_id": "EK-1"
         },
         "similarity": 0.95,
         "is_hybrid": false,
         "forced_context": true
       }
     ],
-    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka 25.0 TL ücret alıyor, ancak Tebliğ'de bu hizmet için herhangi bir ücret alınmaması gerektiği belirtilmektedir. Bu durum, Tebliğ'in yasaklama hükmünü ihlal etmektedir.\",\n  \"citation\": \"MADDE N/A Fıkra N/A\",\n  \"corrected_text\": \"Hizmet Türü: Sözleşme İlk Yıl İçinde Tekrar Basımı. Ücret: 0 TL\"\n}\n```",
+    "regenerated_response": "```json\n{\n  \"status\": \"NOT_OK\",\n  \"reason\": \"Banka, sözleşme ilk yıl içinde tekrar basımı için 25 TL ücret alıyor. Tebliğ'e göre sözleşmenin bir örneği ilk yıl ücretsiz verilmesi zorunludur. Bu durum, Tebliğ'in [MADDE 9 - FIKRA 4] hükmünü ihlal etmektedir.\",\n  \"citation\": \"MADDE 9 - FIKRA 4\",\n  \"corrected_text\": \"Sözleşme örneği ilk yıl ücretsizdir.\"\n}\n```",
     "detection_method": "llm_chain_of_thought"
   }
 ]

@@ -1,0 +1,54 @@
+{
+  "counts": {
+    "chunks": 12,
+    "sheets": 1
+  },
+  "duplicate_chunk_ids": [],
+  "empty_text": [],
+  "text_length_stats": {
+    "min": 58,
+    "max": 79,
+    "top_10_longest": [
+      [
+        "ucret_tarifeleri_2025_Ücret Tarifeleri_row_10",
+        79
+      ],
+      [
+        "ucret_tarifeleri_2025_Ücret Tarifeleri_row_9",
+        76
+      ],
+      [
+        "ucret_tarifeleri_2025_Ücret Tarifeleri_row_13",
+        76
+      ],
+      [
+        "ucret_tarifeleri_2025_Ücret Tarifeleri_row_11",
+        73
+      ],
+      [
+        "ucret_tarifeleri_2025_Ücret Tarifeleri_row_5",
+        72
+      ],
+      [
+        "ucret_tarifeleri_2025_Ücret Tarifeleri_row_12",
+        70
+      ],
+      [
+        "ucret_tarifeleri_2025_Ücret Tarifeleri_row_3",
+        68
+      ],
+      [
+        "ucret_tarifeleri_2025_Ücret Tarifeleri_row_6",
+        68
+      ],
+      [
+        "ucret_tarifeleri_2025_Ücret Tarifeleri_row_2",
+        67
+      ],
+      [
+        "ucret_tarifeleri_2025_Ücret Tarifeleri_row_4",
+        66
+      ]
+    ]
+  }
+}

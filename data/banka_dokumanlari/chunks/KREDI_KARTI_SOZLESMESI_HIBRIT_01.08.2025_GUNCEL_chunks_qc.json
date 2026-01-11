@@ -1,0 +1,58 @@
+{
+  "counts": {
+    "chunks": 41,
+    "unit_types": {
+      "section": 4,
+      "list_item": 36,
+      "paragraph": 1
+    }
+  },
+  "duplicate_chunk_ids": [],
+  "empty_text": [],
+  "text_length_stats": {
+    "min": 47,
+    "max": 6409,
+    "top_10_longest": [
+      [
+        "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13",
+        6409
+      ],
+      [
+        "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2",
+        5949
+      ],
+      [
+        "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12",
+        3269
+      ],
+      [
+        "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35",
+        3264
+      ],
+      [
+        "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18",
+        3029
+      ],
+      [
+        "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4",
+        2694
+      ],
+      [
+        "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10",
+        2144
+      ],
+      [
+        "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5",
+        1972
+      ],
+      [
+        "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8",
+        1908
+      ],
+      [
+        "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_22",
+        1561
+      ]
+    ]
+  }
+}

@@ -1,15 +1,15 @@
 {
   "metrics": {
-    "accuracy": 0.7323943661971831,
-    "binary_accuracy": 0.9507042253521126,
+    "accuracy": 0.7394366197183099,
+    "binary_accuracy": 0.9577464788732394,
     "binary_metrics": {
-      "precision": 0.65,
+      "precision": 0.6842105263157895,
       "recall": 1.0,
-      "f1": 0.787878787878788
+      "f1": 0.8125000000000001
     },
-    "macro_precision": 0.825,
-    "macro_recall": 0.9728682170542635,
-    "macro_f1": 0.8799951708318243,
+    "macro_precision": 0.8421052631578947,
+    "macro_recall": 0.9767441860465116,
+    "macro_f1": 0.8943452380952381,
     "per_class": {
       "OK": {
         "precision": 0.375,
@@ -18,371 +18,899 @@
         "support": 27
       },
       "NOT_OK": {
-        "precision": 0.65,
+        "precision": 0.6842105263157895,
         "recall": 1.0,
-        "f1": 0.787878787878788,
+        "f1": 0.8125000000000001,
         "support": 13
       },
       "NA": {
-        "precision": 0.8367346938775511,
-        "recall": 0.803921568627451,
-        "f1": 0.8200000000000001,
+        "precision": 0.8383838383838383,
+        "recall": 0.8137254901960784,
+        "f1": 0.8258706467661691,
         "support": 102
       }
     },
     "confusion_matrix": {
       "NA": {
-        "NA": 82,
+        "NA": 83,
         "OK": 15,
-        "NOT_OK": 5
-      },
-      "OK": {
-        "NA": 16,
-        "OK": 9,
-        "NOT_OK": 2
+        "NOT_OK": 4
       },
       "NOT_OK": {
         "NOT_OK": 13,
         "OK": 0,
         "NA": 0
+      },
+      "OK": {
+        "NA": 16,
+        "NOT_OK": 2,
+        "OK": 9
       }
     },
     "total_samples": 142
   },
-  "reasoning_score": 48.69718309859155,
-  "confusion_matrix": {
-    "NA": {
-      "NA": 82,
-      "OK": 15,
-      "NOT_OK": 5
-    },
-    "OK": {
-      "NA": 16,
-      "OK": 9,
-      "NOT_OK": 2
-    },
-    "NOT_OK": {
-      "NOT_OK": 13,
-      "OK": 0,
-      "NA": 0
-    }
-  },
-  "matched_samples": 142,
-  "error_count": 38,
-  "errors": [
+  "matched_samples": [
     {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_36__c2",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Borç ödeme ve takas mahsup hakları genel hukuk kuralıdır.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_1__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
     },
     {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_17__c2",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "NOT_OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Maaş rehni ve borca itiraz usulleri Masraf Tebliği kapsamında değildir.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
     },
     {
-      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c5",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Ücret ve komisyonların Bilgi Formu'nda yer aldığı beyanı Tebliğ Madde 5 ile uyumludur.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c2",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
     },
     {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_27__c1",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Tebligat adresi değişikliği bildirim yükümlülüğü Masraf Tebliği kapsamında değildir.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c3",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
     },
     {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_21__c2",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Ödüllerin son kullanım tarihi ve iade şartları Tebliğ Madde 15-2 kapsamında değerlendirilmektedir.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c4",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
     },
     {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c6",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Gecikme faiz oranları ayrı bir TCMB tebliği konusudur, bu Masraf Tebliği kapsamında değildir.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c5",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
     },
     {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c4",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Kart iptal talebinin yasal süre içinde yerine getirileceğine dair taahhüt Tebliğ Madde 11-2 ile uyumludur.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_2__c6",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
     },
     {
-      "chunk_id": "ucret_tarifeleri_2025_Ücret Tarifeleri_row_4__c1",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "NOT_OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Uygunluk denetimi yıllık TÜİK artış oranlarına bağlıdır (Madde 7). Sadece Tebliğ metnine bakılarak doğrulanamaz.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_3__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
     },
     {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_32__c1",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Cayma hakkı (14 gün) 6502 sayılı Kanun ve ilgili Tüketici Kredisi yönetmelikleri konusudur.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_3__c2",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
     },
     {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c2",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NOT_OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Nakit avans ücreti beyanı ve faiz/vergi uygulamaları TCMB azami sınırlarına (Madde 10-6) uyum taahhüdü içeriyor.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4__c1",
+      "true": "NA",
+      "pred": "OK",
+      "match": false
     },
     {
-      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_16__c1",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Sözleşme şartlarındaki değişikliklerin 30 gün önceden bildirilmesi Tebliğ Madde 7-1 ile uyumludur.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4__c2",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4__c3",
+      "true": "NA",
+      "pred": "NOT_OK",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4__c4",
+      "true": "NOT_OK",
+      "pred": "NOT_OK",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5__c2",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_5__c3",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_6__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_7__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8__c2",
+      "true": "OK",
+      "pred": "NA",
+      "match": false
     },
     {
       "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8__c3",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Ücret artış bildirim beyanı geneldir, spesifik bir Tebliğ kuralı/ihlali içermiyor.",
-      "text": "..."
+      "true": "NA",
+      "pred": "OK",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_9__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_9__c2",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
     },
     {
       "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10__c1",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Gelir/Limit rasyoları 5464 sayılı Kanun ve BDDK konusudur.",
-      "text": "..."
+      "true": "NA",
+      "pred": "OK",
+      "match": false
     },
     {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_23__c2",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Faiz artışından etkilenmeme şartları 5464 sayılı Kanun konusudur.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10__c2",
+      "true": "NA",
+      "pred": "OK",
+      "match": false
     },
     {
-      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c15",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Sözleşmenin bir örneğinin teslim alındığına dair beyan Tebliğ Madde 5-1 ile ilişkilidir.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10__c3",
+      "true": "NA",
+      "pred": "OK",
+      "match": false
     },
     {
-      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_14__c1",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Sır saklama ve gizlilik hükümleri Ücret Tebliği kapsamında değildir.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_11__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
     },
     {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c5",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Ücretlerin güncel oranlara göre değiştirilebileceği beyanı, Tebliğ'deki genel bilgilendirme yükümlülüğü (Madde 7) ile uyumludur.",
-      "text": "..."
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12__c2",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12__c3",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_12__c4",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c2",
+      "true": "OK",
+      "pred": "NOT_OK",
+      "match": false
     },
     {
       "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c3",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Ücret, komisyon ve masraf değişikliklerinin 30 gün önceden bildirileceği beyanı Tebliğ Madde 7-1 ile uyumludur.",
-      "text": "..."
+      "true": "OK",
+      "pred": "NA",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c4",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c5",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c6",
+      "true": "NA",
+      "pred": "OK",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c7",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c8",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c9",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_14__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_14__c2",
+      "true": "NA",
+      "pred": "NOT_OK",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_15__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_16__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_17__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_17__c2",
+      "true": "NA",
+      "pred": "NOT_OK",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c1",
+      "true": "OK",
+      "pred": "OK",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c2",
+      "true": "OK",
+      "pred": "NOT_OK",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c3",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c4",
+      "true": "OK",
+      "pred": "NA",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c5",
+      "true": "OK",
+      "pred": "NA",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_19__c1",
+      "true": "OK",
+      "pred": "OK",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_20__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_21__c1",
+      "true": "OK",
+      "pred": "OK",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_21__c2",
+      "true": "OK",
+      "pred": "NA",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_22__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_22__c2",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_23__c1",
+      "true": "OK",
+      "pred": "OK",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_23__c2",
+      "true": "NA",
+      "pred": "OK",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_24__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_25__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_26__c1",
+      "true": "NA",
+      "pred": "OK",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_27__c1",
+      "true": "NA",
+      "pred": "OK",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_28__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_29__c1",
+      "true": "NA",
+      "pred": "OK",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_30__c1",
+      "true": "OK",
+      "pred": "OK",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_31__c1",
+      "true": "OK",
+      "pred": "OK",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_32__c1",
+      "true": "NA",
+      "pred": "OK",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_33__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_34__c1",
+      "true": "NA",
+      "pred": "OK",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35__c2",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35__c3",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35__c4",
+      "true": "NA",
+      "pred": "OK",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_36__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_36__c2",
+      "true": "NA",
+      "pred": "OK",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_37__c1",
+      "true": "OK",
+      "pred": "OK",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_38__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_39__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_40__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
     },
     {
       "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_40__c2",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Sözleşme nüshasını teslim aldım beyanı Tebliğ Madde 5-1 (bilgilendirme ispatı) ile uyumludur.",
-      "text": "..."
+      "true": "OK",
+      "pred": "NA",
+      "match": false
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_41__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_1__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_2__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_3__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_4__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_5__c1",
+      "true": "OK",
+      "pred": "NA",
+      "match": false
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_6__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_7__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_8__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_9__c1",
+      "true": "OK",
+      "pred": "NA",
+      "match": false
     },
     {
       "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_10__c1",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Telefon bankacılığı kayıtları ve bilgilendirme usulleri Tebliğ Madde 5-4 ile uyumludur.",
-      "text": "..."
+      "true": "OK",
+      "pred": "NA",
+      "match": false
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_11__c1",
+      "true": "OK",
+      "pred": "NA",
+      "match": false
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_12__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_13__c1",
+      "true": "OK",
+      "pred": "NA",
+      "match": false
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_14__c1",
+      "true": "NA",
+      "pred": "OK",
+      "match": false
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_15__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_16__c1",
+      "true": "OK",
+      "pred": "NA",
+      "match": false
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_17__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_18__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_19__c1",
+      "true": "NOT_OK",
+      "pred": "NOT_OK",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_19__c2",
+      "true": "NA",
+      "pred": "NOT_OK",
+      "match": false
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_19__c3",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_20__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c1",
+      "true": "OK",
+      "pred": "OK",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c2",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c3",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c4",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c5",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c6",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c7",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c8",
+      "true": "OK",
+      "pred": "NA",
+      "match": false
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c9",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c2",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c3",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c4",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c5",
+      "true": "OK",
+      "pred": "NA",
+      "match": false
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c6",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c7",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c8",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c9",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c10",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
     },
     {
       "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c11",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Ücretlerin yıllık TÜİK oranında artırılacağı kuralı Tebliğ Madde 7-1 ile tam uyumludur.",
-      "text": "..."
+      "true": "OK",
+      "pred": "NA",
+      "match": false
     },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c12",
+      "true": "OK",
+      "pred": "OK",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c13",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c14",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c15",
+      "true": "OK",
+      "pred": "NA",
+      "match": false
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c16",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c17",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "ucret_tarifeleri_2025_\u00dccret Tarifeleri_row_2__c1",
+      "true": "NOT_OK",
+      "pred": "NOT_OK",
+      "match": true
+    },
+    {
+      "chunk_id": "ucret_tarifeleri_2025_\u00dccret Tarifeleri_row_3__c1",
+      "true": "NOT_OK",
+      "pred": "NOT_OK",
+      "match": true
+    },
+    {
+      "chunk_id": "ucret_tarifeleri_2025_\u00dccret Tarifeleri_row_4__c1",
+      "true": "NA",
+      "pred": "NA",
+      "match": true
+    },
+    {
+      "chunk_id": "ucret_tarifeleri_2025_\u00dccret Tarifeleri_row_5__c1",
+      "true": "NOT_OK",
+      "pred": "NOT_OK",
+      "match": true
+    },
+    {
+      "chunk_id": "ucret_tarifeleri_2025_\u00dccret Tarifeleri_row_6__c1",
+      "true": "NOT_OK",
+      "pred": "NOT_OK",
+      "match": true
+    },
+    {
+      "chunk_id": "ucret_tarifeleri_2025_\u00dccret Tarifeleri_row_7__c1",
+      "true": "NOT_OK",
+      "pred": "NOT_OK",
+      "match": true
+    },
+    {
+      "chunk_id": "ucret_tarifeleri_2025_\u00dccret Tarifeleri_row_8__c1",
+      "true": "NOT_OK",
+      "pred": "NOT_OK",
+      "match": true
+    },
+    {
+      "chunk_id": "ucret_tarifeleri_2025_\u00dccret Tarifeleri_row_9__c1",
+      "true": "NOT_OK",
+      "pred": "NOT_OK",
+      "match": true
+    },
+    {
+      "chunk_id": "ucret_tarifeleri_2025_\u00dccret Tarifeleri_row_10__c1",
+      "true": "NOT_OK",
+      "pred": "NOT_OK",
+      "match": true
+    },
+    {
+      "chunk_id": "ucret_tarifeleri_2025_\u00dccret Tarifeleri_row_11__c1",
+      "true": "NOT_OK",
+      "pred": "NOT_OK",
+      "match": true
+    },
+    {
+      "chunk_id": "ucret_tarifeleri_2025_\u00dccret Tarifeleri_row_12__c1",
+      "true": "NOT_OK",
+      "pred": "NOT_OK",
+      "match": true
+    },
+    {
+      "chunk_id": "ucret_tarifeleri_2025_\u00dccret Tarifeleri_row_13__c1",
+      "true": "NOT_OK",
+      "pred": "NOT_OK",
+      "match": true
+    }
+  ],
+  "errors": [
     {
       "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_4__c1",
       "error_type": "misclassification",
       "true_label": "NA",
       "predicted_label": "OK",
       "llm_reasoning": "",
-      "ground_truth_reason": "Kayıp/çalıntı bildirim yükümlülüğü 5464 sayılı Kanun konusudur.",
-      "text": "..."
-    },
-    {
-      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_9__c1",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Elektronik bankacılık işlemlerinde ücretlerin bildirilmesi ve onay usulleri Tebliğ Madde 9 ve 14 ile uyumludur.",
-      "text": "..."
-    },
-    {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c2",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NOT_OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Kart türleri bazında yıllık üyelik ücretleri ve ek kart ücret sınırı (%50) Tebliğ Madde 11-4 ile uyumludur.",
-      "text": "..."
-    },
-    {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_26__c1",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Dokümanların birbirini tamamlamasına ilişkin hukuki beyan geneldir.",
-      "text": "..."
-    },
-    {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_14__c2",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "NOT_OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Ödül sistemi ve buna bağlı vergi/kullanım kuralları Ücret Tebliği'nde düzenlenmez.",
-      "text": "..."
-    },
-    {
-      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_19__c2",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "NOT_OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Şifre güvenliği, kayıp/çalıntı sorumluluğu ve 150 TL sınırı 5464 sayılı Kanun konusudur.",
-      "text": "..."
-    },
-    {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10__c3",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Operasyonel limit yönetimi tanımıdır.",
-      "text": "..."
-    },
-    {
-      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c8",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Sözleşme örneğinin ilk yıl ücretsiz verilmesi hakkı Tebliğ Madde 9-4 ile uyumludur.",
-      "text": "..."
-    },
-    {
-      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_13__c1",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Hareketsiz hesaplara ilişkin bildirim ve uygulama kuralları Tebliğ'in genel şeffaflık hükümleri ile ilişkilidir.",
-      "text": "..."
-    },
-    {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_34__c1",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Mobil/İnternet bankacılığı kullanım onayı operasyonel bankacılık kuralıdır.",
-      "text": "..."
-    },
-    {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35__c4",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Banka kanallarının güvenli yöntem tayini teknik bir tanımdır.",
-      "text": "..."
-    },
-    {
-      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_11__c1",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Fatura ve düzenli ödemelerde onay ve bilgilendirme usulleri Tebliğ Madde 9-9 ile uyumludur.",
-      "text": "..."
-    },
-    {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_29__c1",
-      "error_type": "misclassification",
-      "true_label": "NA",
-      "predicted_label": "OK",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Banka kayıtlarının delil sayılmasına ilişkin delil sözleşmesi hükümleri Ücret Tebliği dışıdır.",
-      "text": "..."
-    },
-    {
-      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8__c2",
-      "error_type": "misclassification",
-      "true_label": "OK",
-      "predicted_label": "NA",
-      "llm_reasoning": "",
-      "ground_truth_reason": "Banka, nakit avans ücretlerini TCMB azami oranlarıyla (Madde 10-6 %1 sınırı) sınırlı tutacağını beyan etmiştir.",
+      "ground_truth_reason": "Kay\u0131p/\u00e7al\u0131nt\u0131 bildirim y\u00fck\u00fcml\u00fcl\u00fc\u011f\u00fc 5464 say\u0131l\u0131 Kanun konusudur.",
       "text": "..."
     },
     {
@@ -391,16 +919,34 @@
       "true_label": "NA",
       "predicted_label": "NOT_OK",
       "llm_reasoning": "",
-      "ground_truth_reason": "Kayıp/çalıntı sorumluluk limitleri 5464 sayılı Kanun konusudur.",
+      "ground_truth_reason": "Kay\u0131p/\u00e7al\u0131nt\u0131 sorumluluk limitleri 5464 say\u0131l\u0131 Kanun konusudur.",
       "text": "..."
     },
     {
-      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_5__c1",
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8__c2",
       "error_type": "misclassification",
       "true_label": "OK",
       "predicted_label": "NA",
       "llm_reasoning": "",
-      "ground_truth_reason": "EFT ve Havale gibi ödeme hizmetlerindeki ücret sınırları ve usulleri Tebliğ Madde 12 kapsamında düzenlenmektedir.",
+      "ground_truth_reason": "Banka, nakit avans \u00fccretlerini TCMB azami oranlar\u0131yla (Madde 10-6 %1 s\u0131n\u0131r\u0131) s\u0131n\u0131rl\u0131 tutaca\u011f\u0131n\u0131 beyan etmi\u015ftir.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_8__c3",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "\u00dccret art\u0131\u015f bildirim beyan\u0131 geneldir, spesifik bir Tebli\u011f kural\u0131/ihlali i\u00e7ermiyor.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10__c1",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Gelir/Limit rasyolar\u0131 5464 say\u0131l\u0131 Kanun ve BDDK konusudur.",
       "text": "..."
     },
     {
@@ -409,7 +955,286 @@
       "true_label": "NA",
       "predicted_label": "OK",
       "llm_reasoning": "",
-      "ground_truth_reason": "Limit aşımı ve faiz uygulamaları bu Tebliğ (Masraf/Ücret) kapsamı dışıdır.",
+      "ground_truth_reason": "Limit a\u015f\u0131m\u0131 ve faiz uygulamalar\u0131 bu Tebli\u011f (Masraf/\u00dccret) kapsam\u0131 d\u0131\u015f\u0131d\u0131r.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_10__c3",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Operasyonel limit y\u00f6netimi tan\u0131m\u0131d\u0131r.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c2",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NOT_OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Nakit avans \u00fccreti beyan\u0131 ve faiz/vergi uygulamalar\u0131 TCMB azami s\u0131n\u0131rlar\u0131na (Madde 10-6) uyum taahh\u00fcd\u00fc i\u00e7eriyor.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c3",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "\u00dccret, komisyon ve masraf de\u011fi\u015fikliklerinin 30 g\u00fcn \u00f6nceden bildirilece\u011fi beyan\u0131 Tebli\u011f Madde 7-1 ile uyumludur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_13__c6",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Gecikme faiz oranlar\u0131 ayr\u0131 bir TCMB tebli\u011fi konusudur, bu Masraf Tebli\u011fi kapsam\u0131nda de\u011fildir.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_14__c2",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "NOT_OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "\u00d6d\u00fcl sistemi ve buna ba\u011fl\u0131 vergi/kullan\u0131m kurallar\u0131 \u00dccret Tebli\u011fi'nde d\u00fczenlenmez.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_17__c2",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "NOT_OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Maa\u015f rehni ve borca itiraz usulleri Masraf Tebli\u011fi kapsam\u0131nda de\u011fildir.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c2",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NOT_OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Kart t\u00fcrleri baz\u0131nda y\u0131ll\u0131k \u00fcyelik \u00fccretleri ve ek kart \u00fccret s\u0131n\u0131r\u0131 (%50) Tebli\u011f Madde 11-4 ile uyumludur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c4",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Kart iptal talebinin yasal s\u00fcre i\u00e7inde yerine getirilece\u011fine dair taahh\u00fct Tebli\u011f Madde 11-2 ile uyumludur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_18__c5",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "\u00dccretlerin g\u00fcncel oranlara g\u00f6re de\u011fi\u015ftirilebilece\u011fi beyan\u0131, Tebli\u011f'deki genel bilgilendirme y\u00fck\u00fcml\u00fcl\u00fc\u011f\u00fc (Madde 7) ile uyumludur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_21__c2",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "\u00d6d\u00fcllerin son kullan\u0131m tarihi ve iade \u015fartlar\u0131 Tebli\u011f Madde 15-2 kapsam\u0131nda de\u011ferlendirilmektedir.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_23__c2",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Faiz art\u0131\u015f\u0131ndan etkilenmeme \u015fartlar\u0131 5464 say\u0131l\u0131 Kanun konusudur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_26__c1",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Dok\u00fcmanlar\u0131n birbirini tamamlamas\u0131na ili\u015fkin hukuki beyan geneldir.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_27__c1",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Tebligat adresi de\u011fi\u015fikli\u011fi bildirim y\u00fck\u00fcml\u00fcl\u00fc\u011f\u00fc Masraf Tebli\u011fi kapsam\u0131nda de\u011fildir.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_29__c1",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Banka kay\u0131tlar\u0131n\u0131n delil say\u0131lmas\u0131na ili\u015fkin delil s\u00f6zle\u015fmesi h\u00fck\u00fcmleri \u00dccret Tebli\u011fi d\u0131\u015f\u0131d\u0131r.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_32__c1",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Cayma hakk\u0131 (14 g\u00fcn) 6502 say\u0131l\u0131 Kanun ve ilgili T\u00fcketici Kredisi y\u00f6netmelikleri konusudur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_34__c1",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Mobil/\u0130nternet bankac\u0131l\u0131\u011f\u0131 kullan\u0131m onay\u0131 operasyonel bankac\u0131l\u0131k kural\u0131d\u0131r.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_35__c4",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Banka kanallar\u0131n\u0131n g\u00fcvenli y\u00f6ntem tayini teknik bir tan\u0131md\u0131r.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_36__c2",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Bor\u00e7 \u00f6deme ve takas mahsup haklar\u0131 genel hukuk kural\u0131d\u0131r.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "KREDI_KARTI_SOZLESMESI_HIBRIT_01.08.2025_GUNCEL_unit_40__c2",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "S\u00f6zle\u015fme n\u00fcshas\u0131n\u0131 teslim ald\u0131m beyan\u0131 Tebli\u011f Madde 5-1 (bilgilendirme ispat\u0131) ile uyumludur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_5__c1",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "EFT ve Havale gibi \u00f6deme hizmetlerindeki \u00fccret s\u0131n\u0131rlar\u0131 ve usulleri Tebli\u011f Madde 12 kapsam\u0131nda d\u00fczenlenmektedir.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_9__c1",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Elektronik bankac\u0131l\u0131k i\u015flemlerinde \u00fccretlerin bildirilmesi ve onay usulleri Tebli\u011f Madde 9 ve 14 ile uyumludur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_10__c1",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Telefon bankac\u0131l\u0131\u011f\u0131 kay\u0131tlar\u0131 ve bilgilendirme usulleri Tebli\u011f Madde 5-4 ile uyumludur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_11__c1",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Fatura ve d\u00fczenli \u00f6demelerde onay ve bilgilendirme usulleri Tebli\u011f Madde 9-9 ile uyumludur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_13__c1",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "Hareketsiz hesaplara ili\u015fkin bildirim ve uygulama kurallar\u0131 Tebli\u011f'in genel \u015feffafl\u0131k h\u00fck\u00fcmleri ile ili\u015fkilidir.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_14__c1",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "S\u0131r saklama ve gizlilik h\u00fck\u00fcmleri \u00dccret Tebli\u011fi kapsam\u0131nda de\u011fildir.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_16__c1",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "S\u00f6zle\u015fme \u015fartlar\u0131ndaki de\u011fi\u015fikliklerin 30 g\u00fcn \u00f6nceden bildirilmesi Tebli\u011f Madde 7-1 ile uyumludur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_19__c2",
+      "error_type": "misclassification",
+      "true_label": "NA",
+      "predicted_label": "NOT_OK",
+      "llm_reasoning": "",
+      "ground_truth_reason": "\u015eifre g\u00fcvenli\u011fi, kay\u0131p/\u00e7al\u0131nt\u0131 sorumlulu\u011fu ve 150 TL s\u0131n\u0131r\u0131 5464 say\u0131l\u0131 Kanun konusudur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_21__c8",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "S\u00f6zle\u015fme \u00f6rne\u011finin ilk y\u0131l \u00fccretsiz verilmesi hakk\u0131 Tebli\u011f Madde 9-4 ile uyumludur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c5",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "\u00dccret ve komisyonlar\u0131n Bilgi Formu'nda yer ald\u0131\u011f\u0131 beyan\u0131 Tebli\u011f Madde 5 ile uyumludur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c11",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "\u00dccretlerin y\u0131ll\u0131k T\u00dc\u0130K oran\u0131nda art\u0131r\u0131laca\u011f\u0131 kural\u0131 Tebli\u011f Madde 7-1 ile tam uyumludur.",
+      "text": "..."
+    },
+    {
+      "chunk_id": "Bireysel_Bankacilik_Hizmetleri_Sozlesmesi_2025_unit_22__c15",
+      "error_type": "misclassification",
+      "true_label": "OK",
+      "predicted_label": "NA",
+      "llm_reasoning": "",
+      "ground_truth_reason": "S\u00f6zle\u015fmenin bir \u00f6rne\u011finin teslim al\u0131nd\u0131\u011f\u0131na dair beyan Tebli\u011f Madde 5-1 ile ili\u015fkilidir.",
       "text": "..."
     }
   ]
