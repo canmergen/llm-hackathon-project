@@ -161,7 +161,7 @@ ollama pull gemma3:27b
 python main.py
 ```
 
-```
+
 
 ## Kullanım Kılavuzu
 
