@@ -114,7 +114,7 @@ Sistemi çalıştırmak için işletim sisteminize uygun yöntemi seçebilirsini
 Aşağıdaki dosyalara çift tıklayarak dashboard'u başlatabilirsiniz:
 
 *   **Windows:** `Streamlit_Dashboard_Windows.bat`
-*   **Mac:** `Streamlit_Dashboard.command`
+*   **Mac:** `Streamlit_Dashboard_Mac.command`
 *   **Linux:** `Streamlit_Dashboard_Linux.sh`
 
 Alternatif olarak terminalden çalıştırmak isterseniz:
@@ -149,7 +149,7 @@ Projenin kapsamını genişletmek ve endüstriyel standartlara taşımak için p
 ```
 LLM_Hackathon/
 ├── main.py                         # Pipeline Ana Giriş Noktası (Orchestrator)
-├── Streamlit_Dashboard.command     # Dashboard Başlatıcı (Mac Shortcut)
+├── Streamlit_Dashboard_Mac.command     # Dashboard Başlatıcı (Mac Shortcut)
 ├── Streamlit_Dashboard_Windows.bat # Dashboard Başlatıcı (Windows)
 ├── Streamlit_Dashboard_Linux.sh    # Dashboard Başlatıcı (Linux)
 ├── requirements.txt                # Bağımlılıklar
