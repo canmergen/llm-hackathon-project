@@ -150,31 +150,38 @@ python main.py
 
 ---
 
-## 🚀 Kullanım
+## Kullanım Kılavuzu
 
-Sistemi iki farklı şekilde kullanabilirsiniz:
+Sistemi çalıştırmak için aşağıdaki yöntemleri izleyebilirsiniz:
 
-### 1. Arayüz (Dashboard) ile Kullanım (Önerilen)
-Sonuçları görselleştirmek ve raporlamak için Streamlit arayüzünü başlatın:
-*   **Mac Kullanıcıları:** `Streamlit_Dashboard.command` dosyasına çift tıklayın.
-*   **Terminal:** `streamlit run src/streamlit_compliance_viewer.py` komutunu çalıştırın.
+### 1. Arayüz (Dashboard) ile Kullanım
+Görsel raporlama ekranını başlatmak için terminal veya komut satırında şu komutu çalıştırın (Windows, Mac ve Linux uyumludur):
+
+```bash
+streamlit run src/streamlit_compliance_viewer.py
+```
+
+*Not: Mac kullanıcıları alternatif olarak `Streamlit_Dashboard.command` dosyasına çift tıklayarak da başlatabilir.*
 
 ### 2. Analiz Pipeline'ını Çalıştırma
-Yeni dokümanları analiz etmek için terminal üzerinden ana pipeline'ı tetikleyin:
+Yeni eklenen dokümanları analiz etmek ve veritabanını güncellemek için:
+
 ```bash
 python main.py
 ```
 
 ---
 
-## 🚧 Gelecek Planları (Roadmap)
+## Geliştirme Önerileri ve Gelecek Vizyonu
 
-Hackathon süresi kısıtlı olsa da, projenin vizyonu çok daha geniştir. Gelecek geliştirmeler:
+Projenin kapsamını genişletmek ve endüstriyel standartlara taşımak için planlanan geliştirmeler şunlardır:
 
-*   **🔍 OCR Desteği:** Taranmış (resim formatındaki) eski sözleşmelerin Tesseract/AWS Textract ile dijitalleştirilmesi.
-*   **🤖 Agentic RAG:** Sadece tek bir analiz değil, "Savcı" ve "Avukat" rolündeki iki farklı AI ajanının madde üzerinde tartışarak (Multi-Agent Debate) karara varması.
-*   **feedback_loop RLHF:** Hukukçuların vereceği "Onay/Red" geri bildirimleriyle modelin (Fine-tuning) eğitilmesi.
-*   **🔌 Entegrasyon:** Tespit edilen risklerin otomatik olarak JIRA veya ServiceNow üzerinde "Uyumsuzluk Kaydı" açması.
+*   **OCR Entegrasyonu:** Taranmış PDF ve görsel formatındaki eski sözleşmelerin Tesseract veya AWS Textract teknolojileriyle dijitalleştirilip analiz sürecine dahil edilmesi.
+*   **Agentic RAG Mimarisi:** Analiz sürecinin tek bir model yerine, "Savcı" (İddia Makamı) ve "Avukat" (Savunma Makamı) rollerini üstlenen çoklu ajan (Multi-Agent) yapısına evrilmesi. Bu sayede gri alanlardaki maddeler için daha dengeli kararlar üretilmesi.
+*   **RLHF ile Uzman Geri Bildirimi:** Hukuk departmanındaki uzmanların verdiği "Onay/Red" geri bildirimlerinin toplanarak modelin (Fine-tuning) eğitilmesi ve kurum kültürüne adapte edilmesi.
+*   **Kurumsal Entegrasyon:** Tespit edilen riskli maddelerin otomatik olarak JIRA, ServiceNow veya kurum içi risk yönetimi yazılımlarına "İhlal Kaydı" olarak aktarılması.
+*   **Çoklu Dil Desteği:** Uluslararası sözleşmelerin analizi için İngilizce başta olmak üzere farklı dillerde mevzuat ve doküman tarama yeteneğinin eklenmesi.
+*   **Bulut Tabanlı Ölçeklendirme:** Sistemin Docker konteynerleri haline getirilerek Kubernetes (K8s) üzerinde mikroservis mimarisiyle çalıştırılması.
 
 ---
 
