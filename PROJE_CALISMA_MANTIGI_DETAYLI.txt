@@ -51,26 +51,28 @@ Banka sözleşmesindeki bir maddeyi denetlemek için, o maddeyle ilgili Mevzuat 
 *   **Birleştirme (RRF - Reciprocal Rank Fusion):** İki farklı arama sonucunu harmanlar. Hem anlam olarak en yakın, hem de kelime olarak en uyuşan sonuçları üst sıraya taşır. Böylece doğru yasayı bulma ihtimalimiz maksimuma çıkar.
 
 ### D. Karar Motoru (Decision Engine): Önce Kural, Sonra Zeka
-Doğru yasayı bulduk. Şimdi "Banka maddesi bu yasaya uygun mu?" sorusunu cevaplamalıyız.
+Doğru yasayı bulduk (Hibrit Arama tamamlandı). Şimdi "Banka maddesi bu yasaya uygun mu?" sorusunu cevaplamalıyız.
 
-Bu aşamada üç katmanlı bir kontrol mekanizması çalışır:
+Bu motor, **her zaman ve kesinlikle sırasıyla** çalışan 3 adımdan oluşur:
 
-1.  **Katman: Kural Motoru (Rule Engine) & Heuristics**
-    *   Burası "Matematiksel ve Kesin" kontrollerin yapıldığı yerdir. Yapay zeka (LLM) buraya karışmaz, kod çalışır.
-    *   **Örnek:** Yasa "EFT ücreti en fazla 2 TL olabilir" diyor. Banka sözleşmesinde "EFT: 5 TL" yazıyor.
-    *   Kod hemen `5 > 2` işlemini yapar. Bu bir ihlaldir.
-    *   **Filtreleme Mantığı:** Eğer kod bir hata bulursa, bunu bir "UYARI ETİKETİ" (Warning Label) olarak hazırlar ve Yapay Zeka'ya sunar. Yani filtreleyip işi bitirmez, Yapay Zeka'ya "Bak burada matematiksel bir hata var, bunu gözden kaçırma!" diye kopya verir.
+1.  **Adım: Kural Motoru (Rule Engine) - [Hesaplama & Uyarı]**
+    *   İlk önce "Matematiksel ve Kesin" kodlar çalışır.
+    *   **Örnek:** Yasa "EFT max 2 TL" derken Banka "5 TL" demişse, kod bunu anında yakalar (5 > 2).
+    *   **Kritik Nokta:** Kural motoru burada işlemi bitirmez. Tespit ettiği hatayı bir "UYARI ETİKETİ" (Warning Label) haline getirir ve bir sonraki aşamaya (LLM'e) paslar.
     
-2.  **Katman: Büyük Dil Modeli (LLM - Gemma)**
-    *   Yapay zeka (bizim projemizde Google Gemma 3), elindeki tüm verileri toplar:
-        *   Banka Maddesi
-        *   Bulunan İlgili Yasa (Mevzuat)
-        *   Kural Motorundan Gelen Uyarılar (Varsa)
-    *   **Reasoning (Akıl Yürütme):** Tıpkı bir avukat gibi düşünür. "Yasa bunu diyor, banka bunu demiş, ayrıca matematiksel olarak da şu hatalı... O zaman sonuç: UYUMSUZ (NOT_OK)" kararını verir.
+2.  **Adım: Büyük Dil Modeli (LLM - Gemma) - [Akıl Yürütme & Karar]**
+    *   Yapay zeka devreye girer ve kendisine sunulan **TÜM** verileri okur:
+        *   Girdi 1: Banka Maddesi
+        *   Girdi 2: İlgili Yasa (Mevzuat)
+        *   Girdi 3: **Kural Motorundan Gelen Uyarı** ("Dikkat: Burada matematiksel limit aşımı var!")
+    *   **Nihai Karar:** LLM, bu üç veriyi birleştirir. Kural motorunun uyarısını dikkate alarak ve yasanın sözel yorumunu da ekleyerek kararını verir: "UYUMSUZ (NOT_OK)".
 
-3.  **Katman: Son Kontrol (Overrule/Override)**
-    *   Yapay zeka bazen çok sinsi ifadeleri kaçırabilir (örneğin "imzalamanızla sigortayı kabul etmiş sayılırsınız" gibi karmaşık cümleler).
-    *   Eğer LLM "Uyumlu" dese bile, bizim son kontrol kodlarımız (Regex) bu tip yasaklı kalıpları ("zorunlu sigorta", "otomatik onay") yakalarsa, Yapay Zeka'nın kararını ezip (Override) nihai sonucu "UYUMSUZ" olarak değiştirir.
+3.  **Adım: Son Kontrol (Safety Override) - [Güvenlik Kilidi]**
+    *   LLM kararını verdikten sonra, devreye son bir güvenlik kodu girer.
+    *   **Neden?** Bazen LLM çok karmaşık, sinsi ifadeleri (örn: "imzayla sigortayı kabul etmiş sayılırsınız") "Uyumlu" sanabilir.
+    *   Kod, bu tip yasaklı kelime kalıplarını (Regex) kontrol eder. Eğer LLM "Uyumlu" dese bile, kod bu yasağı görürse kararı ezer (**Overrule**) ve sonucu "UYUMSUZ" olarak değiştirir.
+
+**Özet Sıralama:** Hibrit Arama -> Kural Uyarısı -> LLM Kararı -> Son Kontrol (Override). Bu sıra asla değişmez.
 
 ### E. Raporlama ve Chatbot
 Tüm maddeler tek tek bu süreçten geçtikten sonra:
