@@ -32,7 +32,7 @@ class ProPDF(FPDF):
         self.cell(0, 10, f'Sayfa {self.page_no()}', 0, 0, 'C')
 
     def add_main_title(self, title):
-        self.set_font('ArialCustom', 'B', 24)
+        self.set_font('ArialCustom', 'B', 16) # Match chapter title size (16)
         self.set_text_color(*THEME_ORANGE)
         self.multi_cell(0, 10, title, 0, 'L')
         self.ln(10)
