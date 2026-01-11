@@ -7,6 +7,8 @@
 ![LLM](https://img.shields.io/badge/LLM-Gemma%203%20(27b)-purple?style=flat&logo=ollama)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=flat)
 
+> ⚠️ **Veri Gizliliği Notu:** Bu projede kullanılan tüm veri setleri, Hackathon kapsamında sağlanan kamuya açık (public) dokümanlar ve sentetik (dummy) verilerden oluşmaktadır. Çalışma, herhangi bir gerçek müşteri verisi veya gizli kurumsal veri içermemektedir.
+
 ---
 
 ## Proje Vizyonu
