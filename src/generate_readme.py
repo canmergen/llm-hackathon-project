@@ -161,6 +161,8 @@ Proje, ham verinin işlenmesinden son kullanıcı raporuna kadar kesintisiz bir 
 4.  **Reporting:** Sonuçlar yapılandırılmış veri (JSON) olarak saklanır ve anlık olarak dashboard'a yansıtılır.
 5.  **Feedback Loop (Chatbot):** Analiz sonuçları *ayrı bir Chroma koleksiyonuna* (`compliance_insights`) indekslenir. Chatbot, hem mevzuatı hem de analiz sonuçlarını kullanarak kullanıcı sorularını yanıtlar.
 
+> **📄 Detaylı Dokümantasyon:** Projenin tüm çalışma mantığını (Chunking, Hybrid Search, Karar Motoru) adım adım incelemek için [**Proje_Calisma_Mantigi_Detayli.pdf**](docs/Proje_Calisma_Mantigi_Detayli.pdf) dosyasını okuyabilirsiniz.
+
 ---
 
 ## Performans Metrikleri
