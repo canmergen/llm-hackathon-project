@@ -99,14 +99,14 @@ Tüm analiz sonuçlarının, performans metriklerinin ve risk dağılımlarını
 *   **Risk ve Performans Göstergeleri:** Yapay zeka modelinin doğruluk oranlarını (Accuracy), risk yakalama başarısını (Recall) ve operasyonel verimliliği anlık grafiklerle sunar.
 *   **Finansal Etki Kartları:** Tespit edilen uyumsuzlukların potansiyel mali ceza karşılıklarını, önlenen zararı ve sistemin sağladığı yatırım getirisini (ROI) hesaplar.
 *   **Detaylı Risk Dökümü:** "Müdahale Gerektiren Riskler" tablosunda, her bir sözleşme maddesi için tespit edilen ihlal türü, açıklama ve alınması gereken aksiyon görüntülenir.
-*   **Segmentasyon Analizi:** Uyumsuzlukların hangi doküman tiplerinde (Örn: Ücret Tarifesi, Kredi Sözleşmesi) veya hangi şubelerde yoğunlaştığını gösteren ısı haritaları içerir.
+*   **Risk Yoğunluk Analizi:** Doküman bazında Uyumlu (OK), Uyumsuz (NOT_OK) ve Kapsam Dışı (NA) olarak işaretlenen maddelerin sayısal dağılımını gösterir.
 
 #### Yönetici Özeti Raporu
 Üst yönetim ve denetim komiteleri için hazırlanan, teknik detaylardan arındırılmış karar destek raporudur.
 
 ![Yönetici Özeti Raporu](docs/yonetici_ozeti.png)
 
-*   **Doğal Dil Özeti (NLP):** Karmaşık veri setlerini analiz ederek, durumu bir yöneticinin anlayacağı sadelikte ("Toplam 2.5M TL risk tespit edildi, %96 başarı sağlandı") özetleyen metin bloğudur.
+*   **Doğal Dil Özeti (NLP):** Karmaşık veri setlerini analiz ederek, denetim sonucunu bir yöneticinin anlayacağı sadelikte ve doğal bir dille özetleyen metin bloğudur.
 *   **Stratejik Karar Destek:** Hukuk ve Uyum ekiplerinin hangi alanlara öncelik vermesi gerektiğini belirten, veriye dayalı içgörüler sunar.
 
 ---
