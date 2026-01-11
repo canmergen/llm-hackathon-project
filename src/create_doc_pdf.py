@@ -35,7 +35,7 @@ class ProPDF(FPDF):
         self.set_font('ArialCustom', 'B', 16) # Match chapter title size (16)
         self.set_text_color(*THEME_ORANGE)
         self.multi_cell(0, 10, title, 0, 'L')
-        self.ln(10)
+        self.ln(2)
 
     def chapter_title(self, title):
         self.ln(5)
